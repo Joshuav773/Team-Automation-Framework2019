@@ -22,11 +22,27 @@ public class CommonAPI {
         driver = new FirefoxDriver();
         driver.get("https://www.ebay.com/");
         driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
-        driver.manage().window().maximize();
+
     }
     @AfterMethod
     public void cleanUp(){
         driver.close();
+    }
+    public void navigateBack(){
+        driver.navigate().back();
+    }
+    public void typeOnsearchBar(String locator, String value){
+        driver.findElement(By.cssSelector(locator)).sendKeys(value);
+    }
+    public void typeAndEnter(String locator, String value){
+        driver.findElement(By.cssSelector(locator)).sendKeys(value, Keys.ENTER);
+    }
+    public void clickOnSearchButton(String locator){
+        driver.findElement(By.cssSelector(locator)).click();
+    }
+    public void searchByClickOnSearchButton(String locator, String value){
+        driver.findElement(By.cssSelector(locator)).sendKeys(value);
+        clickOnSearchButton(locator);
     }
 
 }
