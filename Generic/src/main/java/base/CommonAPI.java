@@ -28,9 +28,6 @@ public class CommonAPI {
     public void cleanUp(){
         driver.close();
     }
-    public void quit(){
-        driver.quit();
-    }
     public void navigateBack(){
         driver.navigate().back();
     }

@@ -19,4 +19,8 @@ public class HomepageUtilities extends CommonAPI {
     public void clickSearchButton(){
         clickOnSearchButton("#gh-btn");
     }
+    public void searchByClickOnSearchButton(){
+        searchByClickOnSearchButton("#gh-ac", "Books");
+        clickSearchButton();
+    }
 }

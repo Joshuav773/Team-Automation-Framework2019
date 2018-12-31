@@ -18,4 +18,8 @@ public class EbayTest extends HomepageUtilities {
     public void test4(){
         clickSearchButton();
     }
+    @Test
+    public void test5(){
+        searchByClickOnSearchButton();
+    }
 }
