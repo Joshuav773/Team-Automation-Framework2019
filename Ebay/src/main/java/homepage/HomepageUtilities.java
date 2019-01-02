@@ -2,25 +2,13 @@ package homepage;
 
 import base.CommonAPI;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
 
 public class HomepageUtilities extends CommonAPI {
 
-    public void typeOnTheBar(){
-        typeOnsearchBar("#gh-ac", "Car Parts");
-    }
-    public void typeAndEnter(){
-        typeAndEnter("#gh-ac", "Car Parts");
-    }
-    public void typeEnterNavigate(){
-        typeAndEnter("#gh-ac", "Toys for girls");
-        navigateBack();
-        typeAndEnter("#gh-ac", "Toys for boys");
-    }
-    public void clickSearchButton(){
-        clickOnSearchButton("#gh-btn");
-    }
-    public void searchByClickOnSearchButton(){
-        searchByClickOnSearchButton("#gh-ac", "Books");
-        clickSearchButton();
-    }
+    @FindBy(css = "#gh-ac")
+    public static WebElement searchBar;
+    @FindBy(css = "#gh-btn")
+    public static WebElement searchButton;
 }
