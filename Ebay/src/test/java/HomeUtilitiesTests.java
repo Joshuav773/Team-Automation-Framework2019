@@ -8,7 +8,7 @@ public class HomeUtilitiesTests extends HomepageUtilities {
     HomepageUtilities homepageUtilities;
 
     @BeforeMethod
-    public void initelements(){
+    public void initelEments(){
         homepageUtilities = PageFactory.initElements(driver, HomepageUtilities.class);
     }
 
@@ -29,5 +29,10 @@ public class HomeUtilitiesTests extends HomepageUtilities {
     public void savedUtilityTest(){
         savedUtility();
     }
+    @Test
+    public void motorsUtilTest(){
+        motorsUtility();
+    }
+
 
 }

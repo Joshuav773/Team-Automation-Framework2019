@@ -11,7 +11,6 @@ public class signInTest extends SignIn {
     public void initElements(){
         signIn = PageFactory.initElements(driver,SignIn.class);
     }
-
     @Test
     public void signInTest(){
         signIn();

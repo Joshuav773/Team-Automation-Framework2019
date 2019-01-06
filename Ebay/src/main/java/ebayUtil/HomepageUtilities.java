@@ -12,7 +12,8 @@ public class HomepageUtilities extends CommonAPI {
     @FindBy(css = "#gh-btn") public static WebElement searchButton;
     @FindBy(xpath = "//span[contains (text(), 'Home')]")public static WebElement homeButton;
     @FindBy(xpath = "//a[contains(text(), 'Saved') and @href='/feed']")public static WebElement savedUtility;
-    @FindBy(xpath = )public static WebElement motorDropDownMenu;
+    @FindBy(xpath = "//a[@href = 'https://www.ebay.com/b/Auto-Parts-and-Vehicles/6000/bn_1865334' and contains (text(), 'Motors')]")
+    public static WebElement motorsOption;
 
 
     public void usingSearchbar(){
@@ -29,8 +30,8 @@ public class HomepageUtilities extends CommonAPI {
     public void savedUtility(){
         savedUtility.click();
     }
-    public void motorDropDownMenu(){
-
+    public void motorsUtility(){
+        motorsOption.click();
     }
 
 

@@ -20,8 +20,8 @@ public class CommonAPI {
 
     @BeforeMethod
     public void openBrowser(){
-        System.setProperty("webdriver.gecko.driver","/Users/joshuasmba/Documents/WebAutomationFramework/drivers/geckodriver");
-        driver = new FirefoxDriver();
+        System.setProperty("webdriver.chrome.driver","/Users/joshuasmba/Documents/amazon/Web-Automation-Framkework/drivers/chromedriver");
+        driver = new ChromeDriver();
         driver.get("https://www.ebay.com/");
         driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
 
