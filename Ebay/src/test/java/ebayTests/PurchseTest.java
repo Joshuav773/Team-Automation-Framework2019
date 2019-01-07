@@ -1,3 +1,5 @@
+package ebayTests;
+
 import ebayUtil.Purchase;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;

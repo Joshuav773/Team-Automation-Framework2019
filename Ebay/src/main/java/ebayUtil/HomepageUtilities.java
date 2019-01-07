@@ -14,7 +14,12 @@ public class HomepageUtilities extends CommonAPI {
     @FindBy(xpath = "//a[contains(text(), 'Saved') and @href='/feed']")public static WebElement savedUtility;
     @FindBy(xpath = "//a[@href = 'https://www.ebay.com/b/Auto-Parts-and-Vehicles/6000/bn_1865334' and contains (text(), 'Motors')]")
     public static WebElement motorsOption;
-
+    @FindBy(xpath = "//a[contains (text(), 'Fashion') and @_sp = 'p2481888.m1380.l3250']")public static WebElement fashionUtility;
+    @FindBy(xpath = "//a[contains(text(), 'Electronics') and @_sp='p2481888.m1381.l3250']")public static WebElement electronicsUtility;
+    @FindBy(xpath = "//a[contains(text(), 'Collectibles & Art') and @href = 'https://www.ebay.com/b/Collectibles-Art/bn_7000259855']")
+    public static WebElement collectiblesAndArt;
+    @FindBy(xpath = "")
+    public static WebElement homeAndGarden;
 
     public void usingSearchbar(){
         searchBar.sendKeys("Car Parts");
@@ -33,6 +38,19 @@ public class HomepageUtilities extends CommonAPI {
     public void motorsUtility(){
         motorsOption.click();
     }
+    public void fashionutility(){
+        fashionUtility.click();
+    }
+    public void electronicsUtilitly(){
+        electronicsUtility.click();
+    }
+    public void collectiblesandart(){
+        collectiblesAndArt.click();
+    }
+    public void homeAndGarden(){
+
+    }
+
 
 
 

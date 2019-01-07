@@ -1,3 +1,5 @@
+package ebayTests;
+
 import ebayUtil.HomepageUtilities;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
@@ -33,6 +35,19 @@ public class HomeUtilitiesTests extends HomepageUtilities {
     public void motorsUtilTest(){
         motorsUtility();
     }
+    @Test
+    public void fashionUtilityTest(){
+        fashionutility();
+    }
+    @Test
+    public void electronicsUtilityTest(){
+        electronicsUtilitly();
+    }
+    @Test
+    public void collectiblesAndArtTest(){
+        collectiblesandart();
+    }
+
 
 
 }
