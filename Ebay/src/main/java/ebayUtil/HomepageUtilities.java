@@ -18,8 +18,16 @@ public class HomepageUtilities extends CommonAPI {
     @FindBy(xpath = "//a[contains(text(), 'Electronics') and @_sp='p2481888.m1381.l3250']")public static WebElement electronicsUtility;
     @FindBy(xpath = "//a[contains(text(), 'Collectibles & Art') and @href = 'https://www.ebay.com/b/Collectibles-Art/bn_7000259855']")
     public static WebElement collectiblesAndArt;
-    @FindBy(xpath = "")
+    @FindBy(xpath = "//a[contains(text(), 'Home & Garden') and @_sp='p2481888.m1383.l3250']")
     public static WebElement homeAndGarden;
+    @FindBy(xpath = "//a[contains(text(), 'Sporting Goods') and @href ='https://www.ebay.com/b/Sporting-Goods/888/bn_1865031' ]")
+    public static WebElement sportingGoodsUtility;
+    @FindBy(xpath ="//a[contains(text(), 'Toys') and @href ='https://www.ebay.com/b/Toys-Hobbies/220/bn_1865497' ]")
+    public static WebElement toysUtility;
+    @FindBy(xpath = "//a[contains(text(), 'Business & Industrial') and @href ='https://www.ebay.com/b/Business-Industrial/12576/bn_1853744' ]")
+    public static WebElement businessAndIndustrialUtility;
+
+
 
     public void usingSearchbar(){
         searchBar.sendKeys("Car Parts");
@@ -48,8 +56,20 @@ public class HomepageUtilities extends CommonAPI {
         collectiblesAndArt.click();
     }
     public void homeAndGarden(){
-
+        homeAndGarden.click();
     }
+    public void sportingGoodsUtility(){
+        sportingGoodsUtility.click();
+    }
+    public void toysUtility(){
+        toysUtility.click();
+    }
+    public void businessAndIndustrialUtility(){
+        businessAndIndustrialUtility.click();
+    }
+
+
+
 
 
 
