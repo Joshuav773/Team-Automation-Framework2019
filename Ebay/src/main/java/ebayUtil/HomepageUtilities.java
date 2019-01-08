@@ -26,6 +26,9 @@ public class HomepageUtilities extends CommonAPI {
     public static WebElement toysUtility;
     @FindBy(xpath = "//a[contains(text(), 'Business & Industrial') and @href ='https://www.ebay.com/b/Business-Industrial/12576/bn_1853744' ]")
     public static WebElement businessAndIndustrialUtility;
+    @FindBy(xpath = "//a[contains (text(), 'Music') and @_sp = 'p2481888.m1387.l3250']")public static WebElement musicUtility;
+    @FindBy(xpath = "//a[contains (text(), 'Deals') and @_sp = 'p2481888.m1388.l3250']")public static WebElement dealsUtility;
+    @FindBy(xpath = "//a[contains (text(), 'Under $10') and @_sp = 'p2481888.m1389.l3250']")public static WebElement under10Utility;
 
 
 
@@ -67,6 +70,16 @@ public class HomepageUtilities extends CommonAPI {
     public void businessAndIndustrialUtility(){
         businessAndIndustrialUtility.click();
     }
+    public void musicUtility(){
+        musicUtility.click();
+    }
+    public void dealsUtility(){
+        dealsUtility.click();
+    }
+    public void under10Utility(){
+        under10Utility.click();
+    }
+
 
 
 
