@@ -15,14 +15,6 @@ public class HomeUtilitiesTests extends HomepageUtilities {
     }
 
     @Test
-    public void usingSearchBarTest(){
-        usingSearchbar();
-    }
-    @Test
-    public void searchbuttonTest(){
-        searchbutton();
-    }
-    @Test
     public void homeButtonTest(){
         homeButton();
     }
