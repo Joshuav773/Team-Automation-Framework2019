@@ -1,40 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0e2e6cc4-8bc8-458f-94fc-a706330e4deb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/HealthFirst/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthFirst/src/test/resources/HealthFirstTestRunner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewYorkTimes/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewYorkTimes/src/test/resources/NewYorkTimesTestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/src/main/java/ebayUtil/SearchBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/src/main/java/ebayUtil/Searches.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/src/test/java/ebayTests/SearchBarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/src/test/java/ebayTests/SearchTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/src/test/resources/EbayTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/src/test/resources/EbayTestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/ebayUtil/HomepageUtilities.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/classes/ebayUtil/HomepageUtilities.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/surefire-reports/Ebay Automation Script /Ebay Test.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/surefire-reports/Ebay Automation Script /Ebay Test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/surefire-reports/Ebay Automation Script /Ebay Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/surefire-reports/Ebay Automation Script /Ebay Test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/surefire-reports/TestSuite.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/surefire-reports/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/surefire-reports/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/surefire-reports/old/Ebay Automation Script /classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/surefire-reports/old/Ebay Automation Script /classes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/surefire-reports/old/Ebay Automation Script /methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/surefire-reports/old/Ebay Automation Script /methods-alphabetical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/surefire-reports/old/Ebay Automation Script /methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/surefire-reports/old/Ebay Automation Script /methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/surefire-reports/old/Ebay Automation Script /testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/surefire-reports/old/Ebay Automation Script /testng.xml.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/surefire-reports/old/Ebay Automation Script /toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/surefire-reports/old/Ebay Automation Script /toc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/surefire-reports/old/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/surefire-reports/testng-results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/test-classes/EbayTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/test-classes/EbayTestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/test-classes/ebayTests/HomeUtilitiesTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/test-classes/ebayTests/HomeUtilitiesTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/base/CommonAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/base/CommonAPI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0e2e6cc4-8bc8-458f-94fc-a706330e4deb" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/Generic/target/" />
@@ -499,7 +466,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
@@ -508,7 +474,7 @@
       <window_info id="Image Layers" order="4" />
       <window_info content_ui="combo" id="Project" order="5" sideWeight="0.497307" visible="true" weight="0.20386267" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49928468" weight="0.32891566" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" sideWeight="0.49928468" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Version Control" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5007153" side_tool="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Message" order="3" />
