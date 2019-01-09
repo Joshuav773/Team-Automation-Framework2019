@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name="Amazon Automation Script " parallel="false">
+<suite name="Ebay Automation Script " parallel="false">
 
     <parameter name="useCloudEnv" value="false"/>
     <parameter name="cloudEnvName" value="browserstack"/>
@@ -11,9 +11,11 @@
     <parameter name="browserVersion" value="60.0"/>
     <parameter name="url" value="https://www.ebay.com/"/>
 
-    <test name = "Amazon Home">
+    <test name = "Ebay Test">
         <classes>
-        <class name="ebayTests.HomeUtilitiesTests"></class>
+            <class name="ebayTests.HomeUtilitiesTests"></class>
+            <class name="ebayTests.PurchseTest"></class>
+            <class name="ebayTests.signInTest"></class>
         </classes>
     </test>
 

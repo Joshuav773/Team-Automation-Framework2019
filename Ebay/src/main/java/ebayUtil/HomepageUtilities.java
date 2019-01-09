@@ -4,8 +4,6 @@ import base.CommonAPI;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-import java.security.cert.X509Certificate;
-
 public class HomepageUtilities extends CommonAPI {
 
     @FindBy(css = "#gh-ac") public static WebElement searchBar;
@@ -29,6 +27,9 @@ public class HomepageUtilities extends CommonAPI {
     @FindBy(xpath = "//a[contains (text(), 'Music') and @_sp = 'p2481888.m1387.l3250']")public static WebElement musicUtility;
     @FindBy(xpath = "//a[contains (text(), 'Deals') and @_sp = 'p2481888.m1388.l3250']")public static WebElement dealsUtility;
     @FindBy(xpath = "//a[contains (text(), 'Under $10') and @_sp = 'p2481888.m1389.l3250']")public static WebElement under10Utility;
+    @FindBy(css = "#sgnBt")public static WebElement signInButton;
+    @FindBy(css ="#userid")public static WebElement userIdInputBar;
+    @FindBy(css = "#pass")public static WebElement passwordInputBar;
 
 
 
@@ -45,6 +46,10 @@ public class HomepageUtilities extends CommonAPI {
     //Must be signed in to access feed
     public void savedUtility(){
         savedUtility.click();
+        userIdInputBar.sendKeys("joshuav773@gmail.com");
+        passwordInputBar.sendKeys("Bball1773");
+        signInButton.click();
+
     }
     public void motorsUtility(){
         motorsOption.click();
