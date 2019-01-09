@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="15" passed="15">
+<testng-results skipped="0" failed="5" ignored="0" total="5" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Ebay Automation Script " duration-ms="82846" started-at="2019-01-09T04:43:23Z" finished-at="2019-01-09T04:44:46Z">
+  <suite name="Ebay Automation Script " duration-ms="16458" started-at="2019-01-09T18:35:08Z" finished-at="2019-01-09T18:35:25Z">
     <groups>
     </groups>
-    <test name="Ebay Test" duration-ms="82846" started-at="2019-01-09T04:43:23Z" finished-at="2019-01-09T04:44:46Z">
-      <class name="ebayTests.HomeUtilitiesTests">
-        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:ebayTests.HomeUtilitiesTests@3cbbc1e0]" name="setUp" is-config="true" duration-ms="4063" started-at="2019-01-09T04:43:23Z" finished-at="2019-01-09T04:43:27Z">
+    <test name="Ebay Test" duration-ms="16458" started-at="2019-01-09T18:35:08Z" finished-at="2019-01-09T18:35:25Z">
+      <class name="ebayTests.SearchTests">
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:ebayTests.SearchTests@6537cf78]" name="setUp" is-config="true" duration-ms="4140" started-at="2019-01-09T18:35:08Z" finished-at="2019-01-09T18:35:13Z">
           <params>
             <param index="0">
               <value>
@@ -48,19 +48,52 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="initelEments()[pri:0, instance:ebayTests.HomeUtilitiesTests@3cbbc1e0]" name="initelEments" is-config="true" duration-ms="40" started-at="2019-01-09T04:43:27Z" finished-at="2019-01-09T04:43:27Z">
+        <test-method status="FAIL" signature="saveTheSearchOfSpecificItemTest()[pri:0, instance:ebayTests.SearchTests@6537cf78]" name="saveTheSearchOfSpecificItemTest" duration-ms="2" started-at="2019-01-09T18:35:13Z" finished-at="2019-01-09T18:35:13Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at ebayUtil.Searches.saveTheSearchOfSpecificItem(Searches.java:42)
+at ebayTests.SearchTests.saveTheSearchOfSpecificItemTest(SearchTests.java:33)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initelEments -->
-        <test-method status="PASS" signature="businessAndIndustrialUtilityTest()[pri:0, instance:ebayTests.HomeUtilitiesTests@3cbbc1e0]" name="businessAndIndustrialUtilityTest" duration-ms="1505" started-at="2019-01-09T04:43:27Z" finished-at="2019-01-09T04:43:29Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- businessAndIndustrialUtilityTest -->
-        <test-method status="PASS" signature="cleanUP()[pri:0, instance:ebayTests.HomeUtilitiesTests@3cbbc1e0]" name="cleanUP" is-config="true" duration-ms="127" started-at="2019-01-09T04:43:29Z" finished-at="2019-01-09T04:43:29Z">
+        </test-method> <!-- saveTheSearchOfSpecificItemTest -->
+        <test-method status="PASS" signature="cleanUP()[pri:0, instance:ebayTests.SearchTests@6537cf78]" name="cleanUP" is-config="true" duration-ms="105" started-at="2019-01-09T18:35:13Z" finished-at="2019-01-09T18:35:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUP -->
-        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:ebayTests.HomeUtilitiesTests@3cbbc1e0]" name="setUp" is-config="true" duration-ms="2698" started-at="2019-01-09T04:43:29Z" finished-at="2019-01-09T04:43:32Z">
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:ebayTests.SearchTests@6537cf78]" name="setUp" is-config="true" duration-ms="2915" started-at="2019-01-09T18:35:13Z" finished-at="2019-01-09T18:35:16Z">
           <params>
             <param index="0">
               <value>
@@ -101,19 +134,52 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="initelEments()[pri:0, instance:ebayTests.HomeUtilitiesTests@3cbbc1e0]" name="initelEments" is-config="true" duration-ms="3" started-at="2019-01-09T04:43:32Z" finished-at="2019-01-09T04:43:32Z">
+        <test-method status="FAIL" signature="searchByUsingKeywordTest()[pri:0, instance:ebayTests.SearchTests@6537cf78]" name="searchByUsingKeywordTest" duration-ms="1" started-at="2019-01-09T18:35:16Z" finished-at="2019-01-09T18:35:16Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at ebayUtil.Searches.searchByUsingKeyword(Searches.java:30)
+at ebayTests.SearchTests.searchByUsingKeywordTest(SearchTests.java:25)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initelEments -->
-        <test-method status="PASS" signature="collectiblesAndArtTest()[pri:0, instance:ebayTests.HomeUtilitiesTests@3cbbc1e0]" name="collectiblesAndArtTest" duration-ms="1172" started-at="2019-01-09T04:43:32Z" finished-at="2019-01-09T04:43:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- collectiblesAndArtTest -->
-        <test-method status="PASS" signature="cleanUP()[pri:0, instance:ebayTests.HomeUtilitiesTests@3cbbc1e0]" name="cleanUP" is-config="true" duration-ms="117" started-at="2019-01-09T04:43:33Z" finished-at="2019-01-09T04:43:33Z">
+        </test-method> <!-- searchByUsingKeywordTest -->
+        <test-method status="PASS" signature="cleanUP()[pri:0, instance:ebayTests.SearchTests@6537cf78]" name="cleanUP" is-config="true" duration-ms="99" started-at="2019-01-09T18:35:16Z" finished-at="2019-01-09T18:35:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUP -->
-        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:ebayTests.HomeUtilitiesTests@3cbbc1e0]" name="setUp" is-config="true" duration-ms="2870" started-at="2019-01-09T04:43:33Z" finished-at="2019-01-09T04:43:36Z">
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:ebayTests.SearchTests@6537cf78]" name="setUp" is-config="true" duration-ms="2980" started-at="2019-01-09T18:35:16Z" finished-at="2019-01-09T18:35:19Z">
           <params>
             <param index="0">
               <value>
@@ -154,19 +220,52 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="initelEments()[pri:0, instance:ebayTests.HomeUtilitiesTests@3cbbc1e0]" name="initelEments" is-config="true" duration-ms="2" started-at="2019-01-09T04:43:36Z" finished-at="2019-01-09T04:43:36Z">
+        <test-method status="FAIL" signature="searchItemWithItemNumberTest()[pri:0, instance:ebayTests.SearchTests@6537cf78]" name="searchItemWithItemNumberTest" duration-ms="0" started-at="2019-01-09T18:35:19Z" finished-at="2019-01-09T18:35:19Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at ebayUtil.Searches.searchItemWithItemNumber(Searches.java:36)
+at ebayTests.SearchTests.searchItemWithItemNumberTest(SearchTests.java:29)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initelEments -->
-        <test-method status="PASS" signature="dealsUtilityTest()[pri:0, instance:ebayTests.HomeUtilitiesTests@3cbbc1e0]" name="dealsUtilityTest" duration-ms="2133" started-at="2019-01-09T04:43:36Z" finished-at="2019-01-09T04:43:38Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- dealsUtilityTest -->
-        <test-method status="PASS" signature="cleanUP()[pri:0, instance:ebayTests.HomeUtilitiesTests@3cbbc1e0]" name="cleanUP" is-config="true" duration-ms="134" started-at="2019-01-09T04:43:38Z" finished-at="2019-01-09T04:43:38Z">
+        </test-method> <!-- searchItemWithItemNumberTest -->
+        <test-method status="PASS" signature="cleanUP()[pri:0, instance:ebayTests.SearchTests@6537cf78]" name="cleanUP" is-config="true" duration-ms="111" started-at="2019-01-09T18:35:19Z" finished-at="2019-01-09T18:35:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUP -->
-        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:ebayTests.HomeUtilitiesTests@3cbbc1e0]" name="setUp" is-config="true" duration-ms="2732" started-at="2019-01-09T04:43:38Z" finished-at="2019-01-09T04:43:41Z">
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:ebayTests.SearchTests@6537cf78]" name="setUp" is-config="true" duration-ms="2760" started-at="2019-01-09T18:35:19Z" finished-at="2019-01-09T18:35:22Z">
           <params>
             <param index="0">
               <value>
@@ -207,390 +306,52 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="initelEments()[pri:0, instance:ebayTests.HomeUtilitiesTests@3cbbc1e0]" name="initelEments" is-config="true" duration-ms="1" started-at="2019-01-09T04:43:41Z" finished-at="2019-01-09T04:43:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initelEments -->
-        <test-method status="PASS" signature="electronicsUtilityTest()[pri:0, instance:ebayTests.HomeUtilitiesTests@3cbbc1e0]" name="electronicsUtilityTest" duration-ms="1127" started-at="2019-01-09T04:43:41Z" finished-at="2019-01-09T04:43:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- electronicsUtilityTest -->
-        <test-method status="PASS" signature="cleanUP()[pri:0, instance:ebayTests.HomeUtilitiesTests@3cbbc1e0]" name="cleanUP" is-config="true" duration-ms="143" started-at="2019-01-09T04:43:42Z" finished-at="2019-01-09T04:43:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cleanUP -->
-        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:ebayTests.HomeUtilitiesTests@3cbbc1e0]" name="setUp" is-config="true" duration-ms="2662" started-at="2019-01-09T04:43:42Z" finished-at="2019-01-09T04:43:45Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[false]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[browserstack]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[OS X]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Sierra]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[60.0]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[https://www.ebay.com/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="initelEments()[pri:0, instance:ebayTests.HomeUtilitiesTests@3cbbc1e0]" name="initelEments" is-config="true" duration-ms="1" started-at="2019-01-09T04:43:45Z" finished-at="2019-01-09T04:43:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initelEments -->
-        <test-method status="PASS" signature="fashionUtilityTest()[pri:0, instance:ebayTests.HomeUtilitiesTests@3cbbc1e0]" name="fashionUtilityTest" duration-ms="1099" started-at="2019-01-09T04:43:45Z" finished-at="2019-01-09T04:43:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- fashionUtilityTest -->
-        <test-method status="PASS" signature="cleanUP()[pri:0, instance:ebayTests.HomeUtilitiesTests@3cbbc1e0]" name="cleanUP" is-config="true" duration-ms="114" started-at="2019-01-09T04:43:46Z" finished-at="2019-01-09T04:43:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cleanUP -->
-        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:ebayTests.HomeUtilitiesTests@3cbbc1e0]" name="setUp" is-config="true" duration-ms="2763" started-at="2019-01-09T04:43:46Z" finished-at="2019-01-09T04:43:49Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[false]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[browserstack]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[OS X]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Sierra]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[60.0]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[https://www.ebay.com/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="initelEments()[pri:0, instance:ebayTests.HomeUtilitiesTests@3cbbc1e0]" name="initelEments" is-config="true" duration-ms="1" started-at="2019-01-09T04:43:49Z" finished-at="2019-01-09T04:43:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initelEments -->
-        <test-method status="PASS" signature="homeAndGardenTest()[pri:0, instance:ebayTests.HomeUtilitiesTests@3cbbc1e0]" name="homeAndGardenTest" duration-ms="6771" started-at="2019-01-09T04:43:49Z" finished-at="2019-01-09T04:43:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- homeAndGardenTest -->
-        <test-method status="PASS" signature="cleanUP()[pri:0, instance:ebayTests.HomeUtilitiesTests@3cbbc1e0]" name="cleanUP" is-config="true" duration-ms="117" started-at="2019-01-09T04:43:55Z" finished-at="2019-01-09T04:43:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cleanUP -->
-        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:ebayTests.HomeUtilitiesTests@3cbbc1e0]" name="setUp" is-config="true" duration-ms="2678" started-at="2019-01-09T04:43:56Z" finished-at="2019-01-09T04:43:58Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[false]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[browserstack]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[OS X]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Sierra]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[60.0]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[https://www.ebay.com/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="initelEments()[pri:0, instance:ebayTests.HomeUtilitiesTests@3cbbc1e0]" name="initelEments" is-config="true" duration-ms="1" started-at="2019-01-09T04:43:58Z" finished-at="2019-01-09T04:43:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initelEments -->
-        <test-method status="PASS" signature="homeButtonTest()[pri:0, instance:ebayTests.HomeUtilitiesTests@3cbbc1e0]" name="homeButtonTest" duration-ms="302" started-at="2019-01-09T04:43:58Z" finished-at="2019-01-09T04:43:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- homeButtonTest -->
-        <test-method status="PASS" signature="cleanUP()[pri:0, instance:ebayTests.HomeUtilitiesTests@3cbbc1e0]" name="cleanUP" is-config="true" duration-ms="123" started-at="2019-01-09T04:43:59Z" finished-at="2019-01-09T04:43:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cleanUP -->
-        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:ebayTests.HomeUtilitiesTests@3cbbc1e0]" name="setUp" is-config="true" duration-ms="2813" started-at="2019-01-09T04:43:59Z" finished-at="2019-01-09T04:44:01Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[false]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[browserstack]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[OS X]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Sierra]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[60.0]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[https://www.ebay.com/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="initelEments()[pri:0, instance:ebayTests.HomeUtilitiesTests@3cbbc1e0]" name="initelEments" is-config="true" duration-ms="1" started-at="2019-01-09T04:44:01Z" finished-at="2019-01-09T04:44:01Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initelEments -->
-        <test-method status="PASS" signature="motorsUtilTest()[pri:0, instance:ebayTests.HomeUtilitiesTests@3cbbc1e0]" name="motorsUtilTest" duration-ms="1411" started-at="2019-01-09T04:44:01Z" finished-at="2019-01-09T04:44:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- motorsUtilTest -->
-        <test-method status="PASS" signature="cleanUP()[pri:0, instance:ebayTests.HomeUtilitiesTests@3cbbc1e0]" name="cleanUP" is-config="true" duration-ms="119" started-at="2019-01-09T04:44:03Z" finished-at="2019-01-09T04:44:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cleanUP -->
-        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:ebayTests.HomeUtilitiesTests@3cbbc1e0]" name="setUp" is-config="true" duration-ms="2798" started-at="2019-01-09T04:44:03Z" finished-at="2019-01-09T04:44:06Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[false]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[browserstack]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[OS X]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Sierra]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[60.0]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[https://www.ebay.com/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="initelEments()[pri:0, instance:ebayTests.HomeUtilitiesTests@3cbbc1e0]" name="initelEments" is-config="true" duration-ms="1" started-at="2019-01-09T04:44:06Z" finished-at="2019-01-09T04:44:06Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initelEments -->
-        <test-method status="PASS" signature="musicUtilityTest()[pri:0, instance:ebayTests.HomeUtilitiesTests@3cbbc1e0]" name="musicUtilityTest" duration-ms="1112" started-at="2019-01-09T04:44:06Z" finished-at="2019-01-09T04:44:07Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- musicUtilityTest -->
-        <test-method status="PASS" signature="cleanUP()[pri:0, instance:ebayTests.HomeUtilitiesTests@3cbbc1e0]" name="cleanUP" is-config="true" duration-ms="120" started-at="2019-01-09T04:44:07Z" finished-at="2019-01-09T04:44:07Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cleanUP -->
-        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:ebayTests.HomeUtilitiesTests@3cbbc1e0]" name="setUp" is-config="true" duration-ms="2777" started-at="2019-01-09T04:44:07Z" finished-at="2019-01-09T04:44:10Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[false]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[browserstack]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[OS X]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Sierra]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[60.0]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[https://www.ebay.com/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="initelEments()[pri:0, instance:ebayTests.HomeUtilitiesTests@3cbbc1e0]" name="initelEments" is-config="true" duration-ms="1" started-at="2019-01-09T04:44:10Z" finished-at="2019-01-09T04:44:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initelEments -->
-        <test-method status="PASS" signature="savedUtilityTest()[pri:0, instance:ebayTests.HomeUtilitiesTests@3cbbc1e0]" name="savedUtilityTest" duration-ms="1685" started-at="2019-01-09T04:44:10Z" finished-at="2019-01-09T04:44:11Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- savedUtilityTest -->
-        <test-method status="PASS" signature="cleanUP()[pri:0, instance:ebayTests.HomeUtilitiesTests@3cbbc1e0]" name="cleanUP" is-config="true" duration-ms="118" started-at="2019-01-09T04:44:11Z" finished-at="2019-01-09T04:44:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cleanUP -->
-        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:ebayTests.HomeUtilitiesTests@3cbbc1e0]" name="setUp" is-config="true" duration-ms="2456" started-at="2019-01-09T04:44:12Z" finished-at="2019-01-09T04:44:14Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[false]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[browserstack]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[OS X]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Sierra]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[60.0]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[https://www.ebay.com/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="initelEments()[pri:0, instance:ebayTests.HomeUtilitiesTests@3cbbc1e0]" name="initelEments" is-config="true" duration-ms="1" started-at="2019-01-09T04:44:14Z" finished-at="2019-01-09T04:44:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initelEments -->
-        <test-method status="PASS" signature="searchbuttonTest()[pri:0, instance:ebayTests.HomeUtilitiesTests@3cbbc1e0]" name="searchbuttonTest" duration-ms="1466" started-at="2019-01-09T04:44:14Z" finished-at="2019-01-09T04:44:16Z">
+        <test-method status="FAIL" signature="searchbuttonTest()[pri:0, instance:ebayTests.SearchTests@6537cf78]" name="searchbuttonTest" duration-ms="0" started-at="2019-01-09T18:35:22Z" finished-at="2019-01-09T18:35:22Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at ebayUtil.Searches.searchbutton(Searches.java:26)
+at ebayTests.SearchTests.searchbuttonTest(SearchTests.java:21)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchbuttonTest -->
-        <test-method status="PASS" signature="cleanUP()[pri:0, instance:ebayTests.HomeUtilitiesTests@3cbbc1e0]" name="cleanUP" is-config="true" duration-ms="114" started-at="2019-01-09T04:44:16Z" finished-at="2019-01-09T04:44:16Z">
+        <test-method status="PASS" signature="cleanUP()[pri:0, instance:ebayTests.SearchTests@6537cf78]" name="cleanUP" is-config="true" duration-ms="119" started-at="2019-01-09T18:35:22Z" finished-at="2019-01-09T18:35:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUP -->
-        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:ebayTests.HomeUtilitiesTests@3cbbc1e0]" name="setUp" is-config="true" duration-ms="2507" started-at="2019-01-09T04:44:16Z" finished-at="2019-01-09T04:44:18Z">
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:ebayTests.SearchTests@6537cf78]" name="setUp" is-config="true" duration-ms="3061" started-at="2019-01-09T18:35:22Z" finished-at="2019-01-09T18:35:25Z">
           <params>
             <param index="0">
               <value>
@@ -631,178 +392,52 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="initelEments()[pri:0, instance:ebayTests.HomeUtilitiesTests@3cbbc1e0]" name="initelEments" is-config="true" duration-ms="2" started-at="2019-01-09T04:44:18Z" finished-at="2019-01-09T04:44:18Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initelEments -->
-        <test-method status="PASS" signature="sportingGoodsTest()[pri:0, instance:ebayTests.HomeUtilitiesTests@3cbbc1e0]" name="sportingGoodsTest" duration-ms="1814" started-at="2019-01-09T04:44:18Z" finished-at="2019-01-09T04:44:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sportingGoodsTest -->
-        <test-method status="PASS" signature="cleanUP()[pri:0, instance:ebayTests.HomeUtilitiesTests@3cbbc1e0]" name="cleanUP" is-config="true" duration-ms="131" started-at="2019-01-09T04:44:20Z" finished-at="2019-01-09T04:44:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cleanUP -->
-        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:ebayTests.HomeUtilitiesTests@3cbbc1e0]" name="setUp" is-config="true" duration-ms="2884" started-at="2019-01-09T04:44:20Z" finished-at="2019-01-09T04:44:23Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[false]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[browserstack]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[OS X]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Sierra]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[60.0]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[https://www.ebay.com/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="initelEments()[pri:0, instance:ebayTests.HomeUtilitiesTests@3cbbc1e0]" name="initelEments" is-config="true" duration-ms="0" started-at="2019-01-09T04:44:23Z" finished-at="2019-01-09T04:44:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initelEments -->
-        <test-method status="PASS" signature="toysUtilityTest()[pri:0, instance:ebayTests.HomeUtilitiesTests@3cbbc1e0]" name="toysUtilityTest" duration-ms="6743" started-at="2019-01-09T04:44:23Z" finished-at="2019-01-09T04:44:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- toysUtilityTest -->
-        <test-method status="PASS" signature="cleanUP()[pri:0, instance:ebayTests.HomeUtilitiesTests@3cbbc1e0]" name="cleanUP" is-config="true" duration-ms="122" started-at="2019-01-09T04:44:30Z" finished-at="2019-01-09T04:44:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cleanUP -->
-        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:ebayTests.HomeUtilitiesTests@3cbbc1e0]" name="setUp" is-config="true" duration-ms="2991" started-at="2019-01-09T04:44:30Z" finished-at="2019-01-09T04:44:33Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[false]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[browserstack]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[OS X]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Sierra]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[60.0]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[https://www.ebay.com/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="initelEments()[pri:0, instance:ebayTests.HomeUtilitiesTests@3cbbc1e0]" name="initelEments" is-config="true" duration-ms="1" started-at="2019-01-09T04:44:33Z" finished-at="2019-01-09T04:44:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initelEments -->
-        <test-method status="PASS" signature="under10utilityTest()[pri:0, instance:ebayTests.HomeUtilitiesTests@3cbbc1e0]" name="under10utilityTest" duration-ms="1433" started-at="2019-01-09T04:44:33Z" finished-at="2019-01-09T04:44:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- under10utilityTest -->
-        <test-method status="PASS" signature="cleanUP()[pri:0, instance:ebayTests.HomeUtilitiesTests@3cbbc1e0]" name="cleanUP" is-config="true" duration-ms="120" started-at="2019-01-09T04:44:34Z" finished-at="2019-01-09T04:44:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cleanUP -->
-        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:ebayTests.HomeUtilitiesTests@3cbbc1e0]" name="setUp" is-config="true" duration-ms="2718" started-at="2019-01-09T04:44:34Z" finished-at="2019-01-09T04:44:37Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[false]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[browserstack]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[OS X]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Sierra]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[60.0]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[https://www.ebay.com/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="initelEments()[pri:0, instance:ebayTests.HomeUtilitiesTests@3cbbc1e0]" name="initelEments" is-config="true" duration-ms="1" started-at="2019-01-09T04:44:37Z" finished-at="2019-01-09T04:44:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initelEments -->
-        <test-method status="PASS" signature="usingSearchBarTest()[pri:0, instance:ebayTests.HomeUtilitiesTests@3cbbc1e0]" name="usingSearchBarTest" duration-ms="8730" started-at="2019-01-09T04:44:37Z" finished-at="2019-01-09T04:44:46Z">
+        <test-method status="FAIL" signature="usingSearchBarTest()[pri:0, instance:ebayTests.SearchTests@6537cf78]" name="usingSearchBarTest" duration-ms="10" started-at="2019-01-09T18:35:25Z" finished-at="2019-01-09T18:35:25Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at ebayUtil.Searches.usingSearchbar(Searches.java:23)
+at ebayTests.SearchTests.usingSearchBarTest(SearchTests.java:17)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- usingSearchBarTest -->
-        <test-method status="PASS" signature="cleanUP()[pri:0, instance:ebayTests.HomeUtilitiesTests@3cbbc1e0]" name="cleanUP" is-config="true" duration-ms="127" started-at="2019-01-09T04:44:46Z" finished-at="2019-01-09T04:44:46Z">
+        <test-method status="PASS" signature="cleanUP()[pri:0, instance:ebayTests.SearchTests@6537cf78]" name="cleanUP" is-config="true" duration-ms="120" started-at="2019-01-09T18:35:25Z" finished-at="2019-01-09T18:35:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUP -->
-      </class> <!-- ebayTests.HomeUtilitiesTests -->
+      </class> <!-- ebayTests.SearchTests -->
     </test> <!-- Ebay Test -->
   </suite> <!-- Ebay Automation Script  -->
 </testng-results>

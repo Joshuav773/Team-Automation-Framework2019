@@ -37,7 +37,7 @@ public class CommonAPI {
                 getCloudDriver(cloudEnvName,saucelabs_username, saucelabs_accesskey,os,os_version, browserName, browserVersion);
             }
         }else{
-            // getLocalDriver(os, browserName);
+            //getLocalDriver(os, browserName);
             System.setProperty("webdriver.chrome.driver", "/Users/joshuasmba/Documents/amazon/Web-Automation-Framkework/drivers/chromedriver");
             driver = new ChromeDriver();
         }
@@ -161,6 +161,13 @@ public class CommonAPI {
         String splitString ;
         splitString = StringUtils.join(StringUtils.splitByCharacterTypeCamelCase(st), ' ');
         return splitString;
+    }
+    public void signInUserName(String locator, String value){
+        //sign in user
+        driver.findElement(By.cssSelector(locator)).sendKeys(value);
+    }
+    public void signInPassWord(String locator, String value){
+        driver.findElement(By.cssSelector(locator)).sendKeys(value);
     }
 
 }

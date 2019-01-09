@@ -1,4 +1,24 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 93.222 s - in TestSuite
+Tests run: 5, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 16.938 s <<< FAILURE! - in TestSuite
+saveTheSearchOfSpecificItemTest(ebayTests.SearchTests)  Time elapsed: 0.011 s  <<< FAILURE!
+java.lang.NullPointerException
+	at ebayTests.SearchTests.saveTheSearchOfSpecificItemTest(SearchTests.java:33)
+
+searchByUsingKeywordTest(ebayTests.SearchTests)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+	at ebayTests.SearchTests.searchByUsingKeywordTest(SearchTests.java:25)
+
+searchItemWithItemNumberTest(ebayTests.SearchTests)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+	at ebayTests.SearchTests.searchItemWithItemNumberTest(SearchTests.java:29)
+
+searchbuttonTest(ebayTests.SearchTests)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+	at ebayTests.SearchTests.searchbuttonTest(SearchTests.java:21)
+
+usingSearchBarTest(ebayTests.SearchTests)  Time elapsed: 0.01 s  <<< FAILURE!
+java.lang.NullPointerException
+	at ebayTests.SearchTests.usingSearchBarTest(SearchTests.java:17)
+

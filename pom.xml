@@ -11,6 +11,8 @@
     <modules>
         <module>Generic</module>
         <module>Ebay</module>
+        <module>NewYorkTimes</module>
+        <module>HealthFirst</module>
     </modules>
     <dependencyManagement>
         <dependencies>
