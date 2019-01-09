@@ -15,7 +15,8 @@ public class Searches extends CommonAPI {
     @FindBy(css = "#e1-2")public static WebElement itemNumberInputBox;
     @FindBy(css = "#_nkw")public static WebElement keyWordInputBox;
     @FindBy(xpath = "//a[@class = 'wnd-c']")public static WebElement xPopUp;
-    @FindBy(xpath = "//span[@class = 'fTxt follow']")public static WebElement saveThisSearchOption;
+    @FindBy(xpath = "//div[@class = 'heartIcon']")public static WebElement saveThisSearchOption;
+    @FindBy(id = "LIGHTWEIGHT_CREATION_DISMISS")public static WebElement closePopUp;
 
 
 
@@ -39,17 +40,17 @@ public class Searches extends CommonAPI {
         itemNumberInputBox.sendKeys("123353444068");
     }
     //must be signed in
-//   public void saveTheSearchOfSpecificItem(){
-//        advancedSearchOption.click();
-//        byItemNumber.click();
-//        itemNumberInputBox.sendKeys("123353444068", Keys.ENTER);
-//        xPopUp.click();
-//        saveThisSearchOption.click();
-//        signInUserName("#userid", "joshuav773@gmail.com");
-//        signInPassWord("#pass", "Bball1773");
-//        signInButton.click();
-//
-//
-//    }
+   public void saveTheSearchOfSpecificItem(){
+        advancedSearchOption.click();
+        byItemNumber.click();
+        itemNumberInputBox.sendKeys("123353444068", Keys.ENTER);
+        saveThisSearchOption.click();
+        signInUserName("#userid", "joshuav773@gmail.com");
+        signInPassWord("#pass", "Bball1773");
+        signInButton.click();
+
+
+
+    }
 
 }

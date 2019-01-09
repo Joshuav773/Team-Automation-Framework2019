@@ -30,9 +30,9 @@ public class SearchTests extends Searches{
     public void searchItemWithItemNumberTest(){
         searchItemWithItemNumber();
     }
-//    @Test
-//    public void saveTheSearchOfSpecificItemTest(){
-//        saveTheSearchOfSpecificItem();
-//    }
+    @Test
+    public void saveTheSearchOfSpecificItemTest(){
+        saveTheSearchOfSpecificItem();
+    }
 
 }

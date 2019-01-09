@@ -11,7 +11,6 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.*;
 import org.apache.commons.lang3.StringUtils;
-
 import java.io.IOException;
 import java.net.URL;
 import java.util.concurrent.TimeUnit;
