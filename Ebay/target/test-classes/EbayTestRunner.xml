@@ -17,6 +17,7 @@
             <class name="ebayTests.PurchseTest"></class>
             <class name="ebayTests.signInTest"></class>
             <class name="ebayTests.SearchTests"></class>
+            <class name="ebayTests.HomePageFeaturesTests"></class>
         </classes>
     </test>
 

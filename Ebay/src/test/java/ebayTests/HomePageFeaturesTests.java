@@ -17,5 +17,23 @@ public class HomePageFeaturesTests extends HomePageFeatures {
     public void seeAllDailyDealsTest(){
         seeAllDailyDeals();
     }
+    @Test
+    public void trendingDealsArrowButtonsTest(){
+        trendingDealsArrowButtons();
+    }
+    @Test
+    public void seeAllTrendsFeatureTest(){
+        seeAllTrends();
+    }
+    @Test
+    public void seeAllFeaturedSalesAndEventsTest(){
+        seeAllFeaturedSalesAndEvents();
+    }
+    @Test
+    public void seeAllEditorPicksTest(){
+        seeAllEditorPicks();
+    }
+
+
 
 }

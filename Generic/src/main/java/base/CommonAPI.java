@@ -3,6 +3,7 @@ package base;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -13,11 +14,13 @@ import org.testng.annotations.*;
 import org.apache.commons.lang3.StringUtils;
 import java.io.IOException;
 import java.net.URL;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 public class CommonAPI {
 
-    public WebDriver driver = null;
+    public static WebDriver driver = null;
     public String browserstack_username= "";
     public String browserstack_accesskey = "";
     public String saucelabs_username = "";
@@ -167,6 +170,11 @@ public class CommonAPI {
     }
     public void signInPassWord(String locator, String value){
         driver.findElement(By.cssSelector(locator)).sendKeys(value);
+    }
+    public void elementListEcommerce(String locator){
+        List<WebElement> elements = new ArrayList<>(driver.findElements(By.className(locator)));
+      String links = elements.get(5).getText();
+        System.out.println(links);
     }
 
 }

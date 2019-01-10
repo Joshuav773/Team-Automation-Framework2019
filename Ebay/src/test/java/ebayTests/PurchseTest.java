@@ -14,7 +14,7 @@ public class PurchseTest extends Purchase {
         purchase = PageFactory.initElements(driver, Purchase.class);
     }
     @Test
-    public void purchaseAnItemTest(){
+    public void purchaseAnItemTest() throws InterruptedException {
         purchaseAnItem();
     }
 }
