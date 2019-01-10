@@ -3,12 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="0e2e6cc4-8bc8-458f-94fc-a706330e4deb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/src/main/java/ebayUtil/HomePageFeatures.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/src/main/java/ebayUtil/HomePageFeatures.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Ebay/src/main/java/ebayUtil/Purchase.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/src/main/java/ebayUtil/Purchase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/src/test/java/ebayTests/HomePageFeaturesTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/src/test/java/ebayTests/HomePageFeaturesTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Ebay/src/test/java/ebayTests/PurchseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/src/test/java/ebayTests/PurchseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/src/test/resources/EbayTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/src/test/resources/EbayTestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/ebayUtil/Purchase.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/classes/ebayUtil/Purchase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/test-classes/ebayTests/PurchseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/test-classes/ebayTests/PurchseTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -55,22 +53,22 @@
     <session id="365905294">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.1" value="3" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.1" value="4" />
           <entry key="project.open.time.12" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5139" />
+          <entry key="JAVA" value="5642" />
           <entry key="PLAIN_TEXT" value="4" />
           <entry key="XML" value="94" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="8" />
+          <entry key="CLASS" value="13" />
           <entry key="JAVA" value="75" />
           <entry key="XML" value="32" />
         </counts>
@@ -87,11 +85,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/ebayUtil/Purchase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
-              <caret line="47" column="33" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
+            <state relative-caret-position="331">
+              <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -99,11 +97,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/ebayTests/PurchseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="315">
+              <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#292#293#0" expanded="true" />
@@ -171,8 +169,8 @@
         <option value="$PROJECT_DIR$/Ebay/src/test/resources/EbayTestRunner.xml" />
         <option value="$PROJECT_DIR$/Ebay/src/main/java/ebayUtil/HomePageFeatures.java" />
         <option value="$PROJECT_DIR$/Ebay/src/test/java/ebayTests/HomePageFeaturesTests.java" />
-        <option value="$PROJECT_DIR$/Ebay/src/test/java/ebayTests/PurchseTest.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
+        <option value="$PROJECT_DIR$/Ebay/src/test/java/ebayTests/PurchseTest.java" />
         <option value="$PROJECT_DIR$/Ebay/src/main/java/ebayUtil/Purchase.java" />
       </list>
     </option>
@@ -205,6 +203,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -310,12 +310,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547087476454" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547090388647" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -351,7 +349,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.PurchseTest.purchaseAnItemTest">
+  <component name="RunManager" selected="TestNG.PurchseTest.addItemToCartTest">
     <configuration name="CommonAPI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="base.CommonAPI" />
       <module name="Generic" />
@@ -383,7 +381,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomePageFeaturesTests.seeAllFeaturedSalesAndEventsTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PurchseTest.addItemToCartTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Ebay" />
       <extension name="coverage">
         <pattern>
@@ -392,8 +390,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ebayTests" />
-      <option name="MAIN_CLASS_NAME" value="ebayTests.HomePageFeaturesTests" />
-      <option name="METHOD_NAME" value="seeAllFeaturedSalesAndEventsTest" />
+      <option name="MAIN_CLASS_NAME" value="ebayTests.PurchseTest" />
+      <option name="METHOD_NAME" value="addItemToCartTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -438,19 +436,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.HomePageFeaturesTests.seeAllFeaturedSalesAndEventsTest" />
       <item itemvalue="TestNG.HomePageFeaturesTests.seeAllEditorPicksTest" />
       <item itemvalue="Application.CommonAPI" />
       <item itemvalue="TestNG.SearchTests.saveTheSearchOfSpecificItemTest" />
       <item itemvalue="TestNG.PurchseTest.purchaseAnItemTest" />
+      <item itemvalue="TestNG.PurchseTest.addItemToCartTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.PurchseTest.addItemToCartTest" />
         <item itemvalue="TestNG.PurchseTest.purchaseAnItemTest" />
         <item itemvalue="TestNG.SearchTests.saveTheSearchOfSpecificItemTest" />
         <item itemvalue="Application.CommonAPI" />
         <item itemvalue="TestNG.HomePageFeaturesTests.seeAllEditorPicksTest" />
-        <item itemvalue="TestNG.HomePageFeaturesTests.seeAllFeaturedSalesAndEventsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -468,35 +466,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PurchseTest_purchaseAnItemTest - 2019.01.09 at 20h 53m 42s.xml">
-      <configuration name="PurchseTest.purchaseAnItemTest" configurationId="TestNG" />
+    <history-entry file="PurchseTest_addItemToCartTest - 2019.01.09 at 22h 00m 50s.xml">
+      <configuration name="PurchseTest.addItemToCartTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="PurchseTest_purchaseAnItemTest - 2019.01.09 at 20h 54m 09s.xml">
-      <configuration name="PurchseTest.purchaseAnItemTest" configurationId="TestNG" />
+    <history-entry file="PurchseTest_addItemToCartTest - 2019.01.09 at 22h 02m 12s.xml">
+      <configuration name="PurchseTest.addItemToCartTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="PurchseTest_purchaseAnItemTest - 2019.01.09 at 20h 55m 42s.xml">
-      <configuration name="PurchseTest.purchaseAnItemTest" configurationId="TestNG" />
+    <history-entry file="PurchseTest_addItemToCartTest - 2019.01.09 at 22h 04m 59s.xml">
+      <configuration name="PurchseTest.addItemToCartTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="PurchseTest_purchaseAnItemTest - 2019.01.09 at 20h 58m 10s.xml">
-      <configuration name="PurchseTest.purchaseAnItemTest" configurationId="TestNG" />
+    <history-entry file="PurchseTest_addItemToCartTest - 2019.01.09 at 22h 06m 42s.xml">
+      <configuration name="PurchseTest.addItemToCartTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="PurchseTest_purchaseAnItemTest - 2019.01.09 at 21h 03m 08s.xml">
-      <configuration name="PurchseTest.purchaseAnItemTest" configurationId="TestNG" />
+    <history-entry file="PurchseTest_addItemToCartTest - 2019.01.09 at 22h 08m 18s.xml">
+      <configuration name="PurchseTest.addItemToCartTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="PurchseTest_purchaseAnItemTest - 2019.01.09 at 21h 03m 59s.xml">
-      <configuration name="PurchseTest.purchaseAnItemTest" configurationId="TestNG" />
+    <history-entry file="PurchseTest_addItemToCartTest - 2019.01.09 at 22h 10m 00s.xml">
+      <configuration name="PurchseTest.addItemToCartTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="PurchseTest_purchaseAnItemTest - 2019.01.09 at 21h 05m 31s.xml">
-      <configuration name="PurchseTest.purchaseAnItemTest" configurationId="TestNG" />
+    <history-entry file="PurchseTest_addItemToCartTest - 2019.01.09 at 22h 10m 47s.xml">
+      <configuration name="PurchseTest.addItemToCartTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="PurchseTest_purchaseAnItemTest - 2019.01.09 at 21h 09m 45s.xml">
-      <configuration name="PurchseTest.purchaseAnItemTest" configurationId="TestNG" />
+    <history-entry file="PurchseTest_addItemToCartTest - 2019.01.09 at 22h 13m 00s.xml">
+      <configuration name="PurchseTest.addItemToCartTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="PurchseTest_purchaseAnItemTest - 2019.01.09 at 21h 15m 23s.xml">
-      <configuration name="PurchseTest.purchaseAnItemTest" configurationId="TestNG" />
+    <history-entry file="PurchseTest_addItemToCartTest - 2019.01.09 at 22h 16m 11s.xml">
+      <configuration name="PurchseTest.addItemToCartTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="PurchseTest_purchaseAnItemTest - 2019.01.09 at 21h 15m 55s.xml">
-      <configuration name="PurchseTest.purchaseAnItemTest" configurationId="TestNG" />
+    <history-entry file="PurchseTest_addItemToCartTest - 2019.01.09 at 22h 16m 37s.xml">
+      <configuration name="PurchseTest.addItemToCartTest" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -578,9 +576,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -588,9 +583,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -598,9 +590,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -668,13 +657,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
           <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/internal/Invoker.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="59" column="485" selection-start-line="59" selection-start-column="485" selection-end-line="59" selection-end-column="485" />
         </state>
       </provider>
     </entry>
@@ -833,24 +815,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/ebayUtil/Purchase.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar!/org/openqa/selenium/support/pagefactory/DefaultElementLocator.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="47" column="33" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="240">
+          <caret line="17" column="57" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar!/org/openqa/selenium/support/pagefactory/internal/LocatingElementHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="149" selection-start-line="11" selection-start-column="149" selection-end-line="11" selection-end-column="149" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/internal/Invoker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="59" column="485" selection-start-line="59" selection-start-column="485" selection-end-line="59" selection-end-column="485" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/ebayTests/PurchseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="315">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#292#293#0" expanded="true" />
             <element signature="e#367#368#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/ebayUtil/Purchase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

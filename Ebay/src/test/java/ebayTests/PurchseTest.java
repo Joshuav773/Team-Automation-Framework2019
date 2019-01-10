@@ -17,4 +17,8 @@ public class PurchseTest extends Purchase {
     public void purchaseAnItemTest() throws InterruptedException {
         purchaseAnItem();
     }
+    @Test
+    public void addItemToCartTest() throws InterruptedException {
+        addItemToCart();
+    }
 }
