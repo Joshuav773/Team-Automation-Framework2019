@@ -28,6 +28,6 @@ public class DropDownTests extends AllCategoriesDropDown {
     }
     @Test
     public void selectBooksFromDropDownTest(){
-
+        selectBooksFromDropDown();
     }
 }

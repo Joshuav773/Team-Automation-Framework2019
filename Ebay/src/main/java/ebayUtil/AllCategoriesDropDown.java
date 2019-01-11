@@ -23,6 +23,9 @@ public class AllCategoriesDropDown extends CommonAPI {
         Select select = new Select(allCategoriesDropDown);
         select.selectByVisibleText("Baby");
     }
-    public void
+    public void selectBooksFromDropDown(){
+        Select select = new Select(allCategoriesDropDown);
+        select.selectByVisibleText("Books");
+    }
 
 }

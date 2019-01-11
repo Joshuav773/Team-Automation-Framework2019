@@ -2,23 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e2e6cc4-8bc8-458f-94fc-a706330e4deb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Ebay/src/main/java/ebayUtil/AllCategoriesDropDown.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ebay/src/test/java/ebayTests/DropDownTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/src/main/java/ebayUtil/Searches.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/src/main/java/ebayUtil/Searches.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/src/test/java/ebayTests/SearchTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/src/test/java/ebayTests/SearchTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/src/test/resources/EbayTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/src/test/resources/EbayTestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/Ebay-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/Ebay-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/ebayUtil/HomepageUtilities.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/classes/ebayUtil/HomepageUtilities.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/ebayUtil/Purchase.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/classes/ebayUtil/Purchase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/ebayUtil/Searches.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/classes/ebayUtil/Searches.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/test-classes/ebayTests/SearchTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/test-classes/ebayTests/SearchTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/base/CommonAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/base/CommonAPI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/src/main/java/ebayUtil/AllCategoriesDropDown.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/src/main/java/ebayUtil/AllCategoriesDropDown.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/src/test/java/ebayTests/DropDownTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/src/test/java/ebayTests/DropDownTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -76,7 +62,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="6981" />
+          <entry key="JAVA" value="7144" />
           <entry key="PLAIN_TEXT" value="26" />
           <entry key="XML" value="100" />
         </counts>
@@ -103,8 +89,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/ebayUtil/AllCategoriesDropDown.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+            <state relative-caret-position="375">
+              <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -115,8 +101,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/ebayTests/DropDownTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+            <state relative-caret-position="450">
+              <caret line="30" column="34" lean-forward="true" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#520#521#0" expanded="true" />
@@ -125,6 +111,8 @@
                 <element signature="e#651#652#0" expanded="true" />
                 <element signature="e#702#703#0" expanded="true" />
                 <element signature="e#742#743#0" expanded="true" />
+                <element signature="e#799#800#0" expanded="true" />
+                <element signature="e#837#838#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -308,7 +296,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547177545362" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547178341485" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -344,7 +332,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.DropDownTests.selectArtFromDropDwonTest">
+  <component name="RunManager" selected="TestNG.DropDownTests.selectBooksFromDropDownTest">
     <configuration name="DropDownTests.selectAntiquesFromDropDownTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Ebay" />
       <extension name="coverage">
@@ -374,6 +362,24 @@
       <option name="PACKAGE_NAME" value="ebayTests" />
       <option name="MAIN_CLASS_NAME" value="ebayTests.DropDownTests" />
       <option name="METHOD_NAME" value="selectArtFromDropDwonTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DropDownTests.selectBooksFromDropDownTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Ebay" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ebayTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ebayTests" />
+      <option name="MAIN_CLASS_NAME" value="ebayTests.DropDownTests" />
+      <option name="METHOD_NAME" value="selectBooksFromDropDownTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -417,38 +423,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchTests.multipleitemsSearchTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Ebay" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ebayTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ebayTests" />
-      <option name="MAIN_CLASS_NAME" value="ebayTests.SearchTests" />
-      <option name="METHOD_NAME" value="multipleitemsSearchTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="TestNG.SearchTests.multipleitemsSearchTest" />
       <item itemvalue="TestNG.DropDownTests.selectAntiquesFromDropDownTest" />
       <item itemvalue="TestNG.HomePageFeaturesTests.seeAllEditorPicksTest" />
       <item itemvalue="TestNG.HomePageFeaturesTests.seeAllDailyDealsTest" />
       <item itemvalue="TestNG.DropDownTests.selectArtFromDropDwonTest" />
+      <item itemvalue="TestNG.DropDownTests.selectBooksFromDropDownTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.DropDownTests.selectBooksFromDropDownTest" />
         <item itemvalue="TestNG.DropDownTests.selectArtFromDropDwonTest" />
         <item itemvalue="TestNG.DropDownTests.selectAntiquesFromDropDownTest" />
         <item itemvalue="TestNG.HomePageFeaturesTests.seeAllDailyDealsTest" />
         <item itemvalue="TestNG.HomePageFeaturesTests.seeAllEditorPicksTest" />
-        <item itemvalue="TestNG.SearchTests.multipleitemsSearchTest" />
       </list>
     </recent_temporary>
   </component>
@@ -508,7 +496,7 @@
       <window_info id="Image Layers" order="4" />
       <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.497307" visible="true" weight="0.20386267" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49928468" weight="0.32891566" />
+      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49928468" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Version Control" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5007153" side_tool="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Message" order="3" />
@@ -845,8 +833,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/ebayUtil/AllCategoriesDropDown.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+        <state relative-caret-position="375">
+          <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -855,8 +843,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/ebayTests/DropDownTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+        <state relative-caret-position="450">
+          <caret line="30" column="34" lean-forward="true" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#520#521#0" expanded="true" />
@@ -865,6 +853,8 @@
             <element signature="e#651#652#0" expanded="true" />
             <element signature="e#702#703#0" expanded="true" />
             <element signature="e#742#743#0" expanded="true" />
+            <element signature="e#799#800#0" expanded="true" />
+            <element signature="e#837#838#0" expanded="true" />
           </folding>
         </state>
       </provider>
