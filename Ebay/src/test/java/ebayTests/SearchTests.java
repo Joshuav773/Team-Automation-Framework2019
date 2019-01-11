@@ -34,5 +34,9 @@ public class SearchTests extends Searches{
     public void saveTheSearchOfSpecificItemTest(){
         saveTheSearchOfSpecificItem();
     }
+    @Test
+    public void multipleitemsSearchTest(){
+        searchMultipleitems();
+    }
 
 }

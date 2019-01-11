@@ -1,17 +1,20 @@
 package base;
 
+import org.apache.commons.lang3.StringUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
-import org.testng.annotations.*;
-import org.apache.commons.lang3.StringUtils;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Optional;
+import org.testng.annotations.Parameters;
+
 import java.io.IOException;
 import java.net.URL;
 import java.util.ArrayList;
@@ -171,10 +174,22 @@ public class CommonAPI {
     public void signInPassWord(String locator, String value){
         driver.findElement(By.cssSelector(locator)).sendKeys(value);
     }
-    public void elementListEcommerce(String locator){
-        List<WebElement> elements = new ArrayList<>(driver.findElements(By.className(locator)));
-      String links = elements.get(5).getText();
-        System.out.println(links);
-    }
+//    public void elementListEcommerce(String locator){
+//        List<WebElement> elements = new ArrayList<>(driver.findElements(By.className(locator)));
+//      String links = elements.get(5).getText();
+//        System.out.println(links);
+//    }
+
+    public static List<String> items = new ArrayList<>();
+
+
 
 }
+
+
+
+
+
+
+
+

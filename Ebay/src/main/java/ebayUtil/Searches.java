@@ -21,6 +21,7 @@ public class Searches extends CommonAPI {
 
 
 
+
     public void usingSearchbar(){
         searchBar.sendKeys("car parts", Keys.ENTER);
     }
@@ -48,9 +49,12 @@ public class Searches extends CommonAPI {
         signInUserName("#userid", "joshuav773@gmail.com");
         signInPassWord("#pass", "Bball1773");
         signInButton.click();
-
-
-
+    }
+    public void searchMultipleitems() {
+        items.add("Toys");
+        items.add("car parts");
+        items.add("tool box");
+        items.add("lakers jersey");
     }
 
 }
