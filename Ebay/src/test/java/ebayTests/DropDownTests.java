@@ -30,4 +30,22 @@ public class DropDownTests extends AllCategoriesDropDown {
     public void selectBooksFromDropDownTest(){
         selectBooksFromDropDown();
     }
+    @Test
+    public void selectBusinessAndIndusrialFromDropDrownTest(){
+        selectBusinessAndIndusrialFromDropDrown();
+    }
+    @Test
+    public void selectCamerasAndPhotoFromDropDownTest(){
+        selectCamerasAndFotoFromDropDown();
+    }
+    @Test
+    public void selectCellPhonesAndAccesoriesTest(){
+        selectCellPhonesAndAccesories();
+    }
+    @Test
+    public void selectClothingShoesAndAccesoriesTest(){
+        selectClothingShoesAndAccesories();
+    }
+
+
 }
