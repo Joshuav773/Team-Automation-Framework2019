@@ -37,4 +37,16 @@ public class ShopByCategoriesTest extends ShopByCategoriesDropDown {
     public void selectMotorsFromDropDownTest(){
         selectMotorsFromDropDown();
     }
+    @Test
+    public void selectSportingGoodsFromDropDownTest(){
+        selectSportingGoodsFromDropDown();
+    }
+    @Test
+    public void selectToysAndHobbiesFromDropDownTest(){
+        selectToysAndHobbiesFromDropDown();
+    }
+    @Test
+    public void selectOtherCategoriesFromDropDownTest(){
+        selectOtherCategoriesFromDropDown();
+    }
 }

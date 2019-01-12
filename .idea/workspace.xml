@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e2e6cc4-8bc8-458f-94fc-a706330e4deb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Ebay/src/main/java/ebayUtil/ShopByCategoriesDropDown.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ebay/src/test/java/ebayTests/ShopByCategoriesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/src/main/java/ebayUtil/Purchase.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/src/main/java/ebayUtil/Purchase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/src/test/java/ebayTests/DropDownTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/src/test/java/ebayTests/AllCategoriesDropDownTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/src/test/resources/EbayTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/src/test/resources/EbayTestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/test-classes/EbayTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/test-classes/EbayTestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/test-classes/ebayTests/DropDownTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/src/main/java/ebayUtil/ShopByCategoriesDropDown.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/src/main/java/ebayUtil/ShopByCategoriesDropDown.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/src/test/java/ebayTests/ShopByCategoriesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/src/test/java/ebayTests/ShopByCategoriesTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -67,7 +61,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="9150" />
+          <entry key="JAVA" value="9271" />
           <entry key="PLAIN_TEXT" value="39" />
           <entry key="XML" value="104" />
         </counts>
@@ -94,8 +88,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/ebayUtil/ShopByCategoriesDropDown.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="38" column="47" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="47" />
+            <state relative-caret-position="345">
+              <caret line="54" column="16" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -106,8 +100,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/ebayTests/ShopByCategoriesTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="33" column="42" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
+            <state relative-caret-position="420">
+              <caret line="49" column="44" selection-start-line="49" selection-start-column="44" selection-end-line="49" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#550#551#0" expanded="true" />
@@ -120,6 +114,14 @@
                 <element signature="e#945#946#0" expanded="true" />
                 <element signature="e#1010#1011#0" expanded="true" />
                 <element signature="e#1059#1060#0" expanded="true" />
+                <element signature="e#1117#1118#0" expanded="true" />
+                <element signature="e#1159#1160#0" expanded="true" />
+                <element signature="e#1224#1225#0" expanded="true" />
+                <element signature="e#1242#1243#0" expanded="true" />
+                <element signature="e#1339#1340#0" expanded="true" />
+                <element signature="e#1389#1390#0" expanded="true" />
+                <element signature="e#1456#1457#0" expanded="true" />
+                <element signature="e#1507#1508#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -305,7 +307,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547272782872" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547273030690" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -341,61 +343,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.ShopByCategoriesTest.selectMotorsFromDropDownTest">
-    <configuration name="ShopByCategoriesTest.selectElectronicsFromDropDownTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Ebay" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ebayTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ebayTests" />
-      <option name="MAIN_CLASS_NAME" value="ebayTests.ShopByCategoriesTest" />
-      <option name="METHOD_NAME" value="selectElectronicsFromDropDownTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ShopByCategoriesTest.selectEntertainmentMemorabiliaFromDropDownTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Ebay" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ebayTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ebayTests" />
-      <option name="MAIN_CLASS_NAME" value="ebayTests.ShopByCategoriesTest" />
-      <option name="METHOD_NAME" value="selectEntertainmentMemorabiliaFromDropDownTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ShopByCategoriesTest.selectFashionFromDropDownTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Ebay" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ebayTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ebayTests" />
-      <option name="MAIN_CLASS_NAME" value="ebayTests.ShopByCategoriesTest" />
-      <option name="METHOD_NAME" value="selectFashionFromDropDownTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.ShopByCategoriesTest.selectOtherCategoriesFromDropDownTest">
     <configuration name="ShopByCategoriesTest.selectHomeAndGardenFromDropDownTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Ebay" />
       <extension name="coverage">
@@ -432,20 +380,74 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ShopByCategoriesTest.selectOtherCategoriesFromDropDownTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Ebay" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ebayTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ebayTests" />
+      <option name="MAIN_CLASS_NAME" value="ebayTests.ShopByCategoriesTest" />
+      <option name="METHOD_NAME" value="selectOtherCategoriesFromDropDownTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShopByCategoriesTest.selectSportingGoodsFromDropDownTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Ebay" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ebayTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ebayTests" />
+      <option name="MAIN_CLASS_NAME" value="ebayTests.ShopByCategoriesTest" />
+      <option name="METHOD_NAME" value="selectSportingGoodsFromDropDownTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShopByCategoriesTest.selecttoysAndHobbiesFromDropDownTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Ebay" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ebayTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ebayTests" />
+      <option name="MAIN_CLASS_NAME" value="ebayTests.ShopByCategoriesTest" />
+      <option name="METHOD_NAME" value="selecttoysAndHobbiesFromDropDownTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="TestNG.ShopByCategoriesTest.selectElectronicsFromDropDownTest" />
-      <item itemvalue="TestNG.ShopByCategoriesTest.selectEntertainmentMemorabiliaFromDropDownTest" />
-      <item itemvalue="TestNG.ShopByCategoriesTest.selectFashionFromDropDownTest" />
       <item itemvalue="TestNG.ShopByCategoriesTest.selectHomeAndGardenFromDropDownTest" />
       <item itemvalue="TestNG.ShopByCategoriesTest.selectMotorsFromDropDownTest" />
+      <item itemvalue="TestNG.ShopByCategoriesTest.selectSportingGoodsFromDropDownTest" />
+      <item itemvalue="TestNG.ShopByCategoriesTest.selecttoysAndHobbiesFromDropDownTest" />
+      <item itemvalue="TestNG.ShopByCategoriesTest.selectOtherCategoriesFromDropDownTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ShopByCategoriesTest.selectOtherCategoriesFromDropDownTest" />
+        <item itemvalue="TestNG.ShopByCategoriesTest.selecttoysAndHobbiesFromDropDownTest" />
+        <item itemvalue="TestNG.ShopByCategoriesTest.selectSportingGoodsFromDropDownTest" />
         <item itemvalue="TestNG.ShopByCategoriesTest.selectMotorsFromDropDownTest" />
         <item itemvalue="TestNG.ShopByCategoriesTest.selectHomeAndGardenFromDropDownTest" />
-        <item itemvalue="TestNG.ShopByCategoriesTest.selectFashionFromDropDownTest" />
-        <item itemvalue="TestNG.ShopByCategoriesTest.selectEntertainmentMemorabiliaFromDropDownTest" />
-        <item itemvalue="TestNG.ShopByCategoriesTest.selectElectronicsFromDropDownTest" />
       </list>
     </recent_temporary>
   </component>
@@ -463,21 +465,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DropDownTests_selectCamerasAndPhotoFromDropDownTest - 2019.01.10 at 23h 10m 50s.xml">
-      <configuration name="DropDownTests.selectCamerasAndPhotoFromDropDownTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="DropDownTests_selectCamerasAndPhotoFromDropDownTest - 2019.01.10 at 23h 19m 32s.xml">
-      <configuration name="DropDownTests.selectCamerasAndPhotoFromDropDownTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="DropDownTests_selectCellPhonesAndAccesoriesTest - 2019.01.10 at 23h 30m 49s.xml">
-      <configuration name="DropDownTests.selectCellPhonesAndAccesoriesTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="DropDownTests_selectCellPhonesAndAccesoriesTest - 2019.01.10 at 23h 31m 32s.xml">
-      <configuration name="DropDownTests.selectCellPhonesAndAccesoriesTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="DropDownTests_selectCellPhonesAndAccesoriesTest - 2019.01.10 at 23h 32m 22s.xml">
-      <configuration name="DropDownTests.selectCellPhonesAndAccesoriesTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="DropDownTests_selectClothingShoesAndAccesoriesTest - 2019.01.10 at 23h 53m 05s.xml">
       <configuration name="DropDownTests.selectClothingShoesAndAccesoriesTest" configurationId="TestNG" />
     </history-entry>
@@ -493,6 +480,21 @@
     <history-entry file="ShopByCategoriesTest_selectEntertainmentMemorabiliaFromDropDownTest - 2019.01.12 at 00h 56m 54s.xml">
       <configuration name="ShopByCategoriesTest.selectEntertainmentMemorabiliaFromDropDownTest" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="ShopByCategoriesTest_selectFashionFromDropDownTest - 2019.01.12 at 00h 58m 46s.xml">
+      <configuration name="ShopByCategoriesTest.selectFashionFromDropDownTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ShopByCategoriesTest_selectHomeAndGardenFromDropDownTest - 2019.01.12 at 00h 59m 00s.xml">
+      <configuration name="ShopByCategoriesTest.selectHomeAndGardenFromDropDownTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ShopByCategoriesTest_selectMotorsFromDropDownTest - 2019.01.12 at 00h 59m 52s.xml">
+      <configuration name="ShopByCategoriesTest.selectMotorsFromDropDownTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ShopByCategoriesTest_selectSportingGoodsFromDropDownTest - 2019.01.12 at 01h 01m 39s.xml">
+      <configuration name="ShopByCategoriesTest.selectSportingGoodsFromDropDownTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ShopByCategoriesTest_selecttoysAndHobbiesFromDropDownTest - 2019.01.12 at 01h 02m 31s.xml">
+      <configuration name="ShopByCategoriesTest.selecttoysAndHobbiesFromDropDownTest" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -505,12 +507,12 @@
       <window_info id="Image Layers" order="4" />
       <window_info content_ui="combo" id="Project" order="5" sideWeight="0.497307" visible="true" weight="0.20386267" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49928468" weight="0.32891566" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" sideWeight="0.49928468" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Version Control" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5007153" side_tool="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.32891566" />
-      <window_info active="true" anchor="bottom" id="Run" order="5" sideWeight="0.49928468" visible="true" weight="0.30843374" />
+      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.49928468" weight="0.30843374" />
       <window_info anchor="bottom" id="Messages" order="6" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
@@ -870,8 +872,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/ebayUtil/ShopByCategoriesDropDown.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="38" column="47" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="47" />
+        <state relative-caret-position="345">
+          <caret line="54" column="16" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -880,8 +882,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/ebayTests/ShopByCategoriesTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="33" column="42" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
+        <state relative-caret-position="420">
+          <caret line="49" column="44" selection-start-line="49" selection-start-column="44" selection-end-line="49" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#550#551#0" expanded="true" />
@@ -894,6 +896,14 @@
             <element signature="e#945#946#0" expanded="true" />
             <element signature="e#1010#1011#0" expanded="true" />
             <element signature="e#1059#1060#0" expanded="true" />
+            <element signature="e#1117#1118#0" expanded="true" />
+            <element signature="e#1159#1160#0" expanded="true" />
+            <element signature="e#1224#1225#0" expanded="true" />
+            <element signature="e#1242#1243#0" expanded="true" />
+            <element signature="e#1339#1340#0" expanded="true" />
+            <element signature="e#1389#1390#0" expanded="true" />
+            <element signature="e#1456#1457#0" expanded="true" />
+            <element signature="e#1507#1508#0" expanded="true" />
           </folding>
         </state>
       </provider>

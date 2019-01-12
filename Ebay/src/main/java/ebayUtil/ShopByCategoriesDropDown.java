@@ -48,7 +48,7 @@ public class ShopByCategoriesDropDown extends CommonAPI {
         shopByCategoriesOption.click();
         sportingGoods.click();
     }
-    public void selecttoysAndHobbiesFromDropDown(){
+    public void selectToysAndHobbiesFromDropDown(){
         shopByCategoriesOption.click();
         toysAndHobbies.click();
     }
