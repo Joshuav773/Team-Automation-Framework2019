@@ -50,11 +50,5 @@ public class Searches extends CommonAPI {
         signInPassWord("#pass", "Bball1773");
         signInButton.click();
     }
-    public void searchMultipleitems() {
-        items.add("Toys");
-        items.add("car parts");
-        items.add("tool box");
-        items.add("lakers jersey");
-    }
 
 }
