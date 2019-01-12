@@ -7,6 +7,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 
 public class Purchase extends CommonAPI {
+
     @FindBy(css = "#gh-ac") public static WebElement searchBar;
     @FindBy(css = "#gh-btn") public static WebElement searchButton;
     @FindBy(css = "#gh-as-a")public static WebElement advancedSearchOption;
@@ -36,7 +37,6 @@ public class Purchase extends CommonAPI {
         Actions action = new Actions(driver);
         action.click(item).build().perform();
         addToCart.click();
-
     }
     public void purchaseAnItem() throws InterruptedException {
         searchBar.sendKeys("Keychains");

@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e2e6cc4-8bc8-458f-94fc-a706330e4deb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Ebay/src/main/java/ebayUtil/ShopByCategoriesDropDown.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/src/main/java/ebayUtil/ShopByCategoriesDropDown.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/src/test/java/ebayTests/ShopByCategoriesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/src/test/java/ebayTests/ShopByCategoriesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ebay/src/main/java/ebayUtil/ListItemForSale.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/src/main/java/ebayUtil/Purchase.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/src/main/java/ebayUtil/Purchase.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -61,7 +62,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="9271" />
+          <entry key="JAVA" value="9293" />
           <entry key="PLAIN_TEXT" value="39" />
           <entry key="XML" value="104" />
         </counts>
@@ -69,7 +70,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="15" />
-          <entry key="JAVA" value="104" />
+          <entry key="JAVA" value="106" />
           <entry key="XML" value="37" />
         </counts>
       </usages-collector>
@@ -86,10 +87,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/ebayUtil/ShopByCategoriesDropDown.java">
+        <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/ebayUtil/Purchase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="54" column="16" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="49" />
+            <state relative-caret-position="438">
+              <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -98,31 +99,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/ebayTests/ShopByCategoriesTest.java">
+        <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/ebayUtil/ListItemForSale.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="49" column="44" selection-start-line="49" selection-start-column="44" selection-end-line="49" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#550#551#0" expanded="true" />
-                <element signature="e#604#605#0" expanded="true" />
-                <element signature="e#659#660#0" expanded="true" />
-                <element signature="e#707#708#0" expanded="true" />
-                <element signature="e#783#784#0" expanded="true" />
-                <element signature="e#843#844#0" expanded="true" />
-                <element signature="e#902#903#0" expanded="true" />
-                <element signature="e#945#946#0" expanded="true" />
-                <element signature="e#1010#1011#0" expanded="true" />
-                <element signature="e#1059#1060#0" expanded="true" />
-                <element signature="e#1117#1118#0" expanded="true" />
-                <element signature="e#1159#1160#0" expanded="true" />
-                <element signature="e#1224#1225#0" expanded="true" />
-                <element signature="e#1242#1243#0" expanded="true" />
-                <element signature="e#1339#1340#0" expanded="true" />
-                <element signature="e#1389#1390#0" expanded="true" />
-                <element signature="e#1456#1457#0" expanded="true" />
-                <element signature="e#1507#1508#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="90">
+              <caret line="6" column="66" lean-forward="true" selection-start-line="6" selection-start-column="66" selection-end-line="6" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -189,10 +169,11 @@
         <option value="$PROJECT_DIR$/Ebay/src/main/java/ebayUtil/DropDownMenus.java" />
         <option value="$PROJECT_DIR$/Ebay/src/test/java/ebayTests/DropDownTests.java" />
         <option value="$PROJECT_DIR$/Ebay/src/main/java/ebayUtil/AllCategoriesDropDown.java" />
-        <option value="$PROJECT_DIR$/Ebay/src/main/java/ebayUtil/Purchase.java" />
         <option value="$PROJECT_DIR$/Ebay/src/test/resources/EbayTestRunner.xml" />
         <option value="$PROJECT_DIR$/Ebay/src/main/java/ebayUtil/ShopByCategoriesDropDown.java" />
         <option value="$PROJECT_DIR$/Ebay/src/test/java/ebayTests/ShopByCategoriesTest.java" />
+        <option value="$PROJECT_DIR$/Ebay/src/main/java/ebayUtil/Purchase.java" />
+        <option value="$PROJECT_DIR$/Ebay/src/main/java/ebayUtil/ListItemForSale.java" />
       </list>
     </option>
   </component>
@@ -307,7 +288,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547273030690" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547273795963" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -465,9 +446,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DropDownTests_selectClothingShoesAndAccesoriesTest - 2019.01.10 at 23h 53m 05s.xml">
-      <configuration name="DropDownTests.selectClothingShoesAndAccesoriesTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="DropDownTests_selectClothingShoesAndAccesoriesTest - 2019.01.10 at 23h 53m 28s.xml">
       <configuration name="DropDownTests.selectClothingShoesAndAccesoriesTest" configurationId="TestNG" />
     </history-entry>
@@ -495,6 +473,9 @@
     <history-entry file="ShopByCategoriesTest_selecttoysAndHobbiesFromDropDownTest - 2019.01.12 at 01h 02m 31s.xml">
       <configuration name="ShopByCategoriesTest.selecttoysAndHobbiesFromDropDownTest" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="ShopByCategoriesTest_selectOtherCategoriesFromDropDownTest - 2019.01.12 at 01h 03m 59s.xml">
+      <configuration name="ShopByCategoriesTest.selectOtherCategoriesFromDropDownTest" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -503,11 +484,11 @@
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
-      <window_info id="Favorites" order="3" sideWeight="0.502693" side_tool="true" weight="0.24964234" />
+      <window_info active="true" id="Favorites" order="3" sideWeight="0.5036145" side_tool="true" visible="true" weight="0.20386267" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.497307" visible="true" weight="0.20386267" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.49638554" visible="true" weight="0.20386267" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="0" sideWeight="0.49928468" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49928468" weight="0.32891566" />
       <window_info anchor="bottom" id="Version Control" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5007153" side_tool="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Message" order="3" />
@@ -843,16 +824,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/ebayUtil/Purchase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/ebayUtil/AllCategoriesDropDown.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
@@ -870,19 +841,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/ebayUtil/ShopByCategoriesDropDown.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="54" column="16" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/ebayTests/ShopByCategoriesTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
+        <state relative-caret-position="648">
           <caret line="49" column="44" selection-start-line="49" selection-start-column="44" selection-end-line="49" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -905,6 +866,33 @@
             <element signature="e#1456#1457#0" expanded="true" />
             <element signature="e#1507#1508#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/ebayUtil/ShopByCategoriesDropDown.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="44" lean-forward="true" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/ebayUtil/Purchase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/ebayUtil/ListItemForSale.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="66" lean-forward="true" selection-start-line="6" selection-start-column="66" selection-end-line="6" selection-end-column="66" />
         </state>
       </provider>
     </entry>
