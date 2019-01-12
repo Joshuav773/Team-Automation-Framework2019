@@ -4,6 +4,7 @@ import ebayUtil.SignIn;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import reporting.TestLogger;
 
 public class signInTest extends SignIn {
 
@@ -15,10 +16,11 @@ public class signInTest extends SignIn {
     }
     @Test
     public void signInTest(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         signIn();
     }
     @Test
-    public void registerTest(){
+    public void registerNewUserTest(){
        registerNewUser();
     }
 

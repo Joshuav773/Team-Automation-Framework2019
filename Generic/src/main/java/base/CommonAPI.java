@@ -83,7 +83,7 @@ public class CommonAPI {
     }
     @AfterSuite
     public void generateReport() {
-        driver.close();
+        driver.quit();
     }
     private Date getTime(long millis) {
         Calendar calendar = Calendar.getInstance();

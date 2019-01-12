@@ -3,6 +3,7 @@ package ebayUtil;
 import base.CommonAPI;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import reporting.TestLogger;
 
 public class SignIn extends CommonAPI {
     @FindBy(xpath = "//a[contains (text(), 'Sign in')]")public static WebElement signInlink;
@@ -19,14 +20,13 @@ public class SignIn extends CommonAPI {
 
 
     public void signIn(){
-       //TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+       TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
        signInlink.click();
        userIdInputBar.sendKeys("joshuav773@gmail.com");
        passwordInputBar.sendKeys("Bball1773");
        signInButton.click();
     }
     public void registerNewUser(){
-        //TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         registerLink.click();
         firstNameforRegister.sendKeys("akeleyoyo");
         lastNameforRegister.sendKeys("akeleyoyomamasita");
