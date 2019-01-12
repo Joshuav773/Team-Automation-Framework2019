@@ -52,5 +52,4 @@ public class Purchase extends CommonAPI {
         shipToPhoneNumber.sendKeys("7872231716");
         shipToDoneButton.click();
     }
-
 }

@@ -18,7 +18,8 @@
             <class name="ebayTests.signInTest"></class>
             <class name="ebayTests.SearchTests"></class>
             <class name="ebayTests.HomePageFeaturesTests"></class>
-            <class name="ebayTests.DropDownTests"></class>
+            <class name="ebayTests.AllCategoriesDropDownTest"></class>
+            <class name="ebayTests.ShopByCategoriesTest"></class>
         </classes>
     </test>
 
