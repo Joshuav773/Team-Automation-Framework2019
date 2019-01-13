@@ -1,4 +1,4 @@
-package ebayUtil;
+package eBayUtil;
 
 import base.CommonAPI;
 import org.openqa.selenium.WebElement;
@@ -27,8 +27,6 @@ public class HomepageUtilities extends CommonAPI {
     @FindBy(xpath = "//a[contains (text(), 'Deals') and @_sp = 'p2481888.m1388.l3250']")public static WebElement dealsUtility;
     @FindBy(xpath = "//a[contains (text(), 'Under $10') and @_sp = 'p2481888.m1389.l3250']")public static WebElement under10Utility;
     @FindBy(css = "#sgnBt")public static WebElement signInButton;
-
-
 
     public void homeButton(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
@@ -86,12 +84,4 @@ public class HomepageUtilities extends CommonAPI {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         under10Utility.click();
     }
-
-
-
-
-
-
-
-
 }

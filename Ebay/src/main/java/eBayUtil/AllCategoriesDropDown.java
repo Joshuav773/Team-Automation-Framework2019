@@ -1,4 +1,4 @@
-package ebayUtil;
+package eBayUtil;
 
 import base.CommonAPI;
 import org.openqa.selenium.WebElement;
@@ -16,7 +16,6 @@ public class AllCategoriesDropDown extends CommonAPI {
         Select select = new Select(allCategoriesDropDown);
         select.selectByVisibleText("Antiques");
         searchButton.click();
-
     }
     public void selectArtFromDropDwon(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));

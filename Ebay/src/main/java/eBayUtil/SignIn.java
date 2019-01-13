@@ -1,4 +1,4 @@
-package ebayUtil;
+package eBayUtil;
 
 import base.CommonAPI;
 import org.openqa.selenium.WebElement;
@@ -16,8 +16,6 @@ public class SignIn extends CommonAPI {
     @FindBy(css = "#email")public static WebElement emailForRegister;
     @FindBy(xpath = "//input[@name= 'PASSWORD']")public static WebElement passwordForRegister;
     @FindBy(css = "#ppaFormSbtBtn")public static WebElement registerButton;
-
-
 
     public void signIn(){
        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));

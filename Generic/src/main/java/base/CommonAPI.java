@@ -229,6 +229,7 @@ public class CommonAPI {
         driver.findElement(By.cssSelector(locator)).sendKeys(value);
     }
     public void signInPassWord(String locator, String value){
+        //sign in password
         driver.findElement(By.cssSelector(locator)).sendKeys(value);
     }
 
@@ -247,10 +248,13 @@ public class CommonAPI {
         }
 
     }
-    public void elementListEcommerce(String locator){
-        List<WebElement> elements = new ArrayList<>(driver.findElements(By.className(locator)));
-      String links = elements.get(5).getText();
-        System.out.println(links);
+    public List<WebElement> getListOfWebElementByCss(String locator){
+        List<WebElement> elements = new ArrayList<>(driver.findElements(By.cssSelector(locator)));
+        return elements;
+    }
+    public String getTextByCss(String locator){
+        String text = driver.findElement(By.cssSelector(locator)).getText();
+        return text;
     }
 
 

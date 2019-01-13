@@ -1,6 +1,6 @@
 package ebayTests;
 
-import ebayUtil.Searches;
+import eBayUtil.Searches;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -33,5 +33,9 @@ public class SearchTests extends Searches{
     @Test
     public void saveTheSearchOfSpecificItemTest(){
         saveTheSearchOfSpecificItem();
+    }
+    @Test
+    public void searchFromDbTest() throws Exception {
+        searchFromDb();
     }
 }

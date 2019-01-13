@@ -1,4 +1,4 @@
-package ebayUtil;
+package eBayUtil;
 
 import base.CommonAPI;
 import org.openqa.selenium.Keys;
@@ -26,9 +26,6 @@ public class Purchase extends CommonAPI {
     @FindBy(css = "#phoneNumber")public static WebElement shipToPhoneNumber;
     @FindBy(xpath = "//button[@data-test-id = 'ADD_ADDRESS_SUBMIT']")public static WebElement shipToDoneButton;
     @FindBy(xpath = "//span[@class='srp-save-search__tooltip-close']")public static WebElement closePopUp;
-
-
-
 
     public void addItemToCart(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));

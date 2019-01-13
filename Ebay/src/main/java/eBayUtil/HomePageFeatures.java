@@ -1,4 +1,4 @@
-package ebayUtil;
+package eBayUtil;
 
 import base.CommonAPI;
 import org.openqa.selenium.WebElement;
@@ -20,8 +20,6 @@ public class HomePageFeatures extends CommonAPI {
     public static WebElement seeAllEditorsPicks;
     @FindBy(xpath = "//h2[contains (text(),'Shop Fashion Events')]")
     public static WebElement featuresSalesHeader;
-
-
 
     public void seeAllDailyDeals(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));

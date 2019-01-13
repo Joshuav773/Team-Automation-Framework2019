@@ -1,4 +1,4 @@
-package ebayUtil;
+package eBayUtil;
 
 import base.CommonAPI;
 import org.openqa.selenium.WebElement;
@@ -17,9 +17,6 @@ public class ShopByCategoriesDropDown extends CommonAPI {
     @FindBy(xpath = "//a[@_sp = 'm570.l3414']")public static WebElement sportingGoods;
     @FindBy(xpath = "//a[@_sp = 'm570.l3645']")public static WebElement toysAndHobbies;
     @FindBy(xpath = "//a[@_sp = 'm570.l3416']")public static WebElement otherCategories;
-
-
-
 
     public void selectCollectiblesAndArtFromDropDown(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));

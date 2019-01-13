@@ -1,6 +1,6 @@
 package ebayTests;
 
-import ebayUtil.AllCategoriesDropDown;
+import eBayUtil.AllCategoriesDropDown;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;

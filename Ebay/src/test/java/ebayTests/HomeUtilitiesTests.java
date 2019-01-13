@@ -1,6 +1,6 @@
 package ebayTests;
 
-import ebayUtil.HomepageUtilities;
+import eBayUtil.HomepageUtilities;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;

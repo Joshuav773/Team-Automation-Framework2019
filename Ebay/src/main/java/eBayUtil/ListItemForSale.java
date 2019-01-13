@@ -1,4 +1,4 @@
-package ebayUtil;
+package eBayUtil;
 
 import base.CommonAPI;
 import org.openqa.selenium.Keys;
@@ -12,7 +12,6 @@ public class ListItemForSale extends CommonAPI {
     @FindBy(css = "#smac_complete")public static WebElement inputBox;
     @FindBy(xpath = "//em[contains (text(), 'Clothing, Shoes & Accessories > Men')]")
     public static WebElement mensAthleticShoes;
-
 
     public void listItemForSale(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));

@@ -1,10 +1,14 @@
-package ebayUtil;
+package eBayUtil;
 
 import base.CommonAPI;
+import database.ConnectToMySqlDb;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import reporting.TestLogger;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class Searches extends CommonAPI {
 
@@ -18,10 +22,6 @@ public class Searches extends CommonAPI {
     @FindBy(xpath = "//a[@class = 'wnd-c']")public static WebElement xPopUp;
     @FindBy(xpath = "//div[@class = 'heartIcon']")public static WebElement saveThisSearchOption;
     @FindBy(id = "LIGHTWEIGHT_CREATION_DISMISS")public static WebElement closePopUp;
-
-
-
-
 
     public void usingSearchbar(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
@@ -38,8 +38,8 @@ public class Searches extends CommonAPI {
         keyWordInputBox.sendKeys("tools set");
 
     }
+    //selenium book example
     public void searchItemWithItemNumber(){
-        //selenium book example
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         advancedSearchOption.click();
         byItemNumber.click();
@@ -55,6 +55,24 @@ public class Searches extends CommonAPI {
         signInUserName("#userid", "joshuav773@gmail.com");
         signInPassWord("#pass", "Bball1773");
         signInButton.click();
-    }
+   }
+   ConnectToMySqlDb connectToSqlDb = new ConnectToMySqlDb();
+   public void searchFromDb() throws Exception{
+       TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+       List<String> list = new ArrayList<>();
+       list.add("car parts");
+       list.add("tool box");
+       list.add("selemiun book");
+       list.add("iphone xsMax");
+       connectToSqlDb.insertDataFromArrayListToSqlTable(list, "Items Table", "Items Name");
+       List<String> list1 = connectToSqlDb.readDataBase("Items Table", "Items Name");
+       for(String items : list1){
+           searchBar.sendKeys(items, Keys.ENTER);
+           searchBar.clear();
+       }
+   }
+
+
+
 
 }
