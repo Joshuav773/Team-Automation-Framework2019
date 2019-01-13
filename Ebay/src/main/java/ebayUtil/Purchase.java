@@ -5,6 +5,7 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
+import reporting.TestLogger;
 
 public class Purchase extends CommonAPI {
 
@@ -29,7 +30,8 @@ public class Purchase extends CommonAPI {
 
 
 
-    public void addItemToCart() throws InterruptedException {
+    public void addItemToCart(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         advancedSearchOption.click();
         byItemNumber.click();
         itemNumberInputBox.sendKeys("153227833175", Keys.ENTER);
@@ -38,7 +40,8 @@ public class Purchase extends CommonAPI {
         action.click(item).build().perform();
         addToCart.click();
     }
-    public void purchaseAnItem() throws InterruptedException {
+    public void purchaseAnItem(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         searchBar.sendKeys("Keychains");
         searchButton.click();
         item.click();

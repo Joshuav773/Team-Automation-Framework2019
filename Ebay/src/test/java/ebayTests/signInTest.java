@@ -23,6 +23,4 @@ public class signInTest extends SignIn {
     public void registerNewUserTest(){
        registerNewUser();
     }
-
-
 }

@@ -39,33 +39,4 @@ public class HomeUtilitiesTests extends HomepageUtilities {
     public void collectiblesAndArtTest(){
         collectiblesandart();
     }
-    @Test
-    public void homeAndGardenTest(){
-        homeAndGarden();
-    }
-    @Test
-    public void sportingGoodsTest(){
-        sportingGoodsUtility();
-    }
-    @Test
-    public void toysUtilityTest(){
-        toysUtility();
-    }
-    @Test
-    public void businessAndIndustrialUtilityTest(){
-       businessAndIndustrialUtility();
-    }
-    @Test
-    public void musicUtilityTest(){
-        musicUtility();
-    }
-    @Test
-    public void dealsUtilityTest(){
-        dealsUtility();
-    }
-    @Test
-    public void under10utilityTest(){
-        under10Utility();
-    }
-
 }

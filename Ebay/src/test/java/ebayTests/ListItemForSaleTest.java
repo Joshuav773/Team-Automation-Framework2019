@@ -17,5 +17,4 @@ public class ListItemForSaleTest extends ListItemForSale {
     public void listItemForSaleTest(){
         listItemForSale();
     }
-
 }

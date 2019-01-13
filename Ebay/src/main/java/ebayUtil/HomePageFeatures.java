@@ -4,6 +4,7 @@ import base.CommonAPI;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
+import reporting.TestLogger;
 
 public class HomePageFeatures extends CommonAPI {
 
@@ -23,23 +24,28 @@ public class HomePageFeatures extends CommonAPI {
 
 
     public void seeAllDailyDeals(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         seeAllDailyDeals.click();
     }
     public void trendingDealsArrowButtons(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
        seeAllDailyDeals.click();
        trendingDealsMoveNext.click();
        trendingDealsMovePrevious.click();
     }
     public void seeAllTrends(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         seeAllTrends.click();
     }
     public void seeAllFeaturedSalesAndEvents(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         seeAllFeaturedSalesAndEvents.click();
         String Actual = featuresSalesHeader.getText();
         String Expected = "Shop Fashion Events";
         Assert.assertEquals(Actual,Expected);
     }
     public void seeAllEditorPicks(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         seeAllEditorsPicks.click();
     }
 

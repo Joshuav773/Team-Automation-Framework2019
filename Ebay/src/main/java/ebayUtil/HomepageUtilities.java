@@ -3,6 +3,7 @@ package ebayUtil;
 import base.CommonAPI;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import reporting.TestLogger;
 
 public class HomepageUtilities extends CommonAPI {
 
@@ -30,46 +31,59 @@ public class HomepageUtilities extends CommonAPI {
 
 
     public void homeButton(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         homeButton.click();
     }
     //Must be signed in to access feed
     public void savedUtility(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         savedUtility.click();
         signInUserName("#userid", "joshuav773@gmail.com");
         signInPassWord("#pass", "Bball1773");
         signInButton.click();
     }
     public void motorsUtility(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         motorsOption.click();
     }
     public void fashionutility(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         fashionUtility.click();
     }
     public void electronicsUtilitly(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         electronicsUtility.click();
     }
     public void collectiblesandart(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         collectiblesAndArt.click();
     }
     public void homeAndGarden(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         homeAndGarden.click();
     }
     public void sportingGoodsUtility(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         sportingGoodsUtility.click();
     }
     public void toysUtility(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         toysUtility.click();
     }
     public void businessAndIndustrialUtility(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         businessAndIndustrialUtility.click();
     }
     public void musicUtility(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         musicUtility.click();
     }
     public void dealsUtility(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         dealsUtility.click();
     }
     public void under10Utility(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         under10Utility.click();
     }
 

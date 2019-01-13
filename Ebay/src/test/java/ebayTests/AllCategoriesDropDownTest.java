@@ -13,7 +13,6 @@ public class AllCategoriesDropDownTest extends AllCategoriesDropDown {
     public void initElements(){
         allCategoriesDropDown = PageFactory.initElements(driver, AllCategoriesDropDown.class);
     }
-
     @Test
     public void selectAntiquesFromDropDownTest(){
         selectAntiquesFromDropDown();
@@ -46,6 +45,4 @@ public class AllCategoriesDropDownTest extends AllCategoriesDropDown {
     public void selectClothingShoesAndAccesoriesTest(){
         selectClothingShoesAndAccesories();
     }
-
-
 }

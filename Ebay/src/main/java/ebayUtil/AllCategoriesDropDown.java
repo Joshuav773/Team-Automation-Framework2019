@@ -4,6 +4,7 @@ import base.CommonAPI;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.Select;
+import reporting.TestLogger;
 
 public class AllCategoriesDropDown extends CommonAPI {
 
@@ -11,42 +12,50 @@ public class AllCategoriesDropDown extends CommonAPI {
     @FindBy(css = "#gh-btn")public static WebElement searchButton;
 
     public void selectAntiquesFromDropDown(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         Select select = new Select(allCategoriesDropDown);
         select.selectByVisibleText("Antiques");
         searchButton.click();
 
     }
     public void selectArtFromDropDwon(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         Select select = new Select(allCategoriesDropDown);
         select.selectByVisibleText("Art");
         searchButton.click();
     }
     public void selectBabyFromDropdown(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         Select select = new Select(allCategoriesDropDown);
         select.selectByVisibleText("Baby");
         searchButton.click();
     }
     public void selectBooksFromDropDown(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         Select select = new Select(allCategoriesDropDown);
         select.selectByVisibleText("Books");
         searchButton.click();
     }
     public void selectBusinessAndIndusrialFromDropDrown(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         Select select = new Select(allCategoriesDropDown);
         select.selectByVisibleText("Business & Industrial");
         searchButton.click();
     }
     public void selectCamerasAndFotoFromDropDown(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         Select select = new Select(allCategoriesDropDown);
         select.selectByVisibleText("Cameras & Photo");
         searchButton.click();
     }
     public void selectCellPhonesAndAccesories(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         Select select = new Select(allCategoriesDropDown);
         select.selectByVisibleText("Cell Phones & Accessories");
         searchButton.click();
     }
     public void selectClothingShoesAndAccesories(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         Select select = new Select(allCategoriesDropDown);
         select.selectByVisibleText("Clothing, Shoes & Accessories");
         searchButton.click();

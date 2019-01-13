@@ -27,6 +27,7 @@ public class SignIn extends CommonAPI {
        signInButton.click();
     }
     public void registerNewUser(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         registerLink.click();
         firstNameforRegister.sendKeys("akeleyoyo");
         lastNameforRegister.sendKeys("akeleyoyomamasita");

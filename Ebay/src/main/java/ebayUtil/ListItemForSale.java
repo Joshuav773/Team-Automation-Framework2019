@@ -4,6 +4,7 @@ import base.CommonAPI;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import reporting.TestLogger;
 
 public class ListItemForSale extends CommonAPI {
 
@@ -14,6 +15,7 @@ public class ListItemForSale extends CommonAPI {
 
 
     public void listItemForSale(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         sellOption.click();
         inputBox.sendKeys("shoes", Keys.ENTER);
         mensAthleticShoes.click();
