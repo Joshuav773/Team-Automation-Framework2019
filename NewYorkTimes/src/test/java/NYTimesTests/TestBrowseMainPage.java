@@ -54,5 +54,25 @@ public class TestBrowseMainPage extends BrowseMainPage {
     public void politicsSectionTest(){
         politicsSection();
     }
+    @Test
+    public void nySectionTest(){
+        nySection();
+    }
+    @Test
+    public void frontPageTest(){
+        frontPage();
+    }
+    @Test
+    public void contactButtonTest(){
+        contactButton();
+    }
+    @Test
+    public void chatButtonTest(){
+        chatButton();
+    }
+    @Test
+    public void backHomeTest(){
+        backHome();
+    }
 
 }

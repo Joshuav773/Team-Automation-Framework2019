@@ -26,7 +26,16 @@ public class BrowseMainPage extends CommonAPI {
     public static WebElement scienceSection;
     @FindBy(xpath = "//*[@id=\"site-index\"]/div/div[2]/div/section[1]/ul/li[4]/a")
     public static WebElement politicsSection;
-
+    @FindBy(xpath = "//*[@id=\"site-index\"]/div/div[2]/div/section[1]/ul/li[5]/a")
+    public static WebElement nySection;
+    @FindBy(xpath = "//*[@id=\"app\"]/div/div/header/section[1]/div[3]/a/svg")
+    public static WebElement frontPage;
+    @FindBy(xpath = "//*[@id=\"app\"]/footer/nav/ul[2]/li[1]/a")
+    public static WebElement contactButton;
+    @FindBy(xpath = "//*[@id=\"Help_New\"]/img")
+    public static WebElement chatButton;
+    @FindBy(xpath = "/html/body/header/div[1]/a")
+    public static WebElement backHome;
 
 
     public void worldClick(){
@@ -58,6 +67,21 @@ public class BrowseMainPage extends CommonAPI {
     }
     public void politicsSection(){
         politicsSection.click();
+    }
+    public void nySection(){
+        nySection.click();
+    }
+    public void frontPage(){
+        frontPage.click();
+    }
+    public void contactButton(){
+        contactButton.click();
+    }
+    public void chatButton(){
+        chatButton.click();
+    }
+    public void backHome(){
+        backHome.click();
     }
 
 }
