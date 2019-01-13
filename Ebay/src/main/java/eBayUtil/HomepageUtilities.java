@@ -16,7 +16,8 @@ public class HomepageUtilities extends CommonAPI {
     @FindBy(xpath = "//a[contains(text(), 'Home & Garden') and @_sp='p2481888.m1383.l3250']") public static WebElement homeAndGarden;
     @FindBy(xpath = "//a[contains(text(), 'Sporting Goods') and @_sp ='p2481888.m1384.l3250']") public static WebElement sportingGoodsUtility;
     @FindBy(xpath ="//a[contains(text(), 'Toys') and @_sp ='p2481888.m1385.l3250']") public static WebElement toysUtility;
-    @FindBy(xpath = "//a[contains(text(), 'Business & Industrial') and @_sp ='p2481888.m1386.l3250']") public static WebElement businessAndIndustrialUtility;
+    @FindBy(xpath = "//a[contains(text(), 'Business & Industrial') and @_sp ='p2481888.m1386.l3250']")
+    public static WebElement businessAndIndustrialUtility;
     @FindBy(xpath = "//a[contains (text(), 'Music') and @_sp = 'p2481888.m1387.l3250']")public static WebElement musicUtility;
     @FindBy(xpath = "//a[contains (text(), 'Deals') and @_sp = 'p2481888.m1388.l3250']")public static WebElement dealsUtility;
     @FindBy(xpath = "//a[contains (text(), 'Under $10') and @_sp = 'p2481888.m1389.l3250']")public static WebElement under10Utility;

@@ -14,7 +14,7 @@ public class ConnectToMySqlDb {
     public static ResultSet resultSet2 = null;
 
     public static Connection connectToSqlDatabase() throws IOException, SQLException, ClassNotFoundException, IllegalAccessException, InstantiationException {
-        String url = "jdbc:mysql://localhost:3306/Kazi?useSSL=false&allowPublicKeyRetrieval=true";
+        String url = "jdbc:mysql://localhost:3306/PNT";
         String userName = "root";
         String password = "abcd1234";
         connect = DriverManager.getConnection(url,userName,password);
