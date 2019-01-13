@@ -14,12 +14,9 @@ public class HomePageFeatures extends CommonAPI {
     @FindBy(xpath = "//button[@aria-label = 'Trending Deals - Move Previous']")
     public static WebElement trendingDealsMovePrevious;
     @FindBy(xpath = "//a[contains(text(), 'See All Trends')]") public static WebElement seeAllTrends;
-    @FindBy(xpath = "//a[starts-with (@href, 'http://www.ebay.com/rpp/sale-events?')]")
-    public static WebElement seeAllFeaturedSalesAndEvents;
-    @FindBy(xpath = "//a[starts-with (@href, 'http://www.ebay.com/rpp/editorspicks?')]")
-    public static WebElement seeAllEditorsPicks;
-    @FindBy(xpath = "//h2[contains (text(),'Shop Fashion Events')]")
-    public static WebElement featuresSalesHeader;
+    @FindBy(xpath = "//a[starts-with (@href, 'http://www.ebay.com/rpp/sale-events?')]")public static WebElement seeAllFeaturedSalesAndEvents;
+    @FindBy(xpath = "//a[starts-with (@href, 'http://www.ebay.com/rpp/editorspicks?')]")public static WebElement seeAllEditorsPicks;
+    @FindBy(xpath = "//h2[contains (text(),'Shop Fashion Events')]")public static WebElement featuresSalesHeader;
 
     public void seeAllDailyDeals(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));

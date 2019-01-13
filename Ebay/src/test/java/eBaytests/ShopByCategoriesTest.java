@@ -1,4 +1,4 @@
-package ebayTests;
+package eBaytests;
 
 import eBayUtil.ShopByCategoriesDropDown;
 import org.openqa.selenium.support.PageFactory;

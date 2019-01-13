@@ -1,4 +1,4 @@
-package ebayTests;
+package eBaytests;
 
 import eBayUtil.SignIn;
 import org.openqa.selenium.support.PageFactory;

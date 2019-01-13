@@ -71,8 +71,4 @@ public class Searches extends CommonAPI {
            searchBar.clear();
        }
    }
-
-
-
-
 }

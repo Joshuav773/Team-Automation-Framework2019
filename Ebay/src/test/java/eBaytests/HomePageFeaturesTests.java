@@ -1,4 +1,4 @@
-package ebayTests;
+package eBaytests;
 
 import eBayUtil.HomePageFeatures;
 import org.openqa.selenium.support.PageFactory;

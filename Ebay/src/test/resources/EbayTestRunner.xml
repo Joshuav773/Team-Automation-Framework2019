@@ -13,13 +13,13 @@
 
     <test name = "Ebay Test">
         <classes>
-            <class name="ebayTests.HomeUtilitiesTests"></class>
-            <class name="ebayTests.PurchseTest"></class>
-            <class name="ebayTests.signInTest"></class>
-            <class name="ebayTests.SearchTests"></class>
-            <class name="ebayTests.HomePageFeaturesTests"></class>
-            <class name="ebayTests.AllCategoriesDropDownTest"></class>
-            <class name="ebayTests.ShopByCategoriesTest"></class>
+            <class name="eBaytests.HomeUtilitiesTests"></class>
+            <class name="eBaytests.PurchseTest"></class>
+            <class name="eBaytests.signInTest"></class>
+            <class name="eBaytests.SearchTests"></class>
+            <class name="eBaytests.HomePageFeaturesTests"></class>
+            <class name="eBaytests.AllCategoriesDropDownTest"></class>
+            <class name="eBaytests.ShopByCategoriesTest"></class>
         </classes>
     </test>
 
