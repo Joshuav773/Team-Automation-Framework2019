@@ -14,7 +14,7 @@ public class ListItemForSaleTest extends ListItemForSale {
         listItemForSale = PageFactory.initElements(driver, ListItemForSale.class);
     }
     @Test
-    public void listItemForSaleTest(){
+    public void listItemForSaleTest() throws InterruptedException {
         listItemForSale();
     }
 }

@@ -10,17 +10,42 @@
   <parameter name="url" value="https://www.ebay.com/"/>
   <test thread-count="5" verbose="0" name="Ebay Test(failed)">
     <classes>
-      <class name="ebayTests.SearchTests">
+      <class name="eBaytests.SearchTests">
         <methods>
           <include name="saveTheSearchOfSpecificItemTest"/>
-          <include name="searchByUsingKeywordTest"/>
-          <include name="searchItemWithItemNumberTest"/>
-          <include name="usingSearchBarTest"/>
-          <include name="searchbuttonTest"/>
+          <include name="afterEachTestMethod"/>
+          <include name="generateReport"/>
+          <include name="initElements"/>
+          <include name="extentSetup"/>
           <include name="setUp"/>
+          <include name="startExtent"/>
           <include name="cleanUP"/>
         </methods>
-      </class> <!-- ebayTests.SearchTests -->
+      </class> <!-- eBaytests.SearchTests -->
+      <class name="eBaytests.PurchseTest">
+        <methods>
+          <include name="afterEachTestMethod"/>
+          <include name="generateReport"/>
+          <include name="extentSetup"/>
+          <include name="setUp"/>
+          <include name="startExtent"/>
+          <include name="purchaseAnItemTest"/>
+          <include name="initElements"/>
+          <include name="cleanUP"/>
+        </methods>
+      </class> <!-- eBaytests.PurchseTest -->
+      <class name="eBaytests.ListItemForSaleTest">
+        <methods>
+          <include name="initElements"/>
+          <include name="afterEachTestMethod"/>
+          <include name="listItemForSaleTest"/>
+          <include name="generateReport"/>
+          <include name="extentSetup"/>
+          <include name="setUp"/>
+          <include name="startExtent"/>
+          <include name="cleanUP"/>
+        </methods>
+      </class> <!-- eBaytests.ListItemForSaleTest -->
     </classes>
   </test> <!-- Ebay Test(failed) -->
 </suite> <!-- Failed suite [Ebay Automation Script ] -->

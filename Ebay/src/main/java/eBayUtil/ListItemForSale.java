@@ -13,10 +13,12 @@ public class ListItemForSale extends CommonAPI {
     @FindBy(xpath = "//em[contains (text(), 'Clothing, Shoes & Accessories > Men')]")
     public static WebElement mensAthleticShoes;
 
-    public void listItemForSale(){
+
+    public void listItemForSale() throws InterruptedException{
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         sellOption.click();
         inputBox.sendKeys("shoes", Keys.ENTER);
-        mensAthleticShoes.click();
+
+
     }
 }

@@ -11,6 +11,8 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.ITestContext;
 import org.testng.ITestResult;
 import org.testng.annotations.*;
@@ -256,10 +258,43 @@ public class CommonAPI {
         String text = driver.findElement(By.cssSelector(locator)).getText();
         return text;
     }
-
-
-
-
+    //handle alerts
+    public void okAlert(){
+        Alert alert = driver.switchTo().alert();
+        alert.accept();
+    }
+    public void cancelAlert(){
+        Alert alert = driver.switchTo().alert();
+        alert.dismiss();
+    }
+    //Synchronization
+    public void waitUntilClickAble(By locator){
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        WebElement element = wait.until(ExpectedConditions.elementToBeClickable(locator));
+    }
+    public void waitUntilVisible(By locator){
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+    }
+    public void waitUntilSelectable(By locator){
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        boolean element = wait.until(ExpectedConditions.elementToBeSelected(locator));
+    }
+    //Handling New Tabs
+    public static WebDriver handleNewTab(WebDriver driver1){
+        String oldTab = driver1.getWindowHandle();
+        List<String> newTabs = new ArrayList<String>(driver1.getWindowHandles());
+        newTabs.remove(oldTab);
+        driver1.switchTo().window(newTabs.get(0));
+        return driver1;
+    }
+    public static boolean isPopUpWindowDisplayed(WebDriver driver1, String locator){
+        boolean value = driver1.findElement(By.cssSelector(locator)).isDisplayed();
+        return value;
+    }
+    public void upLoadFile(String locator,String path) {
+        driver.findElement(By.cssSelector(locator)).sendKeys(path);
+    }
 }
 
 

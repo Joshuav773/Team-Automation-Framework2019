@@ -1,5 +1,10 @@
-/Users/joshuasmba/Documents/amazon/Web-Automation-Framkework/Ebay/src/test/java/ebayTests/PurchseTest.java
-/Users/joshuasmba/Documents/amazon/Web-Automation-Framkework/Ebay/src/test/java/ebayTests/HomeUtilitiesTests.java
-/Users/joshuasmba/Documents/amazon/Web-Automation-Framkework/Ebay/src/test/java/ebayTests/SearchTests.java
-/Users/joshuasmba/Documents/amazon/Web-Automation-Framkework/Ebay/src/test/java/ebayTests/HomePageFeaturesTests.java
-/Users/joshuasmba/Documents/amazon/Web-Automation-Framkework/Ebay/src/test/java/ebayTests/signInTest.java
+/Users/joshuasmba/Documents/amazon/Web-Automation-Framkework/Ebay/src/test/java/eBaytests/ListItemForSaleTest.java
+/Users/joshuasmba/Documents/amazon/Web-Automation-Framkework/Ebay/src/test/java/eBaytests/signInTest.java
+/Users/joshuasmba/Documents/amazon/Web-Automation-Framkework/Ebay/src/test/java/eBaytests/PurchseTest.java
+/Users/joshuasmba/Documents/amazon/Web-Automation-Framkework/Ebay/src/test/java/eBaytests/ShopByCategoriesTest.java
+/Users/joshuasmba/Documents/amazon/Web-Automation-Framkework/Ebay/src/test/java/eBaytests/AllCategoriesDropDownTest.java
+/Users/joshuasmba/Documents/amazon/Web-Automation-Framkework/Ebay/src/test/java/eBaytests/HomeUtilitiesTests.java
+/Users/joshuasmba/Documents/amazon/Web-Automation-Framkework/Ebay/src/test/java/eBaytests/SearchTests.java
+/Users/joshuasmba/Documents/amazon/Web-Automation-Framkework/Ebay/src/test/java/datadriven/DataBaseTest.java
+/Users/joshuasmba/Documents/amazon/Web-Automation-Framkework/Ebay/src/test/java/eBaytests/HomePageFeaturesTests.java
+/Users/joshuasmba/Documents/amazon/Web-Automation-Framkework/Ebay/src/test/java/eBaytests/HomePageUtilitiesTests2.java

@@ -14,12 +14,15 @@
     <test name = "Ebay Test">
         <classes>
             <class name="eBaytests.HomeUtilitiesTests"></class>
+            <class name="eBaytests.HomePageUtilitiesTests2"></class>
             <class name="eBaytests.PurchseTest"></class>
             <class name="eBaytests.signInTest"></class>
             <class name="eBaytests.SearchTests"></class>
             <class name="eBaytests.HomePageFeaturesTests"></class>
             <class name="eBaytests.AllCategoriesDropDownTest"></class>
             <class name="eBaytests.ShopByCategoriesTest"></class>
+            <class name="eBaytests.ListItemForSaleTest"></class>
+            <class name="datadriven.DataBaseTest"></class>
         </classes>
     </test>
 
