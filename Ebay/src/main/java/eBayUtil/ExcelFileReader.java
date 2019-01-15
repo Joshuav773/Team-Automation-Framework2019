@@ -1,11 +1,13 @@
 package eBayUtil;
 
 import base.CommonAPI;
+import org.apache.log4j.BasicConfigurator;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import reporting.TestLogger;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -17,8 +19,8 @@ public class ExcelFileReader extends CommonAPI {
 
     @FindBy(css = "#gh-ac")public static WebElement searchBar;
 
-        File file = new File("/Users/joshuasmba/Documents/amazon/Web-Automation-Framkework/Ebay/ExcelFile/Items.xlsx");
-        FileInputStream fileInputStream;
+    File file = new File("/Users/joshuasmba/Documents/amazon/Web-Automation-Framkework/Ebay/ExcelFile/Items.xlsx");
+    FileInputStream fileInputStream;
     {
         try {
             fileInputStream = new FileInputStream(file);
@@ -36,14 +38,16 @@ public class ExcelFileReader extends CommonAPI {
     }
     XSSFSheet sheet1 = workbook.getSheet("Sheet1");
 
+    public void searchDataFound() {
+        BasicConfigurator.configure();
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         int numOfRows = sheet1.getLastRowNum();
-
-        public void searchDataFound(){
-            for (int a = 0; a < numOfRows; a++){
-                String data = sheet1.getRow(a).getCell(0).getStringCellValue();
-                searchBar.sendKeys(data, Keys.ENTER);
-                searchBar.clear();
-            }
+        for (int a = 0; a <= numOfRows; a++) {
+        String data = sheet1.getRow(a).getCell(0).getStringCellValue();
+        System.out.println(data);
+        searchBar.sendKeys(data, Keys.ENTER);
+        searchBar.clear();
         }
+    }
 }
 
