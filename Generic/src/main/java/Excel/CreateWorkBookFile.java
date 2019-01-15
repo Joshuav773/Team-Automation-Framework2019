@@ -10,7 +10,7 @@ public class CreateWorkBookFile {
     public static void main(String[] args) {
         try {
             XSSFWorkbook workbook = new XSSFWorkbook();
-            FileOutputStream output = new FileOutputStream("Items.xls");
+            FileOutputStream output = new FileOutputStream("Items.xlsx");
             XSSFSheet sheet = workbook.createSheet("new items");
         }catch(Exception e){
             System.out.println(e);

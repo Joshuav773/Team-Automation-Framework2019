@@ -23,14 +23,16 @@ public class ExcelReader {
                 System.out.println(e.getMessage());
             }
         }
-    public String getData(int sheetnumber,int rownumber,int colnumber){
-            sheet1 = wb.getSheetAt(sheetnumber);
-            String data = sheet1.getRow(rownumber).getCell(colnumber).getStringCellValue();
+    public String getData(int sheetIndex,int rownIndex,int colIndex){
+            sheet1 = wb.getSheetAt(sheetIndex);
+            String data = sheet1.getRow(rownIndex).getCell(colIndex).getStringCellValue();
+            System.out.println(data);
             return data;
         }
-    public int getRowCount(int sheetNumber){
-            int row=  wb.getSheetAt(sheetNumber).getLastRowNum();
+    public int getRowCount(int sheetIndex){
+            int row=  wb.getSheetAt(sheetIndex).getLastRowNum();
             row = row +1;
+            System.out.println(row);
             return row;
         }
 }

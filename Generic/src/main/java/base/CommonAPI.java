@@ -211,16 +211,18 @@ public class CommonAPI {
                     driver.findElement(By.id(locator)).sendKeys(value, Keys.ENTER);
                 }
             }
-        }}
-
+        }
+    }
+    // get links
+    public void getLinks(String locator) {
+        driver.findElement(By.linkText(locator)).findElement(By.tagName("a")).getText();
+    }
     public void clearField(String locator){
         driver.findElement(By.id(locator)).clear();
     }
-
     public void navigateBack(){
         driver.navigate().back();
     }
-
     public static String convertToString(String st){
         String splitString ;
         splitString = StringUtils.join(StringUtils.splitByCharacterTypeCamelCase(st), ' ');
@@ -258,6 +260,9 @@ public class CommonAPI {
         String text = driver.findElement(By.cssSelector(locator)).getText();
         return text;
     }
+    public void upLoadFile(String locator,String path) {
+        driver.findElement(By.cssSelector(locator)).sendKeys(path);
+    }
     //handle alerts
     public void okAlert(){
         Alert alert = driver.switchTo().alert();
@@ -291,9 +296,6 @@ public class CommonAPI {
     public static boolean isPopUpWindowDisplayed(WebDriver driver1, String locator){
         boolean value = driver1.findElement(By.cssSelector(locator)).isDisplayed();
         return value;
-    }
-    public void upLoadFile(String locator,String path) {
-        driver.findElement(By.cssSelector(locator)).sendKeys(path);
     }
 }
 
