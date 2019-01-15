@@ -11,9 +11,9 @@ public class ExcelReader {
     XSSFWorkbook wb;
     XSSFSheet sheet1;
 
-    public ExcelReader(String xlfilepath){
+    public ExcelReader(String xlsxfilepath){
         try{
-                File src = new File(xlfilepath);
+                File src = new File(xlsxfilepath);
                 FileInputStream fis =new FileInputStream(src);
                 wb = new XSSFWorkbook(fis);
                 sheet1 = wb.getSheetAt(0);

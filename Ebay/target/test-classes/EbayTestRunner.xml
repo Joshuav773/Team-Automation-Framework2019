@@ -23,6 +23,7 @@
             <class name="eBaytests.ShopByCategoriesTest"></class>
             <class name="eBaytests.ListItemForSaleTest"></class>
             <class name="datadriven.DataBaseTest"></class>
+            <class name="datadriven.ExcelFileTest"></class>
         </classes>
     </test>
 
