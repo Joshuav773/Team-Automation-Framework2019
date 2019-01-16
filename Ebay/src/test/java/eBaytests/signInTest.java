@@ -1,5 +1,6 @@
 package eBaytests;
 
+import base.CommonAPI;
 import eBayUtil.SignIn;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
@@ -16,11 +17,12 @@ public class signInTest extends SignIn {
     }
     @Test
     public void signInTest(){
-        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         signIn();
     }
     @Test
     public void registerNewUserTest(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
        registerNewUser();
     }
 }

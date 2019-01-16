@@ -297,6 +297,9 @@ public class CommonAPI {
         boolean value = driver1.findElement(By.cssSelector(locator)).isDisplayed();
         return value;
     }
+    public void inputValueInTextBoxByWebElement(WebElement webElement, String value) {
+        webElement.sendKeys(value + Keys.ENTER);
+    }
 }
 
 
