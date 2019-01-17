@@ -3,8 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="0e2e6cc4-8bc8-458f-94fc-a706330e4deb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewYorkTimes/src/main/java/NYTimesBrowse/BrowseMainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/NewYorkTimes/src/main/java/NYTimesBrowse/BrowseMainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewYorkTimes/src/test/java/NYTimesTests/TestBrowseMainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/NewYorkTimes/src/test/java/NYTimesTests/TestBrowseMainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/classes/base/CommonAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/base/CommonAPI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewYorkTimes/src/test/resources/NewYorkTimesTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NewYorkTimes/src/test/resources/NewYorkTimesTestRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewYorkTimes/target/classes/NYTimesBrowse/BrowseMainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/NewYorkTimes/target/classes/NYTimesBrowse/BrowseMainPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewYorkTimes/target/test-classes/NYTimesTests/TestBrowseMainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/NewYorkTimes/target/test-classes/NYTimesTests/TestBrowseMainPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewYorkTimes/target/test-classes/NewYorkTimesTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NewYorkTimes/target/test-classes/NewYorkTimesTestRunner.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -75,36 +79,38 @@
     <session id="363494989">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.4" value="5" />
           <entry key="project.open.time.5" value="2" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="2" />
-          <entry key="java" value="38" />
-          <entry key="xml" value="5" />
+          <entry key="java" value="42" />
+          <entry key="xml" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
-          <entry key="JAVA" value="38" />
-          <entry key="XML" value="5" />
+          <entry key="JAVA" value="42" />
+          <entry key="XML" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="1585" />
+          <entry key="xml" value="32" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="1585" />
+          <entry key="XML" value="32" />
         </counts>
       </usages-collector>
     </session>
@@ -117,21 +123,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="922">
-              <caret line="149" column="10" selection-start-line="149" selection-start-column="10" selection-end-line="149" selection-end-column="10" />
+            <state relative-caret-position="240">
+              <caret line="30" column="87" selection-start-line="30" selection-start-column="87" selection-end-line="30" selection-end-column="87" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#5226#5227#0" expanded="true" />
-                <element signature="e#5255#5256#0" expanded="true" />
-                <element signature="e#5324#5325#0" expanded="true" />
-                <element signature="e#5399#5400#0" expanded="true" />
-                <element signature="e#5456#5457#0" expanded="true" />
-                <element signature="e#5522#5523#0" expanded="true" />
-                <element signature="e#7190#7191#0" expanded="true" />
-                <element signature="e#7248#7249#0" expanded="true" />
-                <element signature="e#7281#7282#0" expanded="true" />
-                <element signature="e#7321#7322#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NewYorkTimes/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="600">
+              <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -140,7 +145,7 @@
         <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="420">
-              <caret line="28" column="45" lean-forward="true" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
+              <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -148,84 +153,61 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/NewYorkTimes/src/main/java/NYTimesBrowse/BrowseMainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="37" column="38" lean-forward="true" selection-start-line="37" selection-start-column="38" selection-end-line="37" selection-end-column="38" />
+            <state relative-caret-position="25">
+              <caret line="40" column="28" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1455#1456#0" expanded="true" />
-                <element signature="e#1489#1490#0" expanded="true" />
-                <element signature="e#1522#1523#0" expanded="true" />
-                <element signature="e#1559#1560#0" expanded="true" />
-                <element signature="e#1589#1590#0" expanded="true" />
-                <element signature="e#1623#1624#0" expanded="true" />
-                <element signature="e#1650#1651#0" expanded="true" />
-                <element signature="e#1681#1682#0" expanded="true" />
-                <element signature="e#1713#1714#0" expanded="true" />
-                <element signature="e#1749#1750#0" expanded="true" />
-                <element signature="e#1780#1781#0" expanded="true" />
-                <element signature="e#1815#1816#0" expanded="true" />
-                <element signature="e#1845#1846#0" expanded="true" />
-                <element signature="e#1879#1880#0" expanded="true" />
-                <element signature="e#1910#1911#0" expanded="true" />
-                <element signature="e#1945#1946#0" expanded="true" />
-                <element signature="e#1979#1980#0" expanded="true" />
-                <element signature="e#2017#2018#0" expanded="true" />
+                <element signature="e#1985#1986#0" expanded="true" />
+                <element signature="e#2019#2020#0" expanded="true" />
                 <element signature="e#2052#2053#0" expanded="true" />
-                <element signature="e#2091#2092#0" expanded="true" />
-                <element signature="e#2244#2245#0" expanded="true" />
-                <element signature="e#2268#2269#0" expanded="true" />
-                <element signature="e#2426#2427#0" expanded="true" />
-                <element signature="e#2459#2460#0" expanded="true" />
-                <element signature="e#2601#2602#0" expanded="true" />
-                <element signature="e#2638#2639#0" expanded="true" />
-                <element signature="e#2761#2762#0" expanded="true" />
-                <element signature="e#2798#2799#0" expanded="true" />
-                <element signature="e#2909#2910#0" expanded="true" />
-                <element signature="e#2941#2942#0" expanded="true" />
+                <element signature="e#2089#2090#0" expanded="true" />
+                <element signature="e#2119#2120#0" expanded="true" />
+                <element signature="e#2153#2154#0" expanded="true" />
+                <element signature="e#2180#2181#0" expanded="true" />
+                <element signature="e#2211#2212#0" expanded="true" />
+                <element signature="e#2243#2244#0" expanded="true" />
+                <element signature="e#2279#2280#0" expanded="true" />
+                <element signature="e#2310#2311#0" expanded="true" />
+                <element signature="e#2345#2346#0" expanded="true" />
+                <element signature="e#2375#2376#0" expanded="true" />
+                <element signature="e#2409#2410#0" expanded="true" />
+                <element signature="e#2440#2441#0" expanded="true" />
+                <element signature="e#2475#2476#0" expanded="true" />
+                <element signature="e#2509#2510#0" expanded="true" />
+                <element signature="e#2547#2548#0" expanded="true" />
+                <element signature="e#2582#2583#0" expanded="true" />
+                <element signature="e#2621#2622#0" expanded="true" />
+                <element signature="e#2650#2651#0" expanded="true" />
+                <element signature="e#2683#2684#0" expanded="true" />
+                <element signature="e#2712#2713#0" expanded="true" />
+                <element signature="e#2745#2746#0" expanded="true" />
+                <element signature="e#2778#2779#0" expanded="true" />
+                <element signature="e#2815#2816#0" expanded="true" />
+                <element signature="e#2845#2846#0" expanded="true" />
+                <element signature="e#2879#2880#0" expanded="true" />
+                <element signature="e#2907#2908#0" expanded="true" />
+                <element signature="e#2939#2940#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NewYorkTimes/src/test/java/NYTimesTests/TestBrowseMainPage.java">
+        <entry file="file://$PROJECT_DIR$/NewYorkTimes/src/test/resources/NewYorkTimesTestRunner.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="795">
-              <caret line="75" column="5" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
+            <state relative-caret-position="300">
+              <caret line="20" column="8" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/ebayTests/signInTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#334#335#0" expanded="true" />
                 <element signature="e#424#425#0" expanded="true" />
-                <element signature="e#469#470#0" expanded="true" />
-                <element signature="e#497#498#0" expanded="true" />
-                <element signature="e#544#545#0" expanded="true" />
-                <element signature="e#575#576#0" expanded="true" />
-                <element signature="e#619#620#0" expanded="true" />
-                <element signature="e#647#648#0" expanded="true" />
-                <element signature="e#688#689#0" expanded="true" />
-                <element signature="e#713#714#0" expanded="true" />
-                <element signature="e#759#760#0" expanded="true" />
-                <element signature="e#789#790#0" expanded="true" />
-                <element signature="e#834#835#0" expanded="true" />
-                <element signature="e#863#864#0" expanded="true" />
-                <element signature="e#907#908#0" expanded="true" />
-                <element signature="e#935#936#0" expanded="true" />
-                <element signature="e#980#981#0" expanded="true" />
-                <element signature="e#1009#1010#0" expanded="true" />
-                <element signature="e#1057#1058#0" expanded="true" />
-                <element signature="e#1089#1090#0" expanded="true" />
-                <element signature="e#1138#1139#0" expanded="true" />
-                <element signature="e#1171#1172#0" expanded="true" />
-                <element signature="e#1214#1215#0" expanded="true" />
-                <element signature="e#1241#1242#0" expanded="true" />
-                <element signature="e#1290#1291#0" expanded="true" />
-                <element signature="e#1323#1324#0" expanded="true" />
-                <element signature="e#1360#1361#0" expanded="true" />
-                <element signature="e#1393#1394#0" expanded="true" />
-                <element signature="e#1421#1422#0" expanded="true" />
-                <element signature="e#1454#1455#0" expanded="true" />
-                <element signature="e#1510#1511#0" expanded="true" />
-                <element signature="e#1543#1544#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -281,12 +263,12 @@
         <option value="$PROJECT_DIR$/NewYorkTimes/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/HealthFirst/src/test/resources/HealthFirstTestRunner.xml" />
-        <option value="$PROJECT_DIR$/NewYorkTimes/src/test/resources/NewYorkTimesTestRunner.xml" />
         <option value="$PROJECT_DIR$/NewYorkTimes/src/main/java/BrowseMainPage.java" />
-        <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
         <option value="$PROJECT_DIR$/Generic/pom.xml" />
         <option value="$PROJECT_DIR$/NewYorkTimes/src/main/java/NYTimesBrowse/BrowseMainPage.java" />
         <option value="$PROJECT_DIR$/NewYorkTimes/src/test/java/NYTimesTests/TestBrowseMainPage.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
+        <option value="$PROJECT_DIR$/NewYorkTimes/src/test/resources/NewYorkTimesTestRunner.xml" />
       </list>
     </option>
   </component>
@@ -306,7 +288,7 @@
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1680" />
     <option name="height" value="962" />
@@ -317,83 +299,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="Team-Automation-Framework2019" type="b2602c69:ProjectViewProjectNode" />
               <item name="Team-Automation-Framework2019" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Team-Automation-Framework2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Team-Automation-Framework2019" type="462c0819:PsiDirectoryNode" />
-              <item name="Ebay" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Team-Automation-Framework2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Team-Automation-Framework2019" type="462c0819:PsiDirectoryNode" />
-              <item name="Ebay" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Team-Automation-Framework2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Team-Automation-Framework2019" type="462c0819:PsiDirectoryNode" />
-              <item name="Ebay" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Team-Automation-Framework2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Team-Automation-Framework2019" type="462c0819:PsiDirectoryNode" />
-              <item name="Ebay" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Team-Automation-Framework2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Team-Automation-Framework2019" type="462c0819:PsiDirectoryNode" />
-              <item name="Ebay" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ebayUtil" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Team-Automation-Framework2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Team-Automation-Framework2019" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Team-Automation-Framework2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Team-Automation-Framework2019" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Team-Automation-Framework2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Team-Automation-Framework2019" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Team-Automation-Framework2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Team-Automation-Framework2019" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Team-Automation-Framework2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Team-Automation-Framework2019" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Team-Automation-Framework2019" type="b2602c69:ProjectViewProjectNode" />
@@ -466,11 +378,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547352106791" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547750475732" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -478,20 +390,20 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/NewYorkTimes/src/test/resources" />
-      <recent name="$PROJECT_DIR$/HealthFirst/src/test/resources" />
-      <recent name="$PROJECT_DIR$/Ebay/src/test" />
-      <recent name="$PROJECT_DIR$/Generic/src/main/java/reporting" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="reporting" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/NewYorkTimes/src/test" />
       <recent name="$PROJECT_DIR$/HealthFirst/src/test" />
       <recent name="$PROJECT_DIR$/Ebay/src/test" />
       <recent name="$PROJECT_DIR$/drivers" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="reporting" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/NewYorkTimes/src/test/resources" />
+      <recent name="$PROJECT_DIR$/HealthFirst/src/test/resources" />
+      <recent name="$PROJECT_DIR$/Ebay/src/test" />
+      <recent name="$PROJECT_DIR$/Generic/src/main/java/reporting" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -507,24 +419,6 @@
     </option>
   </component>
   <component name="RunManager" selected="TestNG./Users/fahim/IdeaProjects/Team-Automation-Framework2019/NewYorkTimes/src/test/resources/NewYorkTimesTestRunner.xml">
-    <configuration name="SearchTests.saveTheSearchOfSpecificItemTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Ebay" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ebayTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ebayTests" />
-      <option name="MAIN_CLASS_NAME" value="ebayTests.SearchTests" />
-      <option name="METHOD_NAME" value="saveTheSearchOfSpecificItemTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SearchTests.searchItemWithItemNumberTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Ebay" />
       <extension name="coverage">
@@ -543,17 +437,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchTests.usingSearchBarTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Ebay" />
+    <configuration name="TestBrowseMainPage" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="NewYorkTimes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ebayTests.*" />
+          <option name="PATTERN" value="NYTimesTests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ebayTests" />
-      <option name="MAIN_CLASS_NAME" value="ebayTests.SearchTests" />
-      <option name="METHOD_NAME" value="usingSearchBarTest" />
+      <option name="PACKAGE_NAME" value="NYTimesTests" />
+      <option name="MAIN_CLASS_NAME" value="NYTimesTests.TestBrowseMainPage" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestBrowseMainPage.techSectionTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="NewYorkTimes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="NYTimesTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="NYTimesTests" />
+      <option name="MAIN_CLASS_NAME" value="NYTimesTests.TestBrowseMainPage" />
+      <option name="METHOD_NAME" value="techSectionTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -582,19 +492,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.SearchTests.saveTheSearchOfSpecificItemTest" />
       <item itemvalue="TestNG.SearchTests.searchItemWithItemNumberTest" />
-      <item itemvalue="TestNG.SearchTests.usingSearchBarTest" />
       <item itemvalue="TestNG./Users/fahim/IdeaProjects/Team-Automation-Framework2019/Ebay/src/test/resources/EbayTestRunner.xml" />
       <item itemvalue="TestNG./Users/fahim/IdeaProjects/Team-Automation-Framework2019/NewYorkTimes/src/test/resources/NewYorkTimesTestRunner.xml" />
+      <item itemvalue="TestNG.TestBrowseMainPage.techSectionTest" />
+      <item itemvalue="TestNG.TestBrowseMainPage" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG./Users/fahim/IdeaProjects/Team-Automation-Framework2019/NewYorkTimes/src/test/resources/NewYorkTimesTestRunner.xml" />
+        <item itemvalue="TestNG.TestBrowseMainPage" />
+        <item itemvalue="TestNG.TestBrowseMainPage.techSectionTest" />
         <item itemvalue="TestNG./Users/fahim/IdeaProjects/Team-Automation-Framework2019/Ebay/src/test/resources/EbayTestRunner.xml" />
         <item itemvalue="TestNG.SearchTests.searchItemWithItemNumberTest" />
-        <item itemvalue="TestNG.SearchTests.saveTheSearchOfSpecificItemTest" />
-        <item itemvalue="TestNG.SearchTests.usingSearchBarTest" />
       </list>
     </recent_temporary>
   </component>
@@ -612,24 +522,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SearchTests_saveTheSearchOfSpecificItemTest - 2019.01.09 at 13h 49m 54s.xml">
-      <configuration name="SearchTests.saveTheSearchOfSpecificItemTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SearchTests_saveTheSearchOfSpecificItemTest - 2019.01.09 at 13h 51m 40s.xml">
-      <configuration name="SearchTests.saveTheSearchOfSpecificItemTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SearchTests_saveTheSearchOfSpecificItemTest - 2019.01.09 at 13h 53m 20s.xml">
-      <configuration name="SearchTests.saveTheSearchOfSpecificItemTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SearchTests_saveTheSearchOfSpecificItemTest - 2019.01.09 at 13h 54m 21s.xml">
-      <configuration name="SearchTests.saveTheSearchOfSpecificItemTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SearchTests_saveTheSearchOfSpecificItemTest - 2019.01.09 at 13h 55m 22s.xml">
-      <configuration name="SearchTests.saveTheSearchOfSpecificItemTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SearchTests_saveTheSearchOfSpecificItemTest - 2019.01.09 at 13h 57m 22s.xml">
-      <configuration name="SearchTests.saveTheSearchOfSpecificItemTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="SearchTests_saveTheSearchOfSpecificItemTest - 2019.01.09 at 13h 59m 42s.xml">
       <configuration name="SearchTests.saveTheSearchOfSpecificItemTest" configurationId="TestNG" />
     </history-entry>
@@ -642,24 +534,41 @@
     <history-entry file="_Users_fahim_IdeaProjects_Team-Automation-Framework2019_NewYorkTimes_src_test_resources_NewYorkTimesTestRunner_xml - 2019.01.11 at 16h 01m 28s.xml">
       <configuration name="/Users/fahim/IdeaProjects/Team-Automation-Framework2019/NewYorkTimes/src/test/resources/NewYorkTimesTestRunner.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="_Users_fahim_IdeaProjects_Team-Automation-Framework2019_NewYorkTimes_src_test_resources_NewYorkTimesTestRunner_xml - 2019.01.13 at 09h 58m 05s.xml">
+      <configuration name="/Users/fahim/IdeaProjects/Team-Automation-Framework2019/NewYorkTimes/src/test/resources/NewYorkTimesTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestBrowseMainPage_techSectionTest - 2019.01.13 at 12h 08m 43s.xml">
+      <configuration name="TestBrowseMainPage.techSectionTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestBrowseMainPage - 2019.01.13 at 12h 08m 52s.xml">
+      <configuration name="TestBrowseMainPage" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestBrowseMainPage - 2019.01.13 at 12h 09m 49s.xml">
+      <configuration name="TestBrowseMainPage" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestBrowseMainPage - 2019.01.13 at 12h 11m 23s.xml">
+      <configuration name="TestBrowseMainPage" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_fahim_IdeaProjects_Team-Automation-Framework2019_NewYorkTimes_src_test_resources_NewYorkTimesTestRunner_xml - 2019.01.17 at 12h 07m 21s.xml">
+      <configuration name="/Users/fahim/IdeaProjects/Team-Automation-Framework2019/NewYorkTimes/src/test/resources/NewYorkTimesTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1680" height="962" extended-state="0" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" sideWeight="0.502693" side_tool="true" weight="0.24964234" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.497307" visible="true" weight="0.21611722" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.497307" visible="true" weight="0.22832723" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49928468" weight="0.36938775" />
       <window_info anchor="bottom" id="Version Control" order="1" weight="0.32959184" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5007153" side_tool="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.49928468" weight="0.32857144" />
+      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.49928468" weight="0.3275862" />
       <window_info anchor="bottom" id="Messages" order="6" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
@@ -786,20 +695,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/ebayTests/signInTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/ebayTests/SearchTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="46" lean-forward="true" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/ebayTests/HomeUtilitiesTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="947">
@@ -821,13 +716,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NewYorkTimes/src/test/resources/NewYorkTimesTestRunner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Generic/target/classes/base/CommonAPI.class">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -835,40 +723,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NewYorkTimes/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="922">
-          <caret line="149" column="10" selection-start-line="149" selection-start-column="10" selection-end-line="149" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#5226#5227#0" expanded="true" />
-            <element signature="e#5255#5256#0" expanded="true" />
-            <element signature="e#5324#5325#0" expanded="true" />
-            <element signature="e#5399#5400#0" expanded="true" />
-            <element signature="e#5456#5457#0" expanded="true" />
-            <element signature="e#5522#5523#0" expanded="true" />
-            <element signature="e#7190#7191#0" expanded="true" />
-            <element signature="e#7248#7249#0" expanded="true" />
-            <element signature="e#7281#7282#0" expanded="true" />
-            <element signature="e#7321#7322#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="45" lean-forward="true" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -890,32 +744,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-330">
           <caret line="8" column="84" selection-start-line="8" selection-start-column="84" selection-end-line="8" selection-end-column="84" />
-          <folding>
-            <element signature="e#2310#2311#0" expanded="true" />
-            <element signature="e#2344#2345#0" expanded="true" />
-            <element signature="e#2619#2620#0" expanded="true" />
-            <element signature="e#2655#2656#0" expanded="true" />
-            <element signature="e#2689#2690#0" expanded="true" />
-            <element signature="e#2727#2728#0" expanded="true" />
-            <element signature="e#2766#2767#0" expanded="true" />
-            <element signature="e#2808#2809#0" expanded="true" />
-            <element signature="e#2846#2847#0" expanded="true" />
-            <element signature="e#2888#2889#0" expanded="true" />
-            <element signature="e#2921#2922#0" expanded="true" />
-            <element signature="e#2958#2959#0" expanded="true" />
-            <element signature="e#2998#2999#0" expanded="true" />
-            <element signature="e#3042#3043#0" expanded="true" />
-            <element signature="e#3073#3074#0" expanded="true" />
-            <element signature="e#3108#3109#0" expanded="true" />
-            <element signature="e#3156#3157#0" expanded="true" />
-            <element signature="e#3208#3209#0" expanded="true" />
-            <element signature="e#3240#3241#0" expanded="true" />
-            <element signature="e#3276#3277#0" expanded="true" />
-            <element signature="e#3308#3309#0" expanded="true" />
-            <element signature="e#3344#3345#0" expanded="true" />
-            <element signature="e#3378#3379#0" expanded="true" />
-            <element signature="e#3416#3417#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -931,10 +759,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="30" column="87" selection-start-line="30" selection-start-column="87" selection-end-line="30" selection-end-column="87" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewYorkTimes/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewYorkTimes/src/test/resources/NewYorkTimesTestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="8" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/NewYorkTimes/src/test/java/NYTimesTests/TestBrowseMainPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="795">
-          <caret line="75" column="5" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
+        <state relative-caret-position="44">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#334#335#0" expanded="true" />
@@ -961,54 +820,76 @@
             <element signature="e#1171#1172#0" expanded="true" />
             <element signature="e#1214#1215#0" expanded="true" />
             <element signature="e#1241#1242#0" expanded="true" />
-            <element signature="e#1290#1291#0" expanded="true" />
-            <element signature="e#1323#1324#0" expanded="true" />
-            <element signature="e#1360#1361#0" expanded="true" />
-            <element signature="e#1393#1394#0" expanded="true" />
-            <element signature="e#1421#1422#0" expanded="true" />
-            <element signature="e#1454#1455#0" expanded="true" />
-            <element signature="e#1510#1511#0" expanded="true" />
-            <element signature="e#1543#1544#0" expanded="true" />
+            <element signature="e#1284#1285#0" expanded="true" />
+            <element signature="e#1311#1312#0" expanded="true" />
+            <element signature="e#1358#1359#0" expanded="true" />
+            <element signature="e#1389#1390#0" expanded="true" />
+            <element signature="e#1433#1434#0" expanded="true" />
+            <element signature="e#1461#1462#0" expanded="true" />
+            <element signature="e#1503#1504#0" expanded="true" />
+            <element signature="e#1529#1530#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/ebayTests/SearchTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="29" column="46" lean-forward="true" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/ebayTests/signInTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+          <folding>
+            <element signature="e#424#425#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-291" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/NewYorkTimes/src/main/java/NYTimesBrowse/BrowseMainPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="38" lean-forward="true" selection-start-line="37" selection-start-column="38" selection-end-line="37" selection-end-column="38" />
+        <state relative-caret-position="25">
+          <caret line="40" column="28" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1455#1456#0" expanded="true" />
-            <element signature="e#1489#1490#0" expanded="true" />
-            <element signature="e#1522#1523#0" expanded="true" />
-            <element signature="e#1559#1560#0" expanded="true" />
-            <element signature="e#1589#1590#0" expanded="true" />
-            <element signature="e#1623#1624#0" expanded="true" />
-            <element signature="e#1650#1651#0" expanded="true" />
-            <element signature="e#1681#1682#0" expanded="true" />
-            <element signature="e#1713#1714#0" expanded="true" />
-            <element signature="e#1749#1750#0" expanded="true" />
-            <element signature="e#1780#1781#0" expanded="true" />
-            <element signature="e#1815#1816#0" expanded="true" />
-            <element signature="e#1845#1846#0" expanded="true" />
-            <element signature="e#1879#1880#0" expanded="true" />
-            <element signature="e#1910#1911#0" expanded="true" />
-            <element signature="e#1945#1946#0" expanded="true" />
-            <element signature="e#1979#1980#0" expanded="true" />
-            <element signature="e#2017#2018#0" expanded="true" />
+            <element signature="e#1985#1986#0" expanded="true" />
+            <element signature="e#2019#2020#0" expanded="true" />
             <element signature="e#2052#2053#0" expanded="true" />
-            <element signature="e#2091#2092#0" expanded="true" />
-            <element signature="e#2244#2245#0" expanded="true" />
-            <element signature="e#2268#2269#0" expanded="true" />
-            <element signature="e#2426#2427#0" expanded="true" />
-            <element signature="e#2459#2460#0" expanded="true" />
-            <element signature="e#2601#2602#0" expanded="true" />
-            <element signature="e#2638#2639#0" expanded="true" />
-            <element signature="e#2761#2762#0" expanded="true" />
-            <element signature="e#2798#2799#0" expanded="true" />
-            <element signature="e#2909#2910#0" expanded="true" />
-            <element signature="e#2941#2942#0" expanded="true" />
+            <element signature="e#2089#2090#0" expanded="true" />
+            <element signature="e#2119#2120#0" expanded="true" />
+            <element signature="e#2153#2154#0" expanded="true" />
+            <element signature="e#2180#2181#0" expanded="true" />
+            <element signature="e#2211#2212#0" expanded="true" />
+            <element signature="e#2243#2244#0" expanded="true" />
+            <element signature="e#2279#2280#0" expanded="true" />
+            <element signature="e#2310#2311#0" expanded="true" />
+            <element signature="e#2345#2346#0" expanded="true" />
+            <element signature="e#2375#2376#0" expanded="true" />
+            <element signature="e#2409#2410#0" expanded="true" />
+            <element signature="e#2440#2441#0" expanded="true" />
+            <element signature="e#2475#2476#0" expanded="true" />
+            <element signature="e#2509#2510#0" expanded="true" />
+            <element signature="e#2547#2548#0" expanded="true" />
+            <element signature="e#2582#2583#0" expanded="true" />
+            <element signature="e#2621#2622#0" expanded="true" />
+            <element signature="e#2650#2651#0" expanded="true" />
+            <element signature="e#2683#2684#0" expanded="true" />
+            <element signature="e#2712#2713#0" expanded="true" />
+            <element signature="e#2745#2746#0" expanded="true" />
+            <element signature="e#2778#2779#0" expanded="true" />
+            <element signature="e#2815#2816#0" expanded="true" />
+            <element signature="e#2845#2846#0" expanded="true" />
+            <element signature="e#2879#2880#0" expanded="true" />
+            <element signature="e#2907#2908#0" expanded="true" />
+            <element signature="e#2939#2940#0" expanded="true" />
           </folding>
         </state>
       </provider>
