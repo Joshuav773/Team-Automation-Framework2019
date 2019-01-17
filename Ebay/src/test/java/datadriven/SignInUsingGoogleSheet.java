@@ -13,7 +13,7 @@ public class SignInUsingGoogleSheet extends GoogleSheetPage {
 
     GoogleSheetPage googleSheetPage;
     @BeforeMethod
-    public void initialization(){
+    public void initiElements(){
         googleSheetPage = PageFactory.initElements(driver, GoogleSheetPage.class);
     }
     @Test
