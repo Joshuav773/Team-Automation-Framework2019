@@ -69,7 +69,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="14814" />
+          <entry key="JAVA" value="15347" />
           <entry key="PLAIN_TEXT" value="101" />
           <entry key="XML" value="158" />
         </counts>
@@ -99,8 +99,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/eBayUtil/HomepageUtilities.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
+            <state relative-caret-position="484">
+              <caret line="115" column="46" lean-forward="true" selection-start-line="115" selection-start-column="46" selection-end-line="115" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -111,7 +111,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/eBaytests/HomePageUtilitiesTests2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="423">
+            <state relative-caret-position="377">
               <caret line="49" column="144" selection-start-line="49" selection-start-column="144" selection-end-line="49" selection-end-column="144" />
             </state>
           </provider>
@@ -312,7 +312,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547693407794" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547694360339" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -351,8 +351,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.HomePageUtilitiesTests2.toysUtilityTest">
-    <configuration name="HomePageUtilitiesTests2.homeAndGardenTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.HomePageUtilitiesTests2.under10utilityTest">
+    <configuration name="HomePageUtilitiesTests2.businessAndIndustrialUtilityTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Ebay" />
       <extension name="coverage">
         <pattern>
@@ -362,7 +362,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="eBaytests" />
       <option name="MAIN_CLASS_NAME" value="eBaytests.HomePageUtilitiesTests2" />
-      <option name="METHOD_NAME" value="homeAndGardenTest" />
+      <option name="METHOD_NAME" value="businessAndIndustrialUtilityTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -370,7 +370,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomePageUtilitiesTests2.sportingGoodsTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HomePageUtilitiesTests2.dealsUtilityTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Ebay" />
       <extension name="coverage">
         <pattern>
@@ -380,7 +380,25 @@
       </extension>
       <option name="PACKAGE_NAME" value="eBaytests" />
       <option name="MAIN_CLASS_NAME" value="eBaytests.HomePageUtilitiesTests2" />
-      <option name="METHOD_NAME" value="sportingGoodsTest" />
+      <option name="METHOD_NAME" value="dealsUtilityTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomePageUtilitiesTests2.musicUtilityTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Ebay" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="eBaytests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="eBaytests" />
+      <option name="MAIN_CLASS_NAME" value="eBaytests.HomePageUtilitiesTests2" />
+      <option name="METHOD_NAME" value="musicUtilityTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -406,7 +424,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomeUtilitiesTests.collectiblesAndArtTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HomePageUtilitiesTests2.under10utilityTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Ebay" />
       <extension name="coverage">
         <pattern>
@@ -415,26 +433,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="eBaytests" />
-      <option name="MAIN_CLASS_NAME" value="eBaytests.HomeUtilitiesTests" />
-      <option name="METHOD_NAME" value="collectiblesAndArtTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HomeUtilitiesTests.electronicsUtilityTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Ebay" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="eBaytests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="eBaytests" />
-      <option name="MAIN_CLASS_NAME" value="eBaytests.HomeUtilitiesTests" />
-      <option name="METHOD_NAME" value="electronicsUtilityTest" />
+      <option name="MAIN_CLASS_NAME" value="eBaytests.HomePageUtilitiesTests2" />
+      <option name="METHOD_NAME" value="under10utilityTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -443,19 +443,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.HomeUtilitiesTests.electronicsUtilityTest" />
-      <item itemvalue="TestNG.HomeUtilitiesTests.collectiblesAndArtTest" />
-      <item itemvalue="TestNG.HomePageUtilitiesTests2.homeAndGardenTest" />
-      <item itemvalue="TestNG.HomePageUtilitiesTests2.sportingGoodsTest" />
       <item itemvalue="TestNG.HomePageUtilitiesTests2.toysUtilityTest" />
+      <item itemvalue="TestNG.HomePageUtilitiesTests2.businessAndIndustrialUtilityTest" />
+      <item itemvalue="TestNG.HomePageUtilitiesTests2.musicUtilityTest" />
+      <item itemvalue="TestNG.HomePageUtilitiesTests2.dealsUtilityTest" />
+      <item itemvalue="TestNG.HomePageUtilitiesTests2.under10utilityTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.HomePageUtilitiesTests2.under10utilityTest" />
+        <item itemvalue="TestNG.HomePageUtilitiesTests2.dealsUtilityTest" />
+        <item itemvalue="TestNG.HomePageUtilitiesTests2.musicUtilityTest" />
+        <item itemvalue="TestNG.HomePageUtilitiesTests2.businessAndIndustrialUtilityTest" />
         <item itemvalue="TestNG.HomePageUtilitiesTests2.toysUtilityTest" />
-        <item itemvalue="TestNG.HomePageUtilitiesTests2.sportingGoodsTest" />
-        <item itemvalue="TestNG.HomePageUtilitiesTests2.homeAndGardenTest" />
-        <item itemvalue="TestNG.HomeUtilitiesTests.collectiblesAndArtTest" />
-        <item itemvalue="TestNG.HomeUtilitiesTests.electronicsUtilityTest" />
       </list>
     </recent_temporary>
   </component>
@@ -473,18 +473,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SignInUsingGoogleSheet_LogInByUsingGoogleSheetTest - 2019.01.16 at 20h 02m 39s.xml">
-      <configuration name="SignInUsingGoogleSheet.LogInByUsingGoogleSheetTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SignInUsingGoogleSheet_LogInByUsingGoogleSheetTest - 2019.01.16 at 20h 07m 40s.xml">
-      <configuration name="SignInUsingGoogleSheet.LogInByUsingGoogleSheetTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SignInUsingGoogleSheet_LogInByUsingGoogleSheetTest - 2019.01.16 at 20h 08m 50s.xml">
-      <configuration name="SignInUsingGoogleSheet.LogInByUsingGoogleSheetTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="HomePageFeaturesTests_seeAllDailyDealsTest - 2019.01.16 at 20h 52m 08s.xml">
-      <configuration name="HomePageFeaturesTests.seeAllDailyDealsTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="HomePageFeaturesTests_seeAllTrendsFeatureTest - 2019.01.16 at 21h 06m 00s.xml">
       <configuration name="HomePageFeaturesTests.seeAllTrendsFeatureTest" configurationId="TestNG" />
     </history-entry>
@@ -502,6 +490,18 @@
     </history-entry>
     <history-entry file="HomePageUtilitiesTests2_sportingGoodsTest - 2019.01.16 at 21h 44m 44s.xml">
       <configuration name="HomePageUtilitiesTests2.sportingGoodsTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HomePageUtilitiesTests2_toysUtilityTest - 2019.01.16 at 21h 47m 54s.xml">
+      <configuration name="HomePageUtilitiesTests2.toysUtilityTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HomePageUtilitiesTests2_businessAndIndustrialUtilityTest - 2019.01.16 at 21h 53m 27s.xml">
+      <configuration name="HomePageUtilitiesTests2.businessAndIndustrialUtilityTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HomePageUtilitiesTests2_musicUtilityTest - 2019.01.16 at 21h 58m 04s.xml">
+      <configuration name="HomePageUtilitiesTests2.musicUtilityTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HomePageUtilitiesTests2_dealsUtilityTest - 2019.01.16 at 22h 01m 29s.xml">
+      <configuration name="HomePageUtilitiesTests2.dealsUtilityTest" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -887,8 +887,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/eBayUtil/HomepageUtilities.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
+        <state relative-caret-position="484">
+          <caret line="115" column="46" lean-forward="true" selection-start-line="115" selection-start-column="46" selection-end-line="115" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -897,7 +897,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/eBaytests/HomePageUtilitiesTests2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
+        <state relative-caret-position="377">
           <caret line="49" column="144" selection-start-line="49" selection-start-column="144" selection-end-line="49" selection-end-column="144" />
         </state>
       </provider>
