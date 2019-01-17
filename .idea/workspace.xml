@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e2e6cc4-8bc8-458f-94fc-a706330e4deb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Ebay/src/test/java/eBaytests/AllCategoriesDropDownTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Ebay/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/Extent-Report/ExtentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/src/main/java/eBayUtil/ShopByCategoriesDropDown.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/src/main/java/eBayUtil/ShopByCategoriesDropDown.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/src/main/java/eBayUtil/AllCategoriesDropDown.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/src/main/java/eBayUtil/AllCategoriesDropDown.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/src/test/resources/EbayTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/src/test/resources/EbayTestRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/ebayUtil/AllCategoriesDropDown.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/classes/ebayUtil/AllCategoriesDropDown.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/test-classes/EbayTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/test-classes/EbayTestRunner.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -69,9 +74,9 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="15884" />
+          <entry key="JAVA" value="16522" />
           <entry key="PLAIN_TEXT" value="101" />
-          <entry key="XML" value="158" />
+          <entry key="XML" value="167" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -79,9 +84,9 @@
           <entry key="CLASS" value="20" />
           <entry key="HTML" value="3" />
           <entry key="Image" value="7" />
-          <entry key="JAVA" value="337" />
+          <entry key="JAVA" value="343" />
           <entry key="JSON" value="5" />
-          <entry key="XML" value="49" />
+          <entry key="XML" value="51" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -96,20 +101,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/eBayUtil/ShopByCategoriesDropDown.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/eBayUtil/AllCategoriesDropDown.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="91" column="41" selection-start-line="91" selection-start-column="41" selection-end-line="91" selection-end-column="41" />
+            <state relative-caret-position="422">
+              <caret line="79" column="16" selection-start-line="79" selection-start-column="16" selection-end-line="79" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/eBaytests/ShopByCategoriesTest.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/eBaytests/AllCategoriesDropDownTest2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="59" column="144" selection-start-line="59" selection-start-column="144" selection-end-line="59" selection-end-column="144" />
+            <state relative-caret-position="465">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Ebay/src/test/resources/EbayTestRunner.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" column="63" selection-start-line="27" selection-start-column="63" selection-end-line="27" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -141,8 +161,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Ebay/src/test/java/ebayTests/HomePageFeaturesTests.java" />
-        <option value="$PROJECT_DIR$/Ebay/src/test/java/ebayTests/ListItemForSaleTest.java" />
         <option value="$PROJECT_DIR$/Ebay/src/test/java/ebayTests/PurchseTest.java" />
         <option value="$PROJECT_DIR$/Ebay/src/test/java/ebayTests/signInTest.java" />
         <option value="$PROJECT_DIR$/Ebay/src/main/java/ebayUtil/Purchase.java" />
@@ -168,7 +186,6 @@
         <option value="$PROJECT_DIR$/Ebay/src/main/java/eBayUtil/SearchFromExcel.java" />
         <option value="$PROJECT_DIR$/Ebay/src/main/java/eBayUtil/GoogleSheetFile.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/Excel/ExcelReader.java" />
-        <option value="$PROJECT_DIR$/Ebay/src/test/resources/EbayTestRunner.xml" />
         <option value="$PROJECT_DIR$/Ebay/src/test/java/datadriven/ExcelFileTest.java" />
         <option value="$PROJECT_DIR$/Ebay/src/test/java/datadriven/Test1.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/Excel/CreateWorkBookFile.java" />
@@ -178,7 +195,6 @@
         <option value="$PROJECT_DIR$/Ebay/src/test/java/datadriven/ExcelFileReaderTest.java" />
         <option value="$PROJECT_DIR$/Ebay/src/test/java/datadriven/DataBaseTest.java" />
         <option value="$PROJECT_DIR$/Ebay/src/test/java/eBaytests/AllCategoriesDropDownTest.java" />
-        <option value="$PROJECT_DIR$/Ebay/src/test/java/eBaytests/HomePageFeaturesTests.java" />
         <option value="$PROJECT_DIR$/Ebay/src/test/java/eBaytests/HomePageUtilitiesTests2.java" />
         <option value="$PROJECT_DIR$/Ebay/src/test/java/eBaytests/HomeUtilitiesTests.java" />
         <option value="$PROJECT_DIR$/Ebay/src/test/java/eBaytests/ListItemForSaleTest.java" />
@@ -192,6 +208,10 @@
         <option value="$PROJECT_DIR$/Ebay/src/main/java/eBayUtil/HomePageFeatures.java" />
         <option value="$PROJECT_DIR$/Ebay/src/main/java/eBayUtil/HomepageUtilities.java" />
         <option value="$PROJECT_DIR$/Ebay/src/main/java/eBayUtil/ShopByCategoriesDropDown.java" />
+        <option value="$PROJECT_DIR$/Ebay/src/test/java/eBaytests/HomePageFeaturesTests.java" />
+        <option value="$PROJECT_DIR$/Ebay/src/test/resources/EbayTestRunner.xml" />
+        <option value="$PROJECT_DIR$/Ebay/src/test/java/eBaytests/AllCategoriesDropDownTest2.java" />
+        <option value="$PROJECT_DIR$/Ebay/src/main/java/eBayUtil/AllCategoriesDropDown.java" />
       </list>
     </option>
   </component>
@@ -297,7 +317,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="datadriven" type="462c0819:PsiDirectoryNode" />
+              <item name="eBaytests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Web-Automation-Framkework" type="b2602c69:ProjectViewProjectNode" />
@@ -305,8 +325,7 @@
               <item name="Ebay" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="eBaytests" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -318,7 +337,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547696621649" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547698682865" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -357,8 +376,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.ShopByCategoriesTest.selectOtherCategoriesFromDropDownTest">
-    <configuration name="ShopByCategoriesTest.selectFashionFromDropDownTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.AllCategoriesDropDownTest2.selectCoinsAndPaperMoneyTest">
+    <configuration name="AllCategoriesDropDownTest2.selectCoinsAndPaperMoneyTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Ebay" />
       <extension name="coverage">
         <pattern>
@@ -367,8 +386,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="eBaytests" />
-      <option name="MAIN_CLASS_NAME" value="eBaytests.ShopByCategoriesTest" />
-      <option name="METHOD_NAME" value="selectFashionFromDropDownTest" />
+      <option name="MAIN_CLASS_NAME" value="eBaytests.AllCategoriesDropDownTest2" />
+      <option name="METHOD_NAME" value="selectCoinsAndPaperMoneyTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -449,19 +468,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.ShopByCategoriesTest.selectFashionFromDropDownTest" />
       <item itemvalue="TestNG.ShopByCategoriesTest.selectHomeAndGardenFromDropDownTest" />
       <item itemvalue="TestNG.ShopByCategoriesTest.selectMotorsFromDropDownTest" />
       <item itemvalue="TestNG.ShopByCategoriesTest.selectSportingGoodsFromDropDownTest" />
       <item itemvalue="TestNG.ShopByCategoriesTest.selectOtherCategoriesFromDropDownTest" />
+      <item itemvalue="TestNG.AllCategoriesDropDownTest2.selectCoinsAndPaperMoneyTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.AllCategoriesDropDownTest2.selectCoinsAndPaperMoneyTest" />
         <item itemvalue="TestNG.ShopByCategoriesTest.selectOtherCategoriesFromDropDownTest" />
         <item itemvalue="TestNG.ShopByCategoriesTest.selectSportingGoodsFromDropDownTest" />
         <item itemvalue="TestNG.ShopByCategoriesTest.selectMotorsFromDropDownTest" />
         <item itemvalue="TestNG.ShopByCategoriesTest.selectHomeAndGardenFromDropDownTest" />
-        <item itemvalue="TestNG.ShopByCategoriesTest.selectFashionFromDropDownTest" />
       </list>
     </recent_temporary>
   </component>
@@ -479,15 +498,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HomePageUtilitiesTests2_musicUtilityTest - 2019.01.16 at 21h 58m 04s.xml">
-      <configuration name="HomePageUtilitiesTests2.musicUtilityTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="HomePageUtilitiesTests2_dealsUtilityTest - 2019.01.16 at 22h 01m 29s.xml">
-      <configuration name="HomePageUtilitiesTests2.dealsUtilityTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="HomePageUtilitiesTests2_under10utilityTest - 2019.01.16 at 22h 06m 05s.xml">
-      <configuration name="HomePageUtilitiesTests2.under10utilityTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="ShopByCategoriesTest_selectCollectiblesAndArtFromDropDownTest - 2019.01.16 at 22h 24m 32s.xml">
       <configuration name="ShopByCategoriesTest.selectCollectiblesAndArtFromDropDownTest" configurationId="TestNG" />
     </history-entry>
@@ -508,6 +518,15 @@
     </history-entry>
     <history-entry file="ShopByCategoriesTest_selectMotorsFromDropDownTest - 2019.01.16 at 22h 39m 49s.xml">
       <configuration name="ShopByCategoriesTest.selectMotorsFromDropDownTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ShopByCategoriesTest_selectSportingGoodsFromDropDownTest - 2019.01.16 at 22h 42m 50s.xml">
+      <configuration name="ShopByCategoriesTest.selectSportingGoodsFromDropDownTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ShopByCategoriesTest_selectOtherCategoriesFromDropDownTest - 2019.01.16 at 22h 43m 54s.xml">
+      <configuration name="ShopByCategoriesTest.selectOtherCategoriesFromDropDownTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AllCategoriesDropDownTest2_selectCoinsAndPaperMoneyTest - 2019.01.16 at 23h 08m 38s.xml">
+      <configuration name="AllCategoriesDropDownTest2.selectCoinsAndPaperMoneyTest" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -555,13 +574,6 @@
     </ignored-roots>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="582">
-          <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Ebay/excelFile/exel.html" />
     <entry file="file://$PROJECT_DIR$/Ebay/screenshots/searchFromDbTest (01.13.2019-13:25PM).png" />
     <entry file="file://$PROJECT_DIR$/Ebay/pom.xml">
@@ -593,16 +605,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/eBayUtil/AllCategoriesDropDown.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi-ooxml/3.17/poi-ooxml-3.17-sources.jar!/org/apache/poi/xssf/usermodel/XSSFWorkbook.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -611,13 +613,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/eBayUtil/SearchFromExcel.java" />
-    <entry file="file://$PROJECT_DIR$/Ebay/src/test/resources/EbayTestRunner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="59" lean-forward="true" selection-start-line="25" selection-start-column="59" selection-end-line="25" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/datadriven/ExcelFileTest.java" />
     <entry file="file://$PROJECT_DIR$/Ebay/screenshots/searchDataFoundTest (01.14.2019-22:31PM).png" />
     <entry file="file://$PROJECT_DIR$/Ebay/Extent-Report/ExtentReport.html">
@@ -699,16 +694,6 @@
             <element signature="imports" expanded="true" />
             <element signature="e#319#320#0" expanded="true" />
             <element signature="e#389#390#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/eBaytests/AllCategoriesDropDownTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="683">
-          <caret line="54" column="144" selection-start-line="54" selection-start-column="144" selection-end-line="54" selection-end-column="144" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -850,20 +835,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/eBaytests/HomePageUtilitiesTests2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="49" column="144" selection-start-line="49" selection-start-column="144" selection-end-line="49" selection-end-column="144" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/eBaytests/HomePageFeaturesTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="39" column="144" selection-start-line="39" selection-start-column="144" selection-end-line="39" selection-end-column="144" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/datadriven/DataBaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -894,17 +865,76 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/eBaytests/ShopByCategoriesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="59" column="144" selection-start-line="59" selection-start-column="144" selection-end-line="59" selection-end-column="144" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/eBayUtil/ShopByCategoriesDropDown.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
+        <state relative-caret-position="1305">
           <caret line="91" column="41" selection-start-line="91" selection-start-column="41" selection-end-line="91" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/eBaytests/ShopByCategoriesTest.java">
+    <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/eBaytests/HomePageUtilitiesTests2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="59" column="144" selection-start-line="59" selection-start-column="144" selection-end-line="59" selection-end-column="144" />
+        <state relative-caret-position="108">
+          <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+          <folding>
+            <element signature="e#392#393#0" expanded="true" />
+            <element signature="e#485#486#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/eBaytests/AllCategoriesDropDownTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="633">
+          <caret line="54" column="144" selection-start-line="54" selection-start-column="144" selection-end-line="54" selection-end-column="144" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ebay/src/test/resources/EbayTestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="63" selection-start-line="27" selection-start-column="63" selection-end-line="27" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/eBaytests/HomePageFeaturesTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+          <folding>
+            <element signature="e#386#387#0" expanded="true" />
+            <element signature="e#477#478#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/eBaytests/AllCategoriesDropDownTest2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/eBayUtil/AllCategoriesDropDown.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="79" column="16" selection-start-line="79" selection-start-column="16" selection-end-line="79" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

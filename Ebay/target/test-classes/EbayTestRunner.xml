@@ -23,7 +23,9 @@
             <class name="eBaytests.ShopByCategoriesTest"></class>
             <class name="eBaytests.ListItemForSaleTest"></class>
             <class name="datadriven.DataBaseTest"></class>
-            <class name="datadriven.ExcelFileTest"></class>
+            <class name="datadriven.ExcelFileReaderTest"></class>
+            <class name="datadriven.SignInUsingGoogleSheet"></class>
+            <class name="eBaytests.AllCategoriesDropDownTest2"></class>
         </classes>
     </test>
 

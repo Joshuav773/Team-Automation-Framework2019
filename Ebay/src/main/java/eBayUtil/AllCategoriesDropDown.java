@@ -10,6 +10,7 @@ public class AllCategoriesDropDown extends CommonAPI {
 
     @FindBy(css = "#gh-cat")public static WebElement allCategoriesDropDown;
     @FindBy(css = "#gh-btn")public static WebElement searchButton;
+    @FindBy(xpath = "//h1")public static WebElement header;
 
     public void selectAntiquesFromDropDown(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
@@ -59,5 +60,26 @@ public class AllCategoriesDropDown extends CommonAPI {
         select.selectByVisibleText("Clothing, Shoes & Accessories");
         searchButton.click();
     }
-
+    public void selectCoinsAndPaperMoney(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        Select select = new Select(allCategoriesDropDown);
+        select.selectByVisibleText("Coins & Paper Money");
+        searchButton.click();
+    }
+    public void selectCollectibles(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        Select select = new Select(allCategoriesDropDown);
+        select.selectByVisibleText("Collectibles");
+        searchButton.click();
+    }
+    public void selectComputerTabletsAndNetworking(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        Select select = new Select(allCategoriesDropDown);
+        select.selectByVisibleText("Computers/Tablets & Networking");
+    }
+    public void selectConsumerElectronics(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        Select select = new Select(allCategoriesDropDown);
+        select.selectByVisibleText("Consumer Electronics");
+    }
 }
