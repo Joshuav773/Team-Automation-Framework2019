@@ -3,6 +3,7 @@ package eBayUtil;
 import base.CommonAPI;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.testng.Assert;
 import reporting.TestLogger;
 
 public class HomepageUtilities extends CommonAPI {
@@ -22,6 +23,14 @@ public class HomepageUtilities extends CommonAPI {
     @FindBy(xpath = "//a[contains (text(), 'Deals') and @_sp = 'p2481888.m1388.l3250']")public static WebElement dealsUtility;
     @FindBy(xpath = "//a[contains (text(), 'Under $10') and @_sp = 'p2481888.m1389.l3250']")public static WebElement under10Utility;
     @FindBy(css = "#sgnBt")public static WebElement signInButton;
+    @FindBy(xpath = "//h1")public static WebElement motorsHeader;
+    @FindBy(xpath = "//h1")public static WebElement fashionHeader;
+    @FindBy(xpath = "//h1")public static WebElement electronicsHeader;
+    @FindBy(xpath = "//h1")public static WebElement collectiblesAndArtHeader;
+    @FindBy(xpath = "//h1")public static WebElement homeAndGardenHeader;
+    @FindBy(xpath = "//h1")public static WebElement sportingGoodsHeader;
+    @FindBy(xpath = "//h1")public static WebElement toysHeader;
+    @FindBy(xpath = "//h1")public static WebElement businessAndIndustrialHeader;
 
     public void homeButton(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
@@ -38,34 +47,58 @@ public class HomepageUtilities extends CommonAPI {
     public void motorsUtility(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         motorsOption.click();
+        String actual = motorsHeader.getText();
+        String expected = "eBay Motors";
+        Assert.assertEquals(actual, expected);
     }
     public void fashionutility(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         fashionUtility.click();
+        String actual = fashionHeader.getText();
+        String expected = "Fashion";
+        Assert.assertEquals(actual, expected);
     }
     public void electronicsUtilitly(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         electronicsUtility.click();
+        String actual = electronicsHeader.getText();
+        String expected = "Electronics";
+        Assert.assertEquals(actual, expected);
     }
     public void collectiblesandart(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         collectiblesAndArt.click();
+        String actual = collectiblesAndArtHeader.getText();
+        String expected = "Collectibles & Arts";
+
     }
     public void homeAndGarden(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         homeAndGarden.click();
+        String actual = homeAndGardenHeader.getText();
+        String expected = "Home & Garden";
+        Assert.assertEquals(actual, expected);
     }
     public void sportingGoodsUtility(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         sportingGoodsUtility.click();
+        String actual = sportingGoodsHeader.getText();
+        String expected = "Sporting Goods to Keep You Moving";
+        Assert.assertEquals(actual, expected);
     }
     public void toysUtility(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         toysUtility.click();
+        String actual = toysHeader.getText();
+        String expected = "Toys & Hobbies";
+        Assert.assertEquals(actual, expected);
     }
     public void businessAndIndustrialUtility(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         businessAndIndustrialUtility.click();
+        String actual = businessAndIndustrialHeader.getText();
+        String expected = "Business & Industrial";
+        Assert.assertEquals(expected, actual);
     }
     public void musicUtility(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
