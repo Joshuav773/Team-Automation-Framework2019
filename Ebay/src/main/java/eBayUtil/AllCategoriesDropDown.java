@@ -132,5 +132,37 @@ public class AllCategoriesDropDown extends CommonAPI {
         Select select = new Select(allCategoriesDropDown);
         select.selectByVisibleText("Music");
     }
-    public void selec
+    public void selecMusicalInstrumentsAndGear(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        Select select = new Select(allCategoriesDropDown);
+        select.selectByVisibleText("Musical Instruments & Gear");
+    }
+    public void selectPetSuppliesFromDropDown(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        Select select = new Select(allCategoriesDropDown);
+        select.selectByVisibleText("Pet supplies");
+    }
+    public void selectPotteryAndGlass(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        Select select = new Select(allCategoriesDropDown);
+        select.selectByVisibleText("Pottery & Glass");
+    }
+    public void selectRealstateFromDropDown(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        Select select = new Select(allCategoriesDropDown);
+        select.selectByVisibleText("Real State");
+    }
+    public void selectSpecialtyServices(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        Select select = new Select(allCategoriesDropDown);
+        select.selectByVisibleText("Specialty Services");
+    }
+    public void selectSportingGoodsFromDropDown(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        Select select = new Select(allCategoriesDropDown);
+        select.selectByVisibleText("Sporting Goods");
+    }
+    public void selectSportsMemCardsAndFanShop(){
+
+    }
 }
