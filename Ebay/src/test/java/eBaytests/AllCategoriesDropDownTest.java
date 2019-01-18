@@ -48,11 +48,11 @@ public class AllCategoriesDropDownTest extends AllCategoriesDropDown {
     @Test
     public void selectCellPhonesAndAccesoriesTest(){
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        selectCellPhonesAndAccesories();
+        selectCellPhonesAndAccesoriesFromDropDown();
     }
     @Test
     public void selectClothingShoesAndAccesoriesTest(){
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        selectClothingShoesAndAccesories();
+        selectClothingShoesAndAccesoriesFromDropDown();
     }
 }

@@ -10,28 +10,49 @@ public class AllCategoriesDropDownTest2 extends AllCategoriesDropDown{
 
      AllCategoriesDropDown allCategoriesDropDown;
 
-     @BeforeMethod
+    @BeforeMethod
     public void initElements(){
          allCategoriesDropDown = PageFactory.initElements(driver, AllCategoriesDropDown.class);
     }
-     @Test
-    public void selectCoinsAndPaperMoneyTest(){
-         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-         selectCoinsAndPaperMoney();
-    }
     @Test
-    public void selectCollectiblesTest(){
-         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-         selectCollectibles();
-    }
-    @Test
-    public void selectComputerTabletsAndNetworkingTest(){
-         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-         selectComputerTabletsAndNetworking();
-    }
-    @Test
-    public void selectConsumerElectronicsTest(){
+    public void coinsAndPaperMoneyTest(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        selectConsumerElectronics();
+        selectCoinsAndPaperMoneyFromDropDown();
     }
+    @Test
+    public void collectiblesTest(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        selectCollectiblesFromDropDown();
+    }
+    @Test
+    public void computerTabletsAndNetworkingTest(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        selectComputerTabletsAndNetworkingFromDropDown();
+    }
+    @Test
+    public void consumerElectronicsTest(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        selectConsumerElectronicsFromDropDown();
+    }
+    @Test
+    public void cellPhonesAndAccesoriesTest(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        selectCellPhonesAndAccesoriesFromDropDown();
+    }
+    @Test
+    public void craftsTest(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        selectCraftsFromDropDown();
+    }
+    @Test
+    public void dollsAndBearsTest(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        selectDollsAndBearsFromDropDown();
+    }
+    @Test
+    public void dvdsAndMoviesTest(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        selectDvdsAndMoviesFromDropDown();
+    }
+
 }
