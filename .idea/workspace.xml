@@ -2,35 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e2e6cc4-8bc8-458f-94fc-a706330e4deb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Ebay/src/test/java/eBaytests/AllCategoriesDropDownTest4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthFirst/src/main/java/FrontPage/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthFirst/src/main/java/FrontPage/MembersPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthFirst/src/main/java/FrontPage/ProvidorsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthFirst/src/test/java/FrontPageTest/HomePageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/Extent-Report/ExtentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/src/main/java/eBayUtil/AllCategoriesDropDown.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/src/main/java/eBayUtil/AllCategoriesDropDown.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/src/test/java/eBaytests/AllCategoriesDropDownTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/src/test/java/eBaytests/AllCategoriesDropDownTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/src/test/java/eBaytests/AllCategoriesDropDownTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/src/test/java/eBaytests/AllCategoriesDropDownTest2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/src/test/java/eBaytests/AllCategoriesDropDownTest3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/src/test/java/eBaytests/AllCategoriesDropDownTest3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/src/test/resources/EbayTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/src/test/resources/EbayTestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/ebayUtil/AllCategoriesDropDown$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/classes/ebayUtil/AllCategoriesDropDown$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/ebayUtil/AllCategoriesDropDown$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/classes/ebayUtil/AllCategoriesDropDown$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/ebayUtil/AllCategoriesDropDown$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/classes/ebayUtil/AllCategoriesDropDown$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/ebayUtil/AllCategoriesDropDown$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/classes/ebayUtil/AllCategoriesDropDown$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/ebayUtil/AllCategoriesDropDown$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/classes/ebayUtil/AllCategoriesDropDown$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/ebayUtil/AllCategoriesDropDown$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/classes/ebayUtil/AllCategoriesDropDown$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/ebayUtil/AllCategoriesDropDown$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/classes/ebayUtil/AllCategoriesDropDown$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/ebayUtil/AllCategoriesDropDown$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/classes/ebayUtil/AllCategoriesDropDown$8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/ebayUtil/AllCategoriesDropDown$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/classes/ebayUtil/AllCategoriesDropDown$9.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/ebayUtil/AllCategoriesDropDown.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/classes/ebayUtil/AllCategoriesDropDown.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/test-classes/EbayTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/test-classes/EbayTestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/test-classes/ebayTests/AllCategoriesDropDownTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/test-classes/ebayTests/AllCategoriesDropDownTest$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/test-classes/ebayTests/AllCategoriesDropDownTest$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/test-classes/ebayTests/AllCategoriesDropDownTest$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/test-classes/ebayTests/AllCategoriesDropDownTest$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/test-classes/ebayTests/AllCategoriesDropDownTest$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/test-classes/ebayTests/AllCategoriesDropDownTest$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/test-classes/ebayTests/AllCategoriesDropDownTest$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/test-classes/ebayTests/AllCategoriesDropDownTest$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/test-classes/ebayTests/AllCategoriesDropDownTest$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/test-classes/ebayTests/AllCategoriesDropDownTest$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/test-classes/ebayTests/AllCategoriesDropDownTest$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/test-classes/ebayTests/AllCategoriesDropDownTest$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/test-classes/ebayTests/AllCategoriesDropDownTest$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/test-classes/ebayTests/AllCategoriesDropDownTest$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/test-classes/ebayTests/AllCategoriesDropDownTest$8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/test-classes/ebayTests/AllCategoriesDropDownTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/test-classes/ebayTests/AllCategoriesDropDownTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ebay/target/test-classes/ebayTests/AllCategoriesDropDownTest2.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/test-classes/ebayTests/AllCategoriesDropDownTest2.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -49,11 +26,11 @@
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Web_Automation_Framkework$ExcelFileTest_searchDataFoundTest.ic" NAME="ExcelFileTest.searchDataFoundTest Coverage Results" MODIFIED="1547520476187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>datadriven.*</FILTER>
-    </SUITE>
     <SUITE FILE_PATH="coverage/Web_Automation_Framkework$SignInUsingGoogleSheet.ic" NAME="SignInUsingGoogleSheet Coverage Results" MODIFIED="1547602614023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>eBaytests.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Web_Automation_Framkework$ExcelFileTest_searchDataFoundTest.ic" NAME="ExcelFileTest.searchDataFoundTest Coverage Results" MODIFIED="1547520476187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>datadriven.*</FILTER>
     </SUITE>
   </component>
   <component name="FUSProjectUsageTrigger">
@@ -117,6 +94,36 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="653657054">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="iml" value="1" />
+          <entry key="java" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="JAVA" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="64" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="64" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FavoritesManager">
     <favorites_list name="Web-Automation-Framkework" />
@@ -126,8 +133,65 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/eBayUtil/AllCategoriesDropDown.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="222" column="29" selection-start-line="222" selection-start-column="29" selection-end-line="222" selection-end-column="29" />
+            <state relative-caret-position="579">
+              <caret line="225" selection-start-line="225" selection-end-line="225" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HealthFirst/src/test/java/FrontPageTest/HomePageTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HealthFirst/src/main/java/FrontPage/HomePage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="248">
+              <caret line="50" column="62" lean-forward="true" selection-start-line="50" selection-start-column="62" selection-end-line="50" selection-end-column="62" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/HealthFirst/src/main/java/FrontPage/MembersPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="38" column="61" selection-start-line="38" selection-start-column="61" selection-end-line="38" selection-end-column="61" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HealthFirst/src/main/java/FrontPage/ProvidorsPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/GoogleApis/GoogleSheetReader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="556">
+              <caret line="74" column="25" lean-forward="true" selection-start-line="74" selection-start-column="25" selection-end-line="74" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -138,8 +202,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/eBaytests/AllCategoriesDropDownTest4.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="899">
-              <caret line="60" column="5" lean-forward="true" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
+            <state relative-caret-position="639">
+              <caret line="60" column="5" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -147,10 +211,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/eBaytests/AllCategoriesDropDownTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
+            <state relative-caret-position="534">
               <caret line="60" column="43" selection-start-line="60" selection-start-column="43" selection-end-line="60" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -160,9 +224,18 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebAutomationFramework.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="41" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/eBaytests/AllCategoriesDropDownTest2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
+            <state relative-caret-position="810">
               <caret line="58" column="50" selection-start-line="58" selection-start-column="50" selection-end-line="58" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -198,10 +271,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Ebay/src/main/java/ebayUtil/Purchase.java" />
-        <option value="$PROJECT_DIR$/Ebay/src/main/java/ebayUtil/Searches.java" />
-        <option value="$PROJECT_DIR$/Ebay/src/main/java/ebayUtil/ShopByCategoriesDropDown.java" />
-        <option value="$PROJECT_DIR$/Ebay/src/main/java/ebayUtil/ListItemForSale.java" />
         <option value="$PROJECT_DIR$/Ebay/src/main/java/ebayUtil/HomePageFeatures.java" />
         <option value="$PROJECT_DIR$/Ebay/src/main/java/ebayUtil/AllCategoriesDropDown.java" />
         <option value="$PROJECT_DIR$/Ebay/src/main/java/ebayUtil/SignIn.java" />
@@ -249,6 +318,10 @@
         <option value="$PROJECT_DIR$/Ebay/src/test/java/eBaytests/AllCategoriesDropDownTest4.java" />
         <option value="$PROJECT_DIR$/Ebay/src/test/java/eBaytests/AllCategoriesDropDownTest2.java" />
         <option value="$PROJECT_DIR$/Ebay/src/test/java/eBaytests/AllCategoriesDropDownTest.java" />
+        <option value="$PROJECT_DIR$/HealthFirst/src/main/java/FrontPage/HomePage.java" />
+        <option value="$PROJECT_DIR$/HealthFirst/src/main/java/FrontPage/MembersPage.java" />
+        <option value="$PROJECT_DIR$/HealthFirst/src/main/java/FrontPage/ProvidorsPage.java" />
+        <option value="$PROJECT_DIR$/HealthFirst/src/test/java/FrontPageTest/HomePageTest.java" />
       </list>
     </option>
   </component>
@@ -290,59 +363,145 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Web-Automation-Framkework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Web-Automation-Framkework" type="462c0819:PsiDirectoryNode" />
+              <item name="Team-Automation-Framework2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Team-Automation-Framework2019" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Web-Automation-Framkework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Web-Automation-Framkework" type="462c0819:PsiDirectoryNode" />
-              <item name="Ebay" type="462c0819:PsiDirectoryNode" />
+              <item name="Team-Automation-Framework2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Team-Automation-Framework2019" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Web-Automation-Framkework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Web-Automation-Framkework" type="462c0819:PsiDirectoryNode" />
-              <item name="Ebay" type="462c0819:PsiDirectoryNode" />
+              <item name="Team-Automation-Framework2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Team-Automation-Framework2019" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Web-Automation-Framkework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Web-Automation-Framkework" type="462c0819:PsiDirectoryNode" />
-              <item name="Ebay" type="462c0819:PsiDirectoryNode" />
+              <item name="Team-Automation-Framework2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Team-Automation-Framework2019" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Web-Automation-Framkework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Web-Automation-Framkework" type="462c0819:PsiDirectoryNode" />
-              <item name="Ebay" type="462c0819:PsiDirectoryNode" />
+              <item name="Team-Automation-Framework2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Team-Automation-Framework2019" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Team-Automation-Framework2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Team-Automation-Framework2019" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Team-Automation-Framework2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Team-Automation-Framework2019" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Team-Automation-Framework2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Team-Automation-Framework2019" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Excel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Team-Automation-Framework2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Team-Automation-Framework2019" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="GoogleApis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Team-Automation-Framework2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Team-Automation-Framework2019" type="462c0819:PsiDirectoryNode" />
+              <item name="HealthFirst" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Team-Automation-Framework2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Team-Automation-Framework2019" type="462c0819:PsiDirectoryNode" />
+              <item name="HealthFirst" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Team-Automation-Framework2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Team-Automation-Framework2019" type="462c0819:PsiDirectoryNode" />
+              <item name="HealthFirst" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Team-Automation-Framework2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Team-Automation-Framework2019" type="462c0819:PsiDirectoryNode" />
+              <item name="HealthFirst" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Web-Automation-Framkework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Web-Automation-Framkework" type="462c0819:PsiDirectoryNode" />
-              <item name="Ebay" type="462c0819:PsiDirectoryNode" />
+              <item name="Team-Automation-Framework2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Team-Automation-Framework2019" type="462c0819:PsiDirectoryNode" />
+              <item name="HealthFirst" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="eBayUtil" type="462c0819:PsiDirectoryNode" />
+              <item name="FrontPage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Team-Automation-Framework2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Team-Automation-Framework2019" type="462c0819:PsiDirectoryNode" />
+              <item name="HealthFirst" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Team-Automation-Framework2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Team-Automation-Framework2019" type="462c0819:PsiDirectoryNode" />
+              <item name="HealthFirst" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Team-Automation-Framework2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Team-Automation-Framework2019" type="462c0819:PsiDirectoryNode" />
+              <item name="HealthFirst" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="FrontPageTest" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547781272584" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547838598799" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -535,17 +694,16 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" sideWeight="0.50448835" side_tool="true" weight="0.20386267" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.49551168" visible="true" weight="0.20386267" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.49551168" visible="true" weight="0.20678514" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49928468" weight="0.32891566" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" sideWeight="0.49928468" visible="true" weight="0.32876712" />
       <window_info anchor="bottom" id="Version Control" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5007153" side_tool="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Message" order="3" />
@@ -579,27 +737,6 @@
     </ignored-roots>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Ebay/screenshots/saveTheSearchOfSpecificItemTest (01.13.2019-17:52PM).png" />
-    <entry file="file://$PROJECT_DIR$/Ebay/screenshots/purchaseAnItemTest (01.13.2019-18:02PM).png" />
-    <entry file="file://$PROJECT_DIR$/Ebay/screenshots/listItemForSaleTest (01.13.2019-18:05PM).png" />
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/database/ConnectToMySqlDb.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3120">
-          <caret line="208" selection-start-line="208" selection-end-line="208" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi-ooxml/3.17/poi-ooxml-3.17-sources.jar!/org/apache/poi/xssf/usermodel/XSSFWorkbook.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="1129" selection-start-line="1129" selection-end-line="1129" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/eBayUtil/SearchFromExcel.java" />
     <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/datadriven/ExcelFileTest.java" />
     <entry file="file://$PROJECT_DIR$/Ebay/screenshots/searchDataFoundTest (01.14.2019-22:31PM).png" />
     <entry file="file://$PROJECT_DIR$/Ebay/Extent-Report/ExtentReport.html">
@@ -623,37 +760,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="615">
           <caret line="41" column="38" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/io/Reader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="77" selection-start-line="77" selection-end-line="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/io/InputStreamReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="71" selection-start-line="71" selection-end-line="71" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/io/Reader.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/io/InputStreamReader.java" />
     <entry file="file://$PROJECT_DIR$/Generic/src/Json/client_secret.json" />
-    <entry file="file://$PROJECT_DIR$/Generic/Json/client_secret.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/Json/client_secret.json" />
     <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/datadriven/ExcelFileReaderTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -661,11 +778,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#319#320#0" expanded="true" />
-            <element signature="e#389#390#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -673,9 +785,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
           <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -683,11 +792,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="144" selection-start-line="19" selection-start-column="144" selection-end-line="19" selection-end-column="144" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#328#329#0" expanded="true" />
-            <element signature="e#417#418#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -695,10 +799,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="24" column="144" selection-start-line="24" selection-start-column="144" selection-end-line="24" selection-end-column="144" />
-          <folding>
-            <element signature="e#292#293#0" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -716,11 +816,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#414#415#0" expanded="true" />
-            <element signature="e#503#504#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -728,9 +823,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="26" column="36" lean-forward="true" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -768,23 +860,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/GoogleApis/GoogleSheetReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="74" column="25" lean-forward="true" selection-start-line="74" selection-start-column="25" selection-end-line="74" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/eBayUtil/SignIn.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="98">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -799,10 +878,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-71">
           <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-          <folding>
-            <element signature="e#387#388#0" expanded="true" />
-            <element signature="e#480#481#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -810,9 +885,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -820,9 +892,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="302">
           <caret line="23" column="33" lean-forward="true" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -854,10 +923,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-          <folding>
-            <element signature="e#392#393#0" expanded="true" />
-            <element signature="e#485#486#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -865,10 +930,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
-          <folding>
-            <element signature="e#386#387#0" expanded="true" />
-            <element signature="e#477#478#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -917,16 +978,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/eBaytests/AllCategoriesDropDownTest2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="58" column="50" selection-start-line="58" selection-start-column="50" selection-end-line="58" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -943,30 +994,101 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/eBaytests/AllCategoriesDropDownTest4.java">
+    <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/eBaytests/AllCategoriesDropDownTest2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="899">
-          <caret line="60" column="5" lean-forward="true" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
+        <state relative-caret-position="810">
+          <caret line="58" column="50" selection-start-line="58" selection-start-column="50" selection-end-line="58" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/eBayUtil/AllCategoriesDropDown.java">
+    <entry file="file://$PROJECT_DIR$/WebAutomationFramework.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="222" column="29" selection-start-line="222" selection-start-column="29" selection-end-line="222" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="15">
+          <caret line="1" column="41" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/eBaytests/AllCategoriesDropDownTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
+        <state relative-caret-position="534">
           <caret line="60" column="43" selection-start-line="60" selection-start-column="43" selection-end-line="60" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/eBaytests/AllCategoriesDropDownTest4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="639">
+          <caret line="60" column="5" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/GoogleApis/GoogleSheetReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="556">
+          <caret line="74" column="25" lean-forward="true" selection-start-line="74" selection-start-column="25" selection-end-line="74" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HealthFirst/src/test/java/FrontPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="26" selection-start-column="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/eBayUtil/AllCategoriesDropDown.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="579">
+          <caret line="225" selection-start-line="225" selection-end-line="225" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HealthFirst/src/test/java/FrontPageTest/HomePageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HealthFirst/src/main/java/FrontPage/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="50" column="62" lean-forward="true" selection-start-line="50" selection-start-column="62" selection-end-line="50" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HealthFirst/src/main/java/FrontPage/ProvidorsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HealthFirst/src/main/java/FrontPage/MembersPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="38" column="61" selection-start-line="38" selection-start-column="61" selection-end-line="38" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1013,7 +1135,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.8</last-edited>
+          <last-edited>10</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1025,7 +1147,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Ebay</last-edited>
+          <last-edited>HealthFirst</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
