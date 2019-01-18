@@ -163,6 +163,38 @@ public class AllCategoriesDropDown extends CommonAPI {
         select.selectByVisibleText("Sporting Goods");
     }
     public void selectSportsMemCardsAndFanShop(){
-
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        Select select = new Select(allCategoriesDropDown);
+        select.selectByVisibleText("Sports Mem, Cards & Fan Shop");
+    }
+    public void selectStampsFromDropDown(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        Select select = new Select(allCategoriesDropDown);
+        select.selectByVisibleText("Stamps");
+    }
+    public void selectTicketsAndExperiencesFromDropDown(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        Select select = new Select(allCategoriesDropDown);
+        select.selectByVisibleText(" Tickets & Experiences");
+    }
+    public void selectToysAndHobbiesfromDropDown(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        Select select = new Select(allCategoriesDropDown);
+        select.selectByVisibleText("Toys & Hobbies");
+    }
+    public void selectTravelFromDropDown(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        Select select = new Select(allCategoriesDropDown);
+        select.selectByVisibleText("Travel");
+    }
+    public  void selectVideoGamesAndConsolesFromDropDown(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        Select select = new Select(allCategoriesDropDown);
+        select.selectByVisibleText("Video Games & Consoles");
+    }
+    public void selectEverythingElseFromDropDown(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        Select select = new Select(allCategoriesDropDown);
+        select.selectByVisibleText("Everything Else");
     }
 }
