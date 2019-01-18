@@ -54,6 +54,9 @@ public class AllCategoriesDropDownTest3 extends AllCategoriesDropDown {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         selecMusicalInstrumentsAndGearFromDropDown();
     }
-
-
+    @Test
+    public void petSuppliesTest(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        selectPetSuppliesFromDropDown();
+    }
 }

@@ -17,22 +17,22 @@ public class AllCategoriesDropDownTest extends AllCategoriesDropDown {
     }
     @Test
     public void antiquesTest(){
-        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         selectAntiquesFromDropDown();
     }
     @Test
     public void artTest(){
-        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         selectArtFromDropDwon();
     }
     @Test
     public void babyTest(){
-        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         selectBabyFromDropdown();
     }
     @Test
     public void booksTest(){
-        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         selectBooksFromDropDown();
     }
     @Test
@@ -42,17 +42,22 @@ public class AllCategoriesDropDownTest extends AllCategoriesDropDown {
     }
     @Test
     public void camerasAndPhotoTest(){
-        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         selectCamerasAndFotoFromDropDown();
     }
     @Test
     public void cellPhonesAndAccesoriesTest(){
-        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         selectCellPhonesAndAccesoriesFromDropDown();
     }
     @Test
     public void clothingShoesAndAccesoriesTest(){
-        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         selectClothingShoesAndAccesoriesFromDropDown();
+    }
+    @Test
+    public void everythingElseTest(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        selectEverythingElseFromDropDown();
     }
 }

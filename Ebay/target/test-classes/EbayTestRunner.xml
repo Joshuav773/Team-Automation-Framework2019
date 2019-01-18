@@ -26,6 +26,8 @@
             <class name="datadriven.ExcelFileReaderTest"></class>
             <class name="datadriven.SignInUsingGoogleSheet"></class>
             <class name="eBaytests.AllCategoriesDropDownTest2"></class>
+            <class name="eBaytests.AllCategoriesDropDownTest3"></class>
+            <class name="eBaytests.AllCategoriesDropDownTest4"></class>
         </classes>
     </test>
 
