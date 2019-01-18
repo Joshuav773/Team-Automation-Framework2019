@@ -82,4 +82,34 @@ public class AllCategoriesDropDown extends CommonAPI {
         Select select = new Select(allCategoriesDropDown);
         select.selectByVisibleText("Consumer Electronics");
     }
+    public void selectCraftsFromDropDown(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        Select select = new Select(allCategoriesDropDown);
+        select.selectByVisibleText("Crafts");
+    }
+    public void selectDollsAndBearsFromDropDown(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        Select select = new Select(allCategoriesDropDown);
+        select.selectByVisibleText("Dolls & Bears");
+    }
+    public void selectDvdsAndMoviesFromDropDown(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        Select select = new Select(allCategoriesDropDown);
+        select.selectByVisibleText("DVDs & Movies");
+    }
+    public void selectEbayMotorsFromDropDown(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        Select select = new Select(allCategoriesDropDown);
+        select.selectByVisibleText("eBay Motors");
+    }
+    public void selectEntertainmentMemorabilia(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        Select select = new Select(allCategoriesDropDown);
+        select.selectByVisibleText("Entertainment Memorabilia");
+    }
+    public void selectGiftCardsAndCoupons(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        Select select = new Select(allCategoriesDropDown);
+        select.selectByVisibleText("Gift");
+    }
 }
