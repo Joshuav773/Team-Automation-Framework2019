@@ -30,5 +30,30 @@ public class AllCategoriesDropDownTest3 extends AllCategoriesDropDown {
         selectGiftCardsAndCouponsFromDropDown();
     }
     @Test
+    public void healthAndBeautyTest(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        selectHealthAndBeautyFromDropDown();
+    }
+    @Test
+    public void homeAndGardenTest(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        selectHomeAndGardenFromDropDown();
+    }
+    @Test
+    public void jewelryAndWatchesTest(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        selectJewelryAndWatchesFromDropDown();
+    }
+    @Test
+    public void musicTest(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        selectMusicFromDropDown();
+    }
+    @Test
+    public void musicalInstrumentsAndGearTest(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        selecMusicalInstrumentsAndGearFromDropDown();
+    }
+
 
 }
