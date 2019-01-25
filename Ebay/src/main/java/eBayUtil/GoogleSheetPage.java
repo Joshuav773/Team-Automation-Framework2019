@@ -62,6 +62,5 @@ public class GoogleSheetPage extends CommonAPI {
             System.out.println(expectedErrorMessage.get(i) + ": Search - Passed");
             i++;
         }
-        System.out.println("testLogInByInvalidIdPassUsingGoogleSheet Passed");
     }
 }

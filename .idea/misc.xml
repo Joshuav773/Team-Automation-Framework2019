@@ -10,6 +10,7 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/GameStop/pom.xml" />
+        <option value="$PROJECT_DIR$/RestAPI/pom.xml" />
       </set>
     </option>
   </component>

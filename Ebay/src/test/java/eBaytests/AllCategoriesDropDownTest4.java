@@ -20,9 +20,9 @@ public class AllCategoriesDropDownTest4 extends AllCategoriesDropDown {
         selectPotteryAndGlassFromDropDown();
     }
     @Test
-    public void realStateTest(){
+    public void realEtateTest(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        selectRealstateFromDropDown();
+        selectRealEstateFromDropDown();
     }
     @Test
     public void specialtyServicesTest(){

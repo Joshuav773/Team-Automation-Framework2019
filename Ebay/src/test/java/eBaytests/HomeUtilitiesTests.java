@@ -44,6 +44,6 @@ public class HomeUtilitiesTests extends HomepageUtilities {
     @Test
     public void collectiblesAndArtTest(){
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        collectiblesandart();
+        collectiblesAndArt();
     }
 }

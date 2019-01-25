@@ -52,7 +52,7 @@ public class HomePageFeatures extends CommonAPI {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         seeAllEditorsPicks.click();
         String actual = editorsPicks.getText();
-        String expected = "Editor's Picks";
+        String expected = "Editors’ Picks";
         Assert.assertEquals(actual, expected);
     }
 }

@@ -10,10 +10,12 @@
         <module name="Generic" />
         <module name="HealthFirst" />
         <module name="NewYorkTimes" />
+        <module name="RestAPI" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="GameStop" target="1.8" />
+      <module name="RestAPI" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Ebay Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>43/3/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>66/10/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Jan 13 18:01:14 EST 2019</td>
+<td>Started on:</td><td>Thu Jan 17 22:38:47 EST 2019</td>
 </tr>
-<tr><td>Total time:</td><td>297 seconds (297457 ms)</td>
+<tr><td>Total time:</td><td>1585 seconds (1585722 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,54 +75,139 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='eBaytests.ListItemForSaleTest.listItemForSaleTest()'><b>listItemForSaleTest</b><br>Test class: eBaytests.ListItemForSaleTest<br/>
-<a href="#Output-347436335" onClick='toggleBox("Output-347436335", this, "Show output", "Hide output");'>Show output</a>
+<td title='datadriven.SignInUsingGoogleSheet.LogInByUsingGoogleSheetTest()'><b>LogInByUsingGoogleSheetTest</b><br>Test class: datadriven.SignInUsingGoogleSheet<br/>
+<a href="#Output-1155023635" onClick='toggleBox("Output-1155023635", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-347436335" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-347436335">
-ListItemForSaleTest: list Item For Sale<br/>
+<a href="#Output-1155023635" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1155023635">
+SignInUsingGoogleSheet: Log In By Using Google Sheet Test<br/>
+SignInUsingGoogleSheet: test Sign In Using Google Sheet<br/>
+SignInUsingGoogleSheet: sign In By Reading From Google Sheet<br/>
+SignInUsingGoogleSheet: get Spread Sheet Records<br/>
 </div>
 </td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//em[contains (text(), &apos;Clothing, Shoes &amp; Accessories &gt; Men&apos;)]&quot;}
-  (Session info: chrome=71.0.3578.98)
-  (Driver info: chromedriver=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189),platform=Mac OS X 10.14.1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;Joshuas-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:e1:e168:1f47:646a%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.1&apos;, java.version: &apos;1.8.0_191&apos;
+<td><div><pre>java.lang.NoSuchMethodError: com.google.api.client.googleapis.services.json.AbstractGoogleJsonClient$Builder.setBatchPath(Ljava/lang/String;)Lcom/google/api/client/googleapis/services/AbstractGoogleClient$Builder;
+	at com.google.api.services.sheets.v4.Sheets$Builder.setBatchPath(Sheets.java:3143)
+	at com.google.api.services.sheets.v4.Sheets$Builder.&lt;init&gt;(Sheets.java:3122)
+	at GoogleApis.GoogleSheetReader.getSheetsService(GoogleSheetReader.java:73)
+	at eBayUtil.GoogleSheetPage.getSpreadSheetRecords(GoogleSheetPage.java:27)
+	at eBayUtil.GoogleSheetPage.signInByReadingFromGoogleSheet(GoogleSheetPage.java:42)
+	at eBayUtil.GoogleSheetPage.testSignInUsingGoogleSheet(GoogleSheetPage.java:59)
+	at datadriven.SignInUsingGoogleSheet.LogInByUsingGoogleSheetTest(SignInUsingGoogleSheet.java:22)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1155023635", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1155023635'><pre>java.lang.NoSuchMethodError: com.google.api.client.googleapis.services.json.AbstractGoogleJsonClient$Builder.setBatchPath(Ljava/lang/String;)Lcom/google/api/client/googleapis/services/AbstractGoogleClient$Builder;
+	at com.google.api.services.sheets.v4.Sheets$Builder.setBatchPath(Sheets.java:3143)
+	at com.google.api.services.sheets.v4.Sheets$Builder.&lt;init&gt;(Sheets.java:3122)
+	at GoogleApis.GoogleSheetReader.getSheetsService(GoogleSheetReader.java:73)
+	at eBayUtil.GoogleSheetPage.getSpreadSheetRecords(GoogleSheetPage.java:27)
+	at eBayUtil.GoogleSheetPage.signInByReadingFromGoogleSheet(GoogleSheetPage.java:42)
+	at eBayUtil.GoogleSheetPage.testSignInUsingGoogleSheet(GoogleSheetPage.java:59)
+	at datadriven.SignInUsingGoogleSheet.LogInByUsingGoogleSheetTest(SignInUsingGoogleSheet.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+</pre></div></td>
+<td>4</td>
+<td>datadriven.SignInUsingGoogleSheet@393671df</td></tr>
+<tr>
+<td title='eBaytests.HomePageUtilitiesTests2.businessAndIndustrialUtilityTest()'><b>businessAndIndustrialUtilityTest</b><br>Test class: eBaytests.HomePageUtilitiesTests2<br/>
+<a href="#Output-1709700394" onClick='toggleBox("Output-1709700394", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1709700394" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1709700394">
+HomePageUtilitiesTests2: business And Industrial Utility Test<br/>
+HomePageUtilitiesTests2: business And Industrial Utility<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=60.0.3112.78)
+  (Driver info: chromedriver=2.31.488774 (7e15618d1bf16df8bf0ecf2914ed1964a387ba0b),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.04 seconds
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 17:00:58&apos;
+System info: host: &apos;mac-208-52-180-158.browserstack.com&apos;, ip: &apos;208.52.180.158&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;1.8.0_51&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.45.615355 (d5698f682d8b27..., userDataDir: /var/folders/y6/2p620w_j1d9...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:62093}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 71.0.3578.98, webStorageEnabled: true}
-Session ID: a43109bbdef6b3961c11b5db35b13952
-*** Element info: {Using=xpath, value=//em[contains (text(), &apos;Clothing, Shoes &amp; Accessories &gt; Men&apos;)]}
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488774 (7e15618d1bf16df8bf0ecf2914ed1964a387ba0b), userDataDir=/var/folders/3y/zz_w6_s56sl__vcrf3r5bhzr0000hr/T/.org.chromium.Chromium.tmNDc6}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.78, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: f39f31df17b6361deae880a7073a7fae
+Command duration or timeout: 0 milliseconds
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
 	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
 	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
 	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
 	at com.sun.proxy.$Proxy11.click(Unknown Source)
-	at eBayUtil.ListItemForSale.listItemForSale(ListItemForSale.java:20)
-	at eBaytests.ListItemForSaleTest.listItemForSaleTest(ListItemForSaleTest.java:18)
-... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace347436335", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace347436335'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//em[contains (text(), &apos;Clothing, Shoes &amp; Accessories &gt; Men&apos;)]&quot;}
-  (Session info: chrome=71.0.3578.98)
-  (Driver info: chromedriver=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189),platform=Mac OS X 10.14.1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+	at eBayUtil.HomepageUtilities.businessAndIndustrialUtility(HomepageUtilities.java:92)
+	at eBaytests.HomePageUtilitiesTests2.businessAndIndustrialUtilityTest(HomePageUtilitiesTests2.java:36)
+Caused by: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=60.0.3112.78)
+  (Driver info: chromedriver=2.31.488774 (7e15618d1bf16df8bf0ecf2914ed1964a387ba0b),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.04 seconds
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 17:00:58&apos;
+System info: host: &apos;mac-208-52-180-158.browserstack.com&apos;, ip: &apos;208.52.180.158&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;1.8.0_51&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488774 (7e15618d1bf16df8bf0ecf2914ed1964a387ba0b), userDataDir=/var/folders/3y/zz_w6_s56sl__vcrf3r5bhzr0000hr/T/.org.chromium.Chromium.tmNDc6}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.78, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: f39f31df17b6361deae880a7073a7fae
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;Joshuas-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:e1:e168:1f47:646a%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.1&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:335)
+	at com.sun.proxy.$Proxy2.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:348)
+	at org.openqa.selenium.remote.server.KnownElements$1.invoke(KnownElements.java:64)
+	at com.sun.proxy.$Proxy3.click(Unknown Source)
+	at org.openqa.selenium.remote.server.handler.ClickElement.call(ClickElement.java:30)
+	at org.openqa.selenium.remote.server.handler.ClickElement.call(ClickElement.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 49 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1709700394", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1709700394'><pre>org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=60.0.3112.78)
+  (Driver info: chromedriver=2.31.488774 (7e15618d1bf16df8bf0ecf2914ed1964a387ba0b),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.04 seconds
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 17:00:58&apos;
+System info: host: &apos;mac-208-52-180-158.browserstack.com&apos;, ip: &apos;208.52.180.158&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;1.8.0_51&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.45.615355 (d5698f682d8b27..., userDataDir: /var/folders/y6/2p620w_j1d9...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:62093}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 71.0.3578.98, webStorageEnabled: true}
-Session ID: a43109bbdef6b3961c11b5db35b13952
-*** Element info: {Using=xpath, value=//em[contains (text(), &apos;Clothing, Shoes &amp; Accessories &gt; Men&apos;)]}
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488774 (7e15618d1bf16df8bf0ecf2914ed1964a387ba0b), userDataDir=/var/folders/3y/zz_w6_s56sl__vcrf3r5bhzr0000hr/T/.org.chromium.Chromium.tmNDc6}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.78, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: f39f31df17b6361deae880a7073a7fae
+Command duration or timeout: 0 milliseconds
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -133,17 +218,677 @@ Session ID: a43109bbdef6b3961c11b5db35b13952
 	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
 	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
 	at com.sun.proxy.$Proxy11.click(Unknown Source)
-	at eBayUtil.ListItemForSale.listItemForSale(ListItemForSale.java:20)
-	at eBaytests.ListItemForSaleTest.listItemForSaleTest(ListItemForSaleTest.java:18)
+	at eBayUtil.HomepageUtilities.businessAndIndustrialUtility(HomepageUtilities.java:92)
+	at eBaytests.HomePageUtilitiesTests2.businessAndIndustrialUtilityTest(HomePageUtilitiesTests2.java:36)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+Caused by: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=60.0.3112.78)
+  (Driver info: chromedriver=2.31.488774 (7e15618d1bf16df8bf0ecf2914ed1964a387ba0b),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.04 seconds
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 17:00:58&apos;
+System info: host: &apos;mac-208-52-180-158.browserstack.com&apos;, ip: &apos;208.52.180.158&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;1.8.0_51&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488774 (7e15618d1bf16df8bf0ecf2914ed1964a387ba0b), userDataDir=/var/folders/3y/zz_w6_s56sl__vcrf3r5bhzr0000hr/T/.org.chromium.Chromium.tmNDc6}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.78, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: f39f31df17b6361deae880a7073a7fae
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Joshuas-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:e1:e168:1f47:646a%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.1&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: driver.version: RemoteWebDriver
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:335)
+	at com.sun.proxy.$Proxy2.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:348)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.openqa.selenium.remote.server.KnownElements$1.invoke(KnownElements.java:64)
+	at com.sun.proxy.$Proxy3.click(Unknown Source)
+	at org.openqa.selenium.remote.server.handler.ClickElement.call(ClickElement.java:30)
+	at org.openqa.selenium.remote.server.handler.ClickElement.call(ClickElement.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</pre></div></td>
+<td>1</td>
+<td>eBaytests.HomePageUtilitiesTests2@188715b5</td></tr>
+<tr>
+<td title='eBaytests.HomeUtilitiesTests.collectiblesAndArtTest()'><b>collectiblesAndArtTest</b><br>Test class: eBaytests.HomeUtilitiesTests<br/>
+<a href="#Output-1632497828" onClick='toggleBox("Output-1632497828", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1632497828" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1632497828">
+HomeUtilitiesTests: collectibles And Art Test<br/>
+HomeUtilitiesTests: collectiblesandart<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [Collectibles &amp; Arts] but found [Collectibles &amp; Art]
+	at eBayUtil.HomepageUtilities.collectiblesandart(HomepageUtilities.java:66)
+	at eBaytests.HomeUtilitiesTests.collectiblesAndArtTest(HomeUtilitiesTests.java:47)
+... Removed 35 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1632497828", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1632497828'><pre>java.lang.AssertionError: expected [Collectibles &amp; Arts] but found [Collectibles &amp; Art]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at eBayUtil.HomepageUtilities.collectiblesandart(HomepageUtilities.java:66)
+	at eBaytests.HomeUtilitiesTests.collectiblesAndArtTest(HomeUtilitiesTests.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+</pre></div></td>
+<td>2</td>
+<td>eBaytests.HomeUtilitiesTests@2f7298b</td></tr>
+<tr>
+<td title='eBaytests.HomePageUtilitiesTests2.dealsUtilityTest()'><b>dealsUtilityTest</b><br>Test class: eBaytests.HomePageUtilitiesTests2<br/>
+<a href="#Output-773296871" onClick='toggleBox("Output-773296871", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-773296871" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-773296871">
+HomePageUtilitiesTests2: deals Utility Test<br/>
+HomePageUtilitiesTests2: deals Utility<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=60.0.3112.78)
+  (Driver info: chromedriver=2.31.488774 (7e15618d1bf16df8bf0ecf2914ed1964a387ba0b),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 802 milliseconds
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 17:00:58&apos;
+System info: host: &apos;mac-208-52-180-89.browserstack.com&apos;, ip: &apos;208.52.180.89&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;1.8.0_51&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488774 (7e15618d1bf16df8bf0ecf2914ed1964a387ba0b), userDataDir=/var/folders/3y/zz_w6_s56sl__vcrf3r5bhzr0000hr/T/.org.chromium.Chromium.sqq3NE}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.78, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 640e5ee49397ce5c94882882471f31a2
+Command duration or timeout: 0 milliseconds
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at eBayUtil.HomepageUtilities.dealsUtility(HomepageUtilities.java:106)
+	at eBaytests.HomePageUtilitiesTests2.dealsUtilityTest(HomePageUtilitiesTests2.java:46)
+Caused by: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=60.0.3112.78)
+  (Driver info: chromedriver=2.31.488774 (7e15618d1bf16df8bf0ecf2914ed1964a387ba0b),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 802 milliseconds
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 17:00:58&apos;
+System info: host: &apos;mac-208-52-180-89.browserstack.com&apos;, ip: &apos;208.52.180.89&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;1.8.0_51&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488774 (7e15618d1bf16df8bf0ecf2914ed1964a387ba0b), userDataDir=/var/folders/3y/zz_w6_s56sl__vcrf3r5bhzr0000hr/T/.org.chromium.Chromium.sqq3NE}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.78, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 640e5ee49397ce5c94882882471f31a2
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Joshuas-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:e1:e168:1f47:646a%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.1&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:335)
+	at com.sun.proxy.$Proxy2.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:348)
+	at org.openqa.selenium.remote.server.KnownElements$1.invoke(KnownElements.java:64)
+	at com.sun.proxy.$Proxy3.click(Unknown Source)
+	at org.openqa.selenium.remote.server.handler.ClickElement.call(ClickElement.java:30)
+	at org.openqa.selenium.remote.server.handler.ClickElement.call(ClickElement.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 49 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace773296871", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace773296871'><pre>org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=60.0.3112.78)
+  (Driver info: chromedriver=2.31.488774 (7e15618d1bf16df8bf0ecf2914ed1964a387ba0b),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 802 milliseconds
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 17:00:58&apos;
+System info: host: &apos;mac-208-52-180-89.browserstack.com&apos;, ip: &apos;208.52.180.89&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;1.8.0_51&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488774 (7e15618d1bf16df8bf0ecf2914ed1964a387ba0b), userDataDir=/var/folders/3y/zz_w6_s56sl__vcrf3r5bhzr0000hr/T/.org.chromium.Chromium.sqq3NE}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.78, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 640e5ee49397ce5c94882882471f31a2
+Command duration or timeout: 0 milliseconds
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at eBayUtil.HomepageUtilities.dealsUtility(HomepageUtilities.java:106)
+	at eBaytests.HomePageUtilitiesTests2.dealsUtilityTest(HomePageUtilitiesTests2.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+Caused by: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=60.0.3112.78)
+  (Driver info: chromedriver=2.31.488774 (7e15618d1bf16df8bf0ecf2914ed1964a387ba0b),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 802 milliseconds
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 17:00:58&apos;
+System info: host: &apos;mac-208-52-180-89.browserstack.com&apos;, ip: &apos;208.52.180.89&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;1.8.0_51&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488774 (7e15618d1bf16df8bf0ecf2914ed1964a387ba0b), userDataDir=/var/folders/3y/zz_w6_s56sl__vcrf3r5bhzr0000hr/T/.org.chromium.Chromium.sqq3NE}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.78, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 640e5ee49397ce5c94882882471f31a2
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Joshuas-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:e1:e168:1f47:646a%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.1&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: driver.version: RemoteWebDriver
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:335)
+	at com.sun.proxy.$Proxy2.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:348)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.openqa.selenium.remote.server.KnownElements$1.invoke(KnownElements.java:64)
+	at com.sun.proxy.$Proxy3.click(Unknown Source)
+	at org.openqa.selenium.remote.server.handler.ClickElement.call(ClickElement.java:30)
+	at org.openqa.selenium.remote.server.handler.ClickElement.call(ClickElement.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</pre></div></td>
+<td>1</td>
+<td>eBaytests.HomePageUtilitiesTests2@188715b5</td></tr>
+<tr>
+<td title='eBaytests.HomePageUtilitiesTests2.musicUtilityTest()'><b>musicUtilityTest</b><br>Test class: eBaytests.HomePageUtilitiesTests2<br/>
+<a href="#Output-1726515679" onClick='toggleBox("Output-1726515679", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1726515679" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1726515679">
+HomePageUtilitiesTests2: music Utility Test<br/>
+HomePageUtilitiesTests2: music Utility<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=60.0.3112.78)
+  (Driver info: chromedriver=2.31.488774 (7e15618d1bf16df8bf0ecf2914ed1964a387ba0b),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.09 seconds
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 17:00:58&apos;
+System info: host: &apos;mac-208-52-145-27.browserstack.com&apos;, ip: &apos;208.52.145.27&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;1.8.0_51&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488774 (7e15618d1bf16df8bf0ecf2914ed1964a387ba0b), userDataDir=/var/folders/3y/zz_w6_s56sl__vcrf3r5bhzr0000hr/T/.org.chromium.Chromium.KrRp2g}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.78, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: badac590ec6d5d24494f687ae05afad1
+Command duration or timeout: 0 milliseconds
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at eBayUtil.HomepageUtilities.musicUtility(HomepageUtilities.java:99)
+	at eBaytests.HomePageUtilitiesTests2.musicUtilityTest(HomePageUtilitiesTests2.java:41)
+Caused by: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=60.0.3112.78)
+  (Driver info: chromedriver=2.31.488774 (7e15618d1bf16df8bf0ecf2914ed1964a387ba0b),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.09 seconds
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 17:00:58&apos;
+System info: host: &apos;mac-208-52-145-27.browserstack.com&apos;, ip: &apos;208.52.145.27&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;1.8.0_51&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488774 (7e15618d1bf16df8bf0ecf2914ed1964a387ba0b), userDataDir=/var/folders/3y/zz_w6_s56sl__vcrf3r5bhzr0000hr/T/.org.chromium.Chromium.KrRp2g}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.78, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: badac590ec6d5d24494f687ae05afad1
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Joshuas-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:e1:e168:1f47:646a%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.1&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:335)
+	at com.sun.proxy.$Proxy2.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:348)
+	at org.openqa.selenium.remote.server.KnownElements$1.invoke(KnownElements.java:64)
+	at com.sun.proxy.$Proxy3.click(Unknown Source)
+	at org.openqa.selenium.remote.server.handler.ClickElement.call(ClickElement.java:30)
+	at org.openqa.selenium.remote.server.handler.ClickElement.call(ClickElement.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 47 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1726515679", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1726515679'><pre>org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=60.0.3112.78)
+  (Driver info: chromedriver=2.31.488774 (7e15618d1bf16df8bf0ecf2914ed1964a387ba0b),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.09 seconds
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 17:00:58&apos;
+System info: host: &apos;mac-208-52-145-27.browserstack.com&apos;, ip: &apos;208.52.145.27&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;1.8.0_51&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488774 (7e15618d1bf16df8bf0ecf2914ed1964a387ba0b), userDataDir=/var/folders/3y/zz_w6_s56sl__vcrf3r5bhzr0000hr/T/.org.chromium.Chromium.KrRp2g}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.78, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: badac590ec6d5d24494f687ae05afad1
+Command duration or timeout: 0 milliseconds
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at eBayUtil.HomepageUtilities.musicUtility(HomepageUtilities.java:99)
+	at eBaytests.HomePageUtilitiesTests2.musicUtilityTest(HomePageUtilitiesTests2.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+Caused by: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=60.0.3112.78)
+  (Driver info: chromedriver=2.31.488774 (7e15618d1bf16df8bf0ecf2914ed1964a387ba0b),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.09 seconds
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 17:00:58&apos;
+System info: host: &apos;mac-208-52-145-27.browserstack.com&apos;, ip: &apos;208.52.145.27&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;1.8.0_51&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488774 (7e15618d1bf16df8bf0ecf2914ed1964a387ba0b), userDataDir=/var/folders/3y/zz_w6_s56sl__vcrf3r5bhzr0000hr/T/.org.chromium.Chromium.KrRp2g}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.78, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: badac590ec6d5d24494f687ae05afad1
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Joshuas-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:e1:e168:1f47:646a%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.1&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: driver.version: RemoteWebDriver
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at sun.reflect.GeneratedMethodAccessor14.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:335)
+	at com.sun.proxy.$Proxy2.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:348)
+	at sun.reflect.GeneratedMethodAccessor14.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.openqa.selenium.remote.server.KnownElements$1.invoke(KnownElements.java:64)
+	at com.sun.proxy.$Proxy3.click(Unknown Source)
+	at org.openqa.selenium.remote.server.handler.ClickElement.call(ClickElement.java:30)
+	at org.openqa.selenium.remote.server.handler.ClickElement.call(ClickElement.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</pre></div></td>
+<td>1</td>
+<td>eBaytests.HomePageUtilitiesTests2@188715b5</td></tr>
+<tr>
+<td title='eBaytests.AllCategoriesDropDownTest3.petSuppliesTest()'><b>petSuppliesTest</b><br>Test class: eBaytests.AllCategoriesDropDownTest3<br/>
+<a href="#Output-1711152967" onClick='toggleBox("Output-1711152967", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1711152967" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1711152967">
+AllCategoriesDropDownTest3: pet Supplies Test<br/>
+AllCategoriesDropDownTest3: select Pet Supplies From Drop Down<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Cannot locate element with text: Pet supplies
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Joshuas-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:e1:e168:1f47:646a%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.1&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+	at eBayUtil.AllCategoriesDropDown.selectPetSuppliesFromDropDown(AllCategoriesDropDown.java:156)
+	at eBaytests.AllCategoriesDropDownTest3.petSuppliesTest(AllCategoriesDropDownTest3.java:60)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1711152967", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1711152967'><pre>org.openqa.selenium.NoSuchElementException: Cannot locate element with text: Pet supplies
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Joshuas-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:e1:e168:1f47:646a%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.1&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+	at eBayUtil.AllCategoriesDropDown.selectPetSuppliesFromDropDown(AllCategoriesDropDown.java:156)
+	at eBaytests.AllCategoriesDropDownTest3.petSuppliesTest(AllCategoriesDropDownTest3.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+</pre></div></td>
+<td>22</td>
+<td>eBaytests.AllCategoriesDropDownTest3@6eda5c9</td></tr>
+<tr>
+<td title='eBaytests.AllCategoriesDropDownTest4.realStateTest()'><b>realStateTest</b><br>Test class: eBaytests.AllCategoriesDropDownTest4<br/>
+<a href="#Output-1131634336" onClick='toggleBox("Output-1131634336", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1131634336" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1131634336">
+AllCategoriesDropDownTest4: real State Test<br/>
+AllCategoriesDropDownTest4: select Realstate From Drop Down<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Cannot locate element with text: Real State
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Joshuas-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:e1:e168:1f47:646a%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.1&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+	at eBayUtil.AllCategoriesDropDown.selectRealstateFromDropDown(AllCategoriesDropDown.java:168)
+	at eBaytests.AllCategoriesDropDownTest4.realStateTest(AllCategoriesDropDownTest4.java:25)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1131634336", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1131634336'><pre>org.openqa.selenium.NoSuchElementException: Cannot locate element with text: Real State
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Joshuas-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:e1:e168:1f47:646a%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.1&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+	at eBayUtil.AllCategoriesDropDown.selectRealstateFromDropDown(AllCategoriesDropDown.java:168)
+	at eBaytests.AllCategoriesDropDownTest4.realStateTest(AllCategoriesDropDownTest4.java:25)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+</pre></div></td>
+<td>22</td>
+<td>eBaytests.AllCategoriesDropDownTest4@55b7a4e0</td></tr>
+<tr>
+<td title='eBaytests.HomePageFeaturesTests.seeAllEditorPicksTest()'><b>seeAllEditorPicksTest</b><br>Test class: eBaytests.HomePageFeaturesTests<br/>
+<a href="#Output-1083292099" onClick='toggleBox("Output-1083292099", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1083292099" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1083292099">
+HomePageFeaturesTests: see All Editor Picks Test<br/>
+HomePageFeaturesTests: see All Editor Picks<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [Editor&apos;s Picks] but found [Editors’ Picks]
+	at eBayUtil.HomePageFeatures.seeAllEditorPicks(HomePageFeatures.java:56)
+	at eBaytests.HomePageFeaturesTests.seeAllEditorPicksTest(HomePageFeaturesTests.java:41)
+... Removed 35 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1083292099", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1083292099'><pre>java.lang.AssertionError: expected [Editor&apos;s Picks] but found [Editors’ Picks]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at eBayUtil.HomePageFeatures.seeAllEditorPicks(HomePageFeatures.java:56)
+	at eBaytests.HomePageFeaturesTests.seeAllEditorPicksTest(HomePageFeaturesTests.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+</pre></div></td>
+<td>3</td>
+<td>eBaytests.HomePageFeaturesTests@7193666c</td></tr>
+<tr>
+<td title='eBaytests.AllCategoriesDropDownTest4.ticketsAndExperiencesTest()'><b>ticketsAndExperiencesTest</b><br>Test class: eBaytests.AllCategoriesDropDownTest4<br/>
+<a href="#Output-457891448" onClick='toggleBox("Output-457891448", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-457891448" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-457891448">
+AllCategoriesDropDownTest4: tickets And Experiences Test<br/>
+AllCategoriesDropDownTest4: select Tickets And Experiences From Drop Down<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Cannot locate element with text:  Tickets &amp; Experiences
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Joshuas-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:e1:e168:1f47:646a%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.1&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+	at eBayUtil.AllCategoriesDropDown.selectTicketsAndExperiencesFromDropDown(AllCategoriesDropDown.java:198)
+	at eBaytests.AllCategoriesDropDownTest4.ticketsAndExperiencesTest(AllCategoriesDropDownTest4.java:50)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace457891448", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace457891448'><pre>org.openqa.selenium.NoSuchElementException: Cannot locate element with text:  Tickets &amp; Experiences
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Joshuas-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:e1:e168:1f47:646a%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.1&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+	at eBayUtil.AllCategoriesDropDown.selectTicketsAndExperiencesFromDropDown(AllCategoriesDropDown.java:198)
+	at eBaytests.AllCategoriesDropDownTest4.ticketsAndExperiencesTest(AllCategoriesDropDownTest4.java:50)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -175,49 +920,80 @@ Session ID: a43109bbdef6b3961c11b5db35b13952
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
 </pre></div></td>
 <td>12</td>
-<td>eBaytests.ListItemForSaleTest@5034c75a</td></tr>
+<td>eBaytests.AllCategoriesDropDownTest4@55b7a4e0</td></tr>
 <tr>
-<td title='eBaytests.PurchseTest.purchaseAnItemTest()'><b>purchaseAnItemTest</b><br>Test class: eBaytests.PurchseTest<br/>
-<a href="#Output-368802354" onClick='toggleBox("Output-368802354", this, "Show output", "Hide output");'>Show output</a>
+<td title='eBaytests.HomePageUtilitiesTests2.under10utilityTest()'><b>under10utilityTest</b><br>Test class: eBaytests.HomePageUtilitiesTests2<br/>
+<a href="#Output-150950036" onClick='toggleBox("Output-150950036", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-368802354" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-368802354">
-PurchseTest: purchase An Item<br/>
+<a href="#Output-150950036" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-150950036">
+HomePageUtilitiesTests2: under 10 utility Test<br/>
+HomePageUtilitiesTests2: under 10 Utility<br/>
 </div>
 </td>
-<td><div><pre>org.openqa.selenium.ElementNotVisibleException: element not interactable
-  (Session info: chrome=71.0.3578.98)
-  (Driver info: chromedriver=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189),platform=Mac OS X 10.14.1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;Joshuas-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:e1:e168:1f47:646a%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.1&apos;, java.version: &apos;1.8.0_191&apos;
+<td><div><pre>org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=60.0.3112.78)
+  (Driver info: chromedriver=2.31.488774 (7e15618d1bf16df8bf0ecf2914ed1964a387ba0b),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 40 milliseconds
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 17:00:58&apos;
+System info: host: &apos;mac-208-52-145-18.browserstack.com&apos;, ip: &apos;208.52.145.18&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;1.8.0_51&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.45.615355 (d5698f682d8b27..., userDataDir: /var/folders/y6/2p620w_j1d9...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60552}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 71.0.3578.98, webStorageEnabled: true}
-Session ID: ae2adbd0ee9e22307fca10ad83035c15
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488774 (7e15618d1bf16df8bf0ecf2914ed1964a387ba0b), userDataDir=/var/folders/3y/zz_w6_s56sl__vcrf3r5bhzr0000hr/T/.org.chromium.Chromium.jn4dsP}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.78, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 8c9da8a925d33fdf64248798d02f9968
+Command duration or timeout: 0 milliseconds
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
 	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
 	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
 	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
 	at com.sun.proxy.$Proxy11.click(Unknown Source)
-	at eBayUtil.Purchase.purchaseAnItem(Purchase.java:46)
-	at eBaytests.PurchseTest.purchaseAnItemTest(PurchseTest.java:18)
-... Removed 36 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace368802354", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace368802354'><pre>org.openqa.selenium.ElementNotVisibleException: element not interactable
-  (Session info: chrome=71.0.3578.98)
-  (Driver info: chromedriver=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189),platform=Mac OS X 10.14.1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
+	at eBayUtil.HomepageUtilities.under10Utility(HomepageUtilities.java:113)
+	at eBaytests.HomePageUtilitiesTests2.under10utilityTest(HomePageUtilitiesTests2.java:51)
+Caused by: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=60.0.3112.78)
+  (Driver info: chromedriver=2.31.488774 (7e15618d1bf16df8bf0ecf2914ed1964a387ba0b),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 40 milliseconds
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 17:00:58&apos;
+System info: host: &apos;mac-208-52-145-18.browserstack.com&apos;, ip: &apos;208.52.145.18&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;1.8.0_51&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488774 (7e15618d1bf16df8bf0ecf2914ed1964a387ba0b), userDataDir=/var/folders/3y/zz_w6_s56sl__vcrf3r5bhzr0000hr/T/.org.chromium.Chromium.jn4dsP}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.78, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 8c9da8a925d33fdf64248798d02f9968
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;Joshuas-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:e1:e168:1f47:646a%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.1&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:335)
+	at com.sun.proxy.$Proxy2.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:348)
+	at org.openqa.selenium.remote.server.KnownElements$1.invoke(KnownElements.java:64)
+	at com.sun.proxy.$Proxy3.click(Unknown Source)
+	at org.openqa.selenium.remote.server.handler.ClickElement.call(ClickElement.java:30)
+	at org.openqa.selenium.remote.server.handler.ClickElement.call(ClickElement.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 47 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace150950036", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace150950036'><pre>org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=60.0.3112.78)
+  (Driver info: chromedriver=2.31.488774 (7e15618d1bf16df8bf0ecf2914ed1964a387ba0b),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 40 milliseconds
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 17:00:58&apos;
+System info: host: &apos;mac-208-52-145-18.browserstack.com&apos;, ip: &apos;208.52.145.18&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;1.8.0_51&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.45.615355 (d5698f682d8b27..., userDataDir: /var/folders/y6/2p620w_j1d9...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60552}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 71.0.3578.98, webStorageEnabled: true}
-Session ID: ae2adbd0ee9e22307fca10ad83035c15
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488774 (7e15618d1bf16df8bf0ecf2914ed1964a387ba0b), userDataDir=/var/folders/3y/zz_w6_s56sl__vcrf3r5bhzr0000hr/T/.org.chromium.Chromium.jn4dsP}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.78, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 8c9da8a925d33fdf64248798d02f9968
+Command duration or timeout: 0 milliseconds
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -228,17 +1004,17 @@ Session ID: ae2adbd0ee9e22307fca10ad83035c15
 	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
 	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at sun.reflect.GeneratedMethodAccessor28.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
 	at com.sun.proxy.$Proxy11.click(Unknown Source)
-	at eBayUtil.Purchase.purchaseAnItem(Purchase.java:46)
-	at eBaytests.PurchseTest.purchaseAnItemTest(PurchseTest.java:18)
+	at eBayUtil.HomepageUtilities.under10Utility(HomepageUtilities.java:113)
+	at eBaytests.HomePageUtilitiesTests2.under10utilityTest(HomePageUtilitiesTests2.java:51)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -268,107 +1044,48 @@ Session ID: ae2adbd0ee9e22307fca10ad83035c15
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
-</pre></div></td>
-<td>17</td>
-<td>eBaytests.PurchseTest@100fc185</td></tr>
-<tr>
-<td title='eBaytests.SearchTests.saveTheSearchOfSpecificItemTest()'><b>saveTheSearchOfSpecificItemTest</b><br>Test class: eBaytests.SearchTests<br/>
-<a href="#Output-2049646260" onClick='toggleBox("Output-2049646260", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-2049646260" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-2049646260">
-SearchTests: save The Search Of Specific Item<br/>
-</div>
-</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#userid&quot;}
-  (Session info: chrome=71.0.3578.98)
-  (Driver info: chromedriver=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189),platform=Mac OS X 10.14.1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Caused by: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=60.0.3112.78)
+  (Driver info: chromedriver=2.31.488774 (7e15618d1bf16df8bf0ecf2914ed1964a387ba0b),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 40 milliseconds
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 17:00:58&apos;
+System info: host: &apos;mac-208-52-145-18.browserstack.com&apos;, ip: &apos;208.52.145.18&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;1.8.0_51&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488774 (7e15618d1bf16df8bf0ecf2914ed1964a387ba0b), userDataDir=/var/folders/3y/zz_w6_s56sl__vcrf3r5bhzr0000hr/T/.org.chromium.Chromium.jn4dsP}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.78, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 8c9da8a925d33fdf64248798d02f9968
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;Joshuas-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:e1:e168:1f47:646a%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.1&apos;, java.version: &apos;1.8.0_191&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.45.615355 (d5698f682d8b27..., userDataDir: /var/folders/y6/2p620w_j1d9...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60806}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 71.0.3578.98, webStorageEnabled: true}
-Session ID: aa33bd22997c4363998f0c98af388c08
-*** Element info: {Using=css selector, value=#userid}
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
-	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at base.CommonAPI.signInUserName(CommonAPI.java:229)
-	at eBayUtil.Searches.saveTheSearchOfSpecificItem(Searches.java:51)
-	at eBaytests.SearchTests.saveTheSearchOfSpecificItemTest(SearchTests.java:39)
-... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2049646260", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2049646260'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#userid&quot;}
-  (Session info: chrome=71.0.3578.98)
-  (Driver info: chromedriver=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189),platform=Mac OS X 10.14.1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;Joshuas-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:e1:e168:1f47:646a%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.1&apos;, java.version: &apos;1.8.0_191&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.45.615355 (d5698f682d8b27..., userDataDir: /var/folders/y6/2p620w_j1d9...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60806}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 71.0.3578.98, webStorageEnabled: true}
-Session ID: aa33bd22997c4363998f0c98af388c08
-*** Element info: {Using=css selector, value=#userid}
+Driver info: driver.version: RemoteWebDriver
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
-	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at base.CommonAPI.signInUserName(CommonAPI.java:229)
-	at eBayUtil.Searches.saveTheSearchOfSpecificItem(Searches.java:51)
-	at eBaytests.SearchTests.saveTheSearchOfSpecificItemTest(SearchTests.java:39)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at sun.reflect.GeneratedMethodAccessor22.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:335)
+	at com.sun.proxy.$Proxy2.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:348)
+	at sun.reflect.GeneratedMethodAccessor22.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.openqa.selenium.remote.server.KnownElements$1.invoke(KnownElements.java:64)
+	at com.sun.proxy.$Proxy3.click(Unknown Source)
+	at org.openqa.selenium.remote.server.handler.ClickElement.call(ClickElement.java:30)
+	at org.openqa.selenium.remote.server.handler.ClickElement.call(ClickElement.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
 </pre></div></td>
-<td>15</td>
-<td>eBaytests.SearchTests@2ef5e5e3</td></tr>
+<td>2</td>
+<td>eBaytests.HomePageUtilitiesTests2@188715b5</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -379,521 +1096,862 @@ Session ID: aa33bd22997c4363998f0c98af388c08
 </tr>
 <tr>
 <td title='eBaytests.PurchseTest.addItemToCartTest()'><b>addItemToCartTest</b><br>Test class: eBaytests.PurchseTest<br/>
-<a href="#Output-586917260" onClick='toggleBox("Output-586917260", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-199041063" onClick='toggleBox("Output-199041063", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-586917260" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-586917260">
+<a href="#Output-199041063" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-199041063">
+PurchseTest: add Item To Cart Test<br/>
 PurchseTest: add Item To Cart<br/>
 </div>
 </td>
 <td></td>
-<td>10</td>
-<td>eBaytests.PurchseTest@100fc185</td></tr>
-<tr>
-<td title='eBaytests.HomePageUtilitiesTests2.businessAndIndustrialUtilityTest()'><b>businessAndIndustrialUtilityTest</b><br>Test class: eBaytests.HomePageUtilitiesTests2<br/>
-<a href="#Output-1837601499" onClick='toggleBox("Output-1837601499", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1837601499" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1837601499">
-HomePageUtilitiesTests2: business And Industrial Utility<br/>
-</div>
-</td>
-<td></td>
-<td>1</td>
-<td>eBaytests.HomePageUtilitiesTests2@3a82f6ef</td></tr>
-<tr>
-<td title='eBaytests.HomeUtilitiesTests.collectiblesAndArtTest()'><b>collectiblesAndArtTest</b><br>Test class: eBaytests.HomeUtilitiesTests<br/>
-<a href="#Output-823914581" onClick='toggleBox("Output-823914581", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-823914581" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-823914581">
-HomeUtilitiesTests: collectiblesandart<br/>
-</div>
-</td>
-<td></td>
-<td>1</td>
-<td>eBaytests.HomeUtilitiesTests@6cc4c815</td></tr>
-<tr>
-<td title='eBaytests.HomePageUtilitiesTests2.dealsUtilityTest()'><b>dealsUtilityTest</b><br>Test class: eBaytests.HomePageUtilitiesTests2<br/>
-<a href="#Output-769877691" onClick='toggleBox("Output-769877691", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-769877691" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-769877691">
-HomePageUtilitiesTests2: deals Utility<br/>
-</div>
-</td>
-<td></td>
-<td>2</td>
-<td>eBaytests.HomePageUtilitiesTests2@3a82f6ef</td></tr>
-<tr>
-<td title='eBaytests.HomeUtilitiesTests.electronicsUtilityTest()'><b>electronicsUtilityTest</b><br>Test class: eBaytests.HomeUtilitiesTests<br/>
-<a href="#Output-1771421544" onClick='toggleBox("Output-1771421544", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1771421544" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1771421544">
-HomeUtilitiesTests: electronics Utilitly<br/>
-</div>
-</td>
-<td></td>
-<td>1</td>
-<td>eBaytests.HomeUtilitiesTests@6cc4c815</td></tr>
-<tr>
-<td title='eBaytests.HomeUtilitiesTests.fashionUtilityTest()'><b>fashionUtilityTest</b><br>Test class: eBaytests.HomeUtilitiesTests<br/>
-<a href="#Output-1423768154" onClick='toggleBox("Output-1423768154", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1423768154" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1423768154">
-HomeUtilitiesTests: fashionutility<br/>
-</div>
-</td>
-<td></td>
-<td>1</td>
-<td>eBaytests.HomeUtilitiesTests@6cc4c815</td></tr>
-<tr>
-<td title='eBaytests.HomePageUtilitiesTests2.homeAndGardenTest()'><b>homeAndGardenTest</b><br>Test class: eBaytests.HomePageUtilitiesTests2<br/>
-<a href="#Output-788048067" onClick='toggleBox("Output-788048067", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-788048067" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-788048067">
-HomePageUtilitiesTests2: home And Garden<br/>
-</div>
-</td>
-<td></td>
-<td>1</td>
-<td>eBaytests.HomePageUtilitiesTests2@3a82f6ef</td></tr>
-<tr>
-<td title='eBaytests.HomeUtilitiesTests.homeButtonTest()'><b>homeButtonTest</b><br>Test class: eBaytests.HomeUtilitiesTests<br/>
-<a href="#Output-1688782916" onClick='toggleBox("Output-1688782916", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1688782916" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1688782916">
-HomeUtilitiesTests: home Button<br/>
-</div>
-</td>
-<td></td>
-<td>0</td>
-<td>eBaytests.HomeUtilitiesTests@6cc4c815</td></tr>
-<tr>
-<td title='eBaytests.HomeUtilitiesTests.motorsUtilTest()'><b>motorsUtilTest</b><br>Test class: eBaytests.HomeUtilitiesTests<br/>
-<a href="#Output-1972143064" onClick='toggleBox("Output-1972143064", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1972143064" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1972143064">
-HomeUtilitiesTests: motors Utility<br/>
-</div>
-</td>
-<td></td>
-<td>1</td>
-<td>eBaytests.HomeUtilitiesTests@6cc4c815</td></tr>
-<tr>
-<td title='eBaytests.HomePageUtilitiesTests2.musicUtilityTest()'><b>musicUtilityTest</b><br>Test class: eBaytests.HomePageUtilitiesTests2<br/>
-<a href="#Output-1671816300" onClick='toggleBox("Output-1671816300", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1671816300" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1671816300">
-HomePageUtilitiesTests2: music Utility<br/>
-</div>
-</td>
-<td></td>
-<td>1</td>
-<td>eBaytests.HomePageUtilitiesTests2@3a82f6ef</td></tr>
-<tr>
-<td title='eBaytests.signInTest.registerNewUserTest()'><b>registerNewUserTest</b><br>Test class: eBaytests.signInTest<br/>
-<a href="#Output-28010264" onClick='toggleBox("Output-28010264", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-28010264" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-28010264">
-signInTest: register New User<br/>
-</div>
-</td>
-<td></td>
-<td>2</td>
-<td>eBaytests.signInTest@643b1d11</td></tr>
-<tr>
-<td title='eBaytests.HomeUtilitiesTests.savedUtilityTest()'><b>savedUtilityTest</b><br>Test class: eBaytests.HomeUtilitiesTests<br/>
-<a href="#Output-1327895505" onClick='toggleBox("Output-1327895505", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1327895505" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1327895505">
-HomeUtilitiesTests: saved Utility<br/>
-</div>
-</td>
-<td></td>
-<td>4</td>
-<td>eBaytests.HomeUtilitiesTests@6cc4c815</td></tr>
-<tr>
-<td title='eBaytests.SearchTests.searchByUsingKeywordTest()'><b>searchByUsingKeywordTest</b><br>Test class: eBaytests.SearchTests<br/>
-<a href="#Output-1019157412" onClick='toggleBox("Output-1019157412", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1019157412" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1019157412">
-SearchTests: search By Using Keyword<br/>
-</div>
-</td>
-<td></td>
-<td>1</td>
-<td>eBaytests.SearchTests@2ef5e5e3</td></tr>
-<tr>
-<td title='datadriven.DataBaseTest.searchFromDbTest()'><b>searchFromDbTest</b><br>Test class: datadriven.DataBaseTest<br/>
-<a href="#Output-805659195" onClick='toggleBox("Output-805659195", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-805659195" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-805659195">
-DataBaseTest: search From Db<br/>
-</div>
-</td>
-<td></td>
 <td>13</td>
-<td>datadriven.DataBaseTest@396a51ab</td></tr>
+<td>eBaytests.PurchseTest@1ea9f6af</td></tr>
 <tr>
-<td title='eBaytests.SearchTests.searchItemWithItemNumberTest()'><b>searchItemWithItemNumberTest</b><br>Test class: eBaytests.SearchTests<br/>
-<a href="#Output-2055472834" onClick='toggleBox("Output-2055472834", this, "Show output", "Hide output");'>Show output</a>
+<td title='eBaytests.AllCategoriesDropDownTest.antiquesTest()'><b>antiquesTest</b><br>Test class: eBaytests.AllCategoriesDropDownTest<br/>
+<a href="#Output-1629032994" onClick='toggleBox("Output-1629032994", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-2055472834" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-2055472834">
-SearchTests: search Item With Item Number<br/>
-</div>
-</td>
-<td></td>
-<td>1</td>
-<td>eBaytests.SearchTests@2ef5e5e3</td></tr>
-<tr>
-<td title='eBaytests.SearchTests.searchbuttonTest()'><b>searchbuttonTest</b><br>Test class: eBaytests.SearchTests<br/>
-<a href="#Output-304966690" onClick='toggleBox("Output-304966690", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-304966690" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-304966690">
-SearchTests: searchbutton<br/>
-</div>
-</td>
-<td></td>
-<td>2</td>
-<td>eBaytests.SearchTests@2ef5e5e3</td></tr>
-<tr>
-<td title='eBaytests.HomePageFeaturesTests.seeAllDailyDealsTest()'><b>seeAllDailyDealsTest</b><br>Test class: eBaytests.HomePageFeaturesTests<br/>
-<a href="#Output-2050360660" onClick='toggleBox("Output-2050360660", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-2050360660" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-2050360660">
-HomePageFeaturesTests: see All Daily Deals<br/>
-</div>
-</td>
-<td></td>
-<td>1</td>
-<td>eBaytests.HomePageFeaturesTests@36d4b5c</td></tr>
-<tr>
-<td title='eBaytests.HomePageFeaturesTests.seeAllEditorPicksTest()'><b>seeAllEditorPicksTest</b><br>Test class: eBaytests.HomePageFeaturesTests<br/>
-<a href="#Output-266843824" onClick='toggleBox("Output-266843824", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-266843824" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-266843824">
-HomePageFeaturesTests: see All Editor Picks<br/>
-</div>
-</td>
-<td></td>
-<td>1</td>
-<td>eBaytests.HomePageFeaturesTests@36d4b5c</td></tr>
-<tr>
-<td title='eBaytests.HomePageFeaturesTests.seeAllFeaturedSalesAndEventsTest()'><b>seeAllFeaturedSalesAndEventsTest</b><br>Test class: eBaytests.HomePageFeaturesTests<br/>
-<a href="#Output-905159212" onClick='toggleBox("Output-905159212", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-905159212" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-905159212">
-HomePageFeaturesTests: see All Featured Sales And Events<br/>
-</div>
-</td>
-<td></td>
-<td>1</td>
-<td>eBaytests.HomePageFeaturesTests@36d4b5c</td></tr>
-<tr>
-<td title='eBaytests.HomePageFeaturesTests.seeAllTrendsFeatureTest()'><b>seeAllTrendsFeatureTest</b><br>Test class: eBaytests.HomePageFeaturesTests<br/>
-<a href="#Output-2088246338" onClick='toggleBox("Output-2088246338", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-2088246338" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-2088246338">
-HomePageFeaturesTests: see All Trends<br/>
-</div>
-</td>
-<td></td>
-<td>2</td>
-<td>eBaytests.HomePageFeaturesTests@36d4b5c</td></tr>
-<tr>
-<td title='eBaytests.AllCategoriesDropDownTest.selectAntiquesFromDropDownTest()'><b>selectAntiquesFromDropDownTest</b><br>Test class: eBaytests.AllCategoriesDropDownTest<br/>
-<a href="#Output-726374052" onClick='toggleBox("Output-726374052", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-726374052" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-726374052">
+<a href="#Output-1629032994" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1629032994">
+AllCategoriesDropDownTest: antiques Test<br/>
 AllCategoriesDropDownTest: select Antiques From Drop Down<br/>
 </div>
 </td>
 <td></td>
 <td>3</td>
-<td>eBaytests.AllCategoriesDropDownTest@6d00a15d</td></tr>
+<td>eBaytests.AllCategoriesDropDownTest@20deea7f</td></tr>
 <tr>
-<td title='eBaytests.AllCategoriesDropDownTest.selectArtFromDropDwonTest()'><b>selectArtFromDropDwonTest</b><br>Test class: eBaytests.AllCategoriesDropDownTest<br/>
-<a href="#Output-537346910" onClick='toggleBox("Output-537346910", this, "Show output", "Hide output");'>Show output</a>
+<td title='eBaytests.AllCategoriesDropDownTest.artTest()'><b>artTest</b><br>Test class: eBaytests.AllCategoriesDropDownTest<br/>
+<a href="#Output-2048537704" onClick='toggleBox("Output-2048537704", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-537346910" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-537346910">
+<a href="#Output-2048537704" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2048537704">
+AllCategoriesDropDownTest: art Test<br/>
 AllCategoriesDropDownTest: select Art From Drop Dwon<br/>
 </div>
 </td>
 <td></td>
-<td>1</td>
-<td>eBaytests.AllCategoriesDropDownTest@6d00a15d</td></tr>
+<td>3</td>
+<td>eBaytests.AllCategoriesDropDownTest@20deea7f</td></tr>
 <tr>
-<td title='eBaytests.AllCategoriesDropDownTest.selectBabyFromDropDownTest()'><b>selectBabyFromDropDownTest</b><br>Test class: eBaytests.AllCategoriesDropDownTest<br/>
-<a href="#Output-826945968" onClick='toggleBox("Output-826945968", this, "Show output", "Hide output");'>Show output</a>
+<td title='eBaytests.AllCategoriesDropDownTest.babyTest()'><b>babyTest</b><br>Test class: eBaytests.AllCategoriesDropDownTest<br/>
+<a href="#Output-388115473" onClick='toggleBox("Output-388115473", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-826945968" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-826945968">
+<a href="#Output-388115473" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-388115473">
+AllCategoriesDropDownTest: baby Test<br/>
 AllCategoriesDropDownTest: select Baby From Dropdown<br/>
 </div>
 </td>
 <td></td>
-<td>2</td>
-<td>eBaytests.AllCategoriesDropDownTest@6d00a15d</td></tr>
+<td>5</td>
+<td>eBaytests.AllCategoriesDropDownTest@20deea7f</td></tr>
 <tr>
-<td title='eBaytests.AllCategoriesDropDownTest.selectBooksFromDropDownTest()'><b>selectBooksFromDropDownTest</b><br>Test class: eBaytests.AllCategoriesDropDownTest<br/>
-<a href="#Output-1791280119" onClick='toggleBox("Output-1791280119", this, "Show output", "Hide output");'>Show output</a>
+<td title='eBaytests.AllCategoriesDropDownTest.booksTest()'><b>booksTest</b><br>Test class: eBaytests.AllCategoriesDropDownTest<br/>
+<a href="#Output-517787604" onClick='toggleBox("Output-517787604", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1791280119" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1791280119">
+<a href="#Output-517787604" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-517787604">
+AllCategoriesDropDownTest: books Test<br/>
 AllCategoriesDropDownTest: select Books From Drop Down<br/>
 </div>
 </td>
 <td></td>
-<td>2</td>
-<td>eBaytests.AllCategoriesDropDownTest@6d00a15d</td></tr>
+<td>4</td>
+<td>eBaytests.AllCategoriesDropDownTest@20deea7f</td></tr>
 <tr>
-<td title='eBaytests.AllCategoriesDropDownTest.selectBusinessAndIndusrialFromDropDrownTest()'><b>selectBusinessAndIndusrialFromDropDrownTest</b><br>Test class: eBaytests.AllCategoriesDropDownTest<br/>
-<a href="#Output-987263357" onClick='toggleBox("Output-987263357", this, "Show output", "Hide output");'>Show output</a>
+<td title='eBaytests.AllCategoriesDropDownTest.businessAndIndusrialTest()'><b>businessAndIndusrialTest</b><br>Test class: eBaytests.AllCategoriesDropDownTest<br/>
+<a href="#Output-1190608890" onClick='toggleBox("Output-1190608890", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-987263357" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-987263357">
+<a href="#Output-1190608890" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1190608890">
+AllCategoriesDropDownTest: business And Indusrial Test<br/>
 AllCategoriesDropDownTest: select Business And Indusrial From Drop Drown<br/>
 </div>
 </td>
 <td></td>
-<td>2</td>
-<td>eBaytests.AllCategoriesDropDownTest@6d00a15d</td></tr>
+<td>4</td>
+<td>eBaytests.AllCategoriesDropDownTest@20deea7f</td></tr>
 <tr>
-<td title='eBaytests.AllCategoriesDropDownTest.selectCamerasAndPhotoFromDropDownTest()'><b>selectCamerasAndPhotoFromDropDownTest</b><br>Test class: eBaytests.AllCategoriesDropDownTest<br/>
-<a href="#Output-3981395" onClick='toggleBox("Output-3981395", this, "Show output", "Hide output");'>Show output</a>
+<td title='eBaytests.AllCategoriesDropDownTest.camerasAndPhotoTest()'><b>camerasAndPhotoTest</b><br>Test class: eBaytests.AllCategoriesDropDownTest<br/>
+<a href="#Output-844194537" onClick='toggleBox("Output-844194537", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-3981395" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-3981395">
+<a href="#Output-844194537" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-844194537">
+AllCategoriesDropDownTest: cameras And Photo Test<br/>
 AllCategoriesDropDownTest: select Cameras And Foto From Drop Down<br/>
 </div>
 </td>
 <td></td>
-<td>1</td>
-<td>eBaytests.AllCategoriesDropDownTest@6d00a15d</td></tr>
+<td>5</td>
+<td>eBaytests.AllCategoriesDropDownTest@20deea7f</td></tr>
 <tr>
-<td title='eBaytests.AllCategoriesDropDownTest.selectCellPhonesAndAccesoriesTest()'><b>selectCellPhonesAndAccesoriesTest</b><br>Test class: eBaytests.AllCategoriesDropDownTest<br/>
-<a href="#Output-904848961" onClick='toggleBox("Output-904848961", this, "Show output", "Hide output");'>Show output</a>
+<td title='eBaytests.AllCategoriesDropDownTest.cellPhonesAndAccesoriesTest()'><b>cellPhonesAndAccesoriesTest</b><br>Test class: eBaytests.AllCategoriesDropDownTest<br/>
+<a href="#Output-457586988" onClick='toggleBox("Output-457586988", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-904848961" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-904848961">
-AllCategoriesDropDownTest: select Cell Phones And Accesories<br/>
+<a href="#Output-457586988" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-457586988">
+AllCategoriesDropDownTest: cell Phones And Accesories Test<br/>
+AllCategoriesDropDownTest: select Cell Phones And Accesories From Drop Down<br/>
 </div>
 </td>
 <td></td>
-<td>1</td>
-<td>eBaytests.AllCategoriesDropDownTest@6d00a15d</td></tr>
+<td>3</td>
+<td>eBaytests.AllCategoriesDropDownTest@20deea7f</td></tr>
 <tr>
-<td title='eBaytests.AllCategoriesDropDownTest.selectClothingShoesAndAccesoriesTest()'><b>selectClothingShoesAndAccesoriesTest</b><br>Test class: eBaytests.AllCategoriesDropDownTest<br/>
-<a href="#Output-263565037" onClick='toggleBox("Output-263565037", this, "Show output", "Hide output");'>Show output</a>
+<td title='eBaytests.AllCategoriesDropDownTest2.cellPhonesAndAccesoriesTest()'><b>cellPhonesAndAccesoriesTest</b><br>Test class: eBaytests.AllCategoriesDropDownTest2<br/>
+<a href="#Output-399611192" onClick='toggleBox("Output-399611192", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-263565037" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-263565037">
-AllCategoriesDropDownTest: select Clothing Shoes And Accesories<br/>
+<a href="#Output-399611192" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-399611192">
+AllCategoriesDropDownTest2: cell Phones And Accesories Test<br/>
+AllCategoriesDropDownTest2: select Cell Phones And Accesories From Drop Down<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>eBaytests.AllCategoriesDropDownTest2@56620197</td></tr>
+<tr>
+<td title='eBaytests.AllCategoriesDropDownTest.clothingShoesAndAccesoriesTest()'><b>clothingShoesAndAccesoriesTest</b><br>Test class: eBaytests.AllCategoriesDropDownTest<br/>
+<a href="#Output-1508333131" onClick='toggleBox("Output-1508333131", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1508333131" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1508333131">
+AllCategoriesDropDownTest: clothing Shoes And Accesories Test<br/>
+AllCategoriesDropDownTest: select Clothing Shoes And Accesories From Drop Down<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>eBaytests.AllCategoriesDropDownTest@20deea7f</td></tr>
+<tr>
+<td title='eBaytests.AllCategoriesDropDownTest2.coinsAndPaperMoneyTest()'><b>coinsAndPaperMoneyTest</b><br>Test class: eBaytests.AllCategoriesDropDownTest2<br/>
+<a href="#Output-1730106459" onClick='toggleBox("Output-1730106459", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1730106459" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1730106459">
+AllCategoriesDropDownTest2: coins And Paper Money Test<br/>
+AllCategoriesDropDownTest2: select Coins And Paper Money From Drop Down<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>eBaytests.AllCategoriesDropDownTest2@56620197</td></tr>
+<tr>
+<td title='eBaytests.AllCategoriesDropDownTest2.collectiblesTest()'><b>collectiblesTest</b><br>Test class: eBaytests.AllCategoriesDropDownTest2<br/>
+<a href="#Output-1360788400" onClick='toggleBox("Output-1360788400", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1360788400" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1360788400">
+AllCategoriesDropDownTest2: collectibles Test<br/>
+AllCategoriesDropDownTest2: select Collectibles From Drop Down<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>eBaytests.AllCategoriesDropDownTest2@56620197</td></tr>
+<tr>
+<td title='eBaytests.AllCategoriesDropDownTest2.computerTabletsAndNetworkingTest()'><b>computerTabletsAndNetworkingTest</b><br>Test class: eBaytests.AllCategoriesDropDownTest2<br/>
+<a href="#Output-1338136300" onClick='toggleBox("Output-1338136300", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1338136300" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1338136300">
+AllCategoriesDropDownTest2: computer Tablets And Networking Test<br/>
+AllCategoriesDropDownTest2: select Computer Tablets And Networking From Drop Down<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>eBaytests.AllCategoriesDropDownTest2@56620197</td></tr>
+<tr>
+<td title='eBaytests.AllCategoriesDropDownTest2.consumerElectronicsTest()'><b>consumerElectronicsTest</b><br>Test class: eBaytests.AllCategoriesDropDownTest2<br/>
+<a href="#Output-2023591894" onClick='toggleBox("Output-2023591894", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2023591894" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2023591894">
+AllCategoriesDropDownTest2: consumer Electronics Test<br/>
+AllCategoriesDropDownTest2: select Consumer Electronics From Drop Down<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>eBaytests.AllCategoriesDropDownTest2@56620197</td></tr>
+<tr>
+<td title='eBaytests.AllCategoriesDropDownTest2.craftsTest()'><b>craftsTest</b><br>Test class: eBaytests.AllCategoriesDropDownTest2<br/>
+<a href="#Output-579103261" onClick='toggleBox("Output-579103261", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-579103261" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-579103261">
+AllCategoriesDropDownTest2: crafts Test<br/>
+AllCategoriesDropDownTest2: select Crafts From Drop Down<br/>
 </div>
 </td>
 <td></td>
 <td>2</td>
-<td>eBaytests.AllCategoriesDropDownTest@6d00a15d</td></tr>
+<td>eBaytests.AllCategoriesDropDownTest2@56620197</td></tr>
+<tr>
+<td title='eBaytests.AllCategoriesDropDownTest2.dollsAndBearsTest()'><b>dollsAndBearsTest</b><br>Test class: eBaytests.AllCategoriesDropDownTest2<br/>
+<a href="#Output-2145383787" onClick='toggleBox("Output-2145383787", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2145383787" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2145383787">
+AllCategoriesDropDownTest2: dolls And Bears Test<br/>
+AllCategoriesDropDownTest2: select Dolls And Bears From Drop Down<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>eBaytests.AllCategoriesDropDownTest2@56620197</td></tr>
+<tr>
+<td title='eBaytests.AllCategoriesDropDownTest2.dvdsAndMoviesTest()'><b>dvdsAndMoviesTest</b><br>Test class: eBaytests.AllCategoriesDropDownTest2<br/>
+<a href="#Output-86178665" onClick='toggleBox("Output-86178665", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-86178665" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-86178665">
+AllCategoriesDropDownTest2: dvds And Movies Test<br/>
+AllCategoriesDropDownTest2: select Dvds And Movies From Drop Down<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>eBaytests.AllCategoriesDropDownTest2@56620197</td></tr>
+<tr>
+<td title='eBaytests.AllCategoriesDropDownTest3.eBayMotorsTest()'><b>eBayMotorsTest</b><br>Test class: eBaytests.AllCategoriesDropDownTest3<br/>
+<a href="#Output-802730113" onClick='toggleBox("Output-802730113", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-802730113" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-802730113">
+AllCategoriesDropDownTest3: e Bay Motors Test<br/>
+AllCategoriesDropDownTest3: select Ebay Motors From Drop Down<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>eBaytests.AllCategoriesDropDownTest3@6eda5c9</td></tr>
+<tr>
+<td title='eBaytests.HomeUtilitiesTests.electronicsUtilityTest()'><b>electronicsUtilityTest</b><br>Test class: eBaytests.HomeUtilitiesTests<br/>
+<a href="#Output-673672784" onClick='toggleBox("Output-673672784", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-673672784" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-673672784">
+HomeUtilitiesTests: electronics Utility Test<br/>
+HomeUtilitiesTests: electronics Utilitly<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>eBaytests.HomeUtilitiesTests@2f7298b</td></tr>
+<tr>
+<td title='eBaytests.AllCategoriesDropDownTest3.entertainmentMemorabiliaTest()'><b>entertainmentMemorabiliaTest</b><br>Test class: eBaytests.AllCategoriesDropDownTest3<br/>
+<a href="#Output-2103491930" onClick='toggleBox("Output-2103491930", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2103491930" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2103491930">
+AllCategoriesDropDownTest3: entertainment Memorabilia Test<br/>
+AllCategoriesDropDownTest3: select Entertainment Memorabilia From Drop Down<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>eBaytests.AllCategoriesDropDownTest3@6eda5c9</td></tr>
+<tr>
+<td title='eBaytests.AllCategoriesDropDownTest.everythingElseTest()'><b>everythingElseTest</b><br>Test class: eBaytests.AllCategoriesDropDownTest<br/>
+<a href="#Output-1411206559" onClick='toggleBox("Output-1411206559", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1411206559" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1411206559">
+AllCategoriesDropDownTest: everything Else Test<br/>
+AllCategoriesDropDownTest: select Everything Else From Drop Down<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>eBaytests.AllCategoriesDropDownTest@20deea7f</td></tr>
+<tr>
+<td title='eBaytests.HomeUtilitiesTests.fashionUtilityTest()'><b>fashionUtilityTest</b><br>Test class: eBaytests.HomeUtilitiesTests<br/>
+<a href="#Output-1334405552" onClick='toggleBox("Output-1334405552", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1334405552" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1334405552">
+HomeUtilitiesTests: fashion Utility Test<br/>
+HomeUtilitiesTests: fashionutility<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>eBaytests.HomeUtilitiesTests@2f7298b</td></tr>
+<tr>
+<td title='eBaytests.AllCategoriesDropDownTest3.giftCardsAndcouponsTest()'><b>giftCardsAndcouponsTest</b><br>Test class: eBaytests.AllCategoriesDropDownTest3<br/>
+<a href="#Output-2039613101" onClick='toggleBox("Output-2039613101", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2039613101" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2039613101">
+AllCategoriesDropDownTest3: gift Cards Andcoupons Test<br/>
+AllCategoriesDropDownTest3: select Gift Cards And Coupons From Drop Down<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>eBaytests.AllCategoriesDropDownTest3@6eda5c9</td></tr>
+<tr>
+<td title='eBaytests.AllCategoriesDropDownTest3.healthAndBeautyTest()'><b>healthAndBeautyTest</b><br>Test class: eBaytests.AllCategoriesDropDownTest3<br/>
+<a href="#Output-612008977" onClick='toggleBox("Output-612008977", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-612008977" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-612008977">
+AllCategoriesDropDownTest3: health And Beauty Test<br/>
+AllCategoriesDropDownTest3: select Health And Beauty From Drop Down<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>eBaytests.AllCategoriesDropDownTest3@6eda5c9</td></tr>
+<tr>
+<td title='eBaytests.HomePageUtilitiesTests2.homeAndGardenTest()'><b>homeAndGardenTest</b><br>Test class: eBaytests.HomePageUtilitiesTests2<br/>
+<a href="#Output-1418102907" onClick='toggleBox("Output-1418102907", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1418102907" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1418102907">
+HomePageUtilitiesTests2: home And Garden Test<br/>
+HomePageUtilitiesTests2: home And Garden<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>eBaytests.HomePageUtilitiesTests2@188715b5</td></tr>
+<tr>
+<td title='eBaytests.AllCategoriesDropDownTest3.homeAndGardenTest()'><b>homeAndGardenTest</b><br>Test class: eBaytests.AllCategoriesDropDownTest3<br/>
+<a href="#Output-2137681222" onClick='toggleBox("Output-2137681222", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2137681222" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2137681222">
+AllCategoriesDropDownTest3: home And Garden Test<br/>
+AllCategoriesDropDownTest3: select Home And Garden From Drop Down<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>eBaytests.AllCategoriesDropDownTest3@6eda5c9</td></tr>
+<tr>
+<td title='eBaytests.HomeUtilitiesTests.homeButtonTest()'><b>homeButtonTest</b><br>Test class: eBaytests.HomeUtilitiesTests<br/>
+<a href="#Output-2022285740" onClick='toggleBox("Output-2022285740", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2022285740" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2022285740">
+HomeUtilitiesTests: home Button Test<br/>
+HomeUtilitiesTests: home Button<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>eBaytests.HomeUtilitiesTests@2f7298b</td></tr>
+<tr>
+<td title='eBaytests.AllCategoriesDropDownTest3.jewelryAndWatchesTest()'><b>jewelryAndWatchesTest</b><br>Test class: eBaytests.AllCategoriesDropDownTest3<br/>
+<a href="#Output-981716924" onClick='toggleBox("Output-981716924", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-981716924" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-981716924">
+AllCategoriesDropDownTest3: jewelry And Watches Test<br/>
+AllCategoriesDropDownTest3: select Jewelry And Watches From Drop Down<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>eBaytests.AllCategoriesDropDownTest3@6eda5c9</td></tr>
+<tr>
+<td title='eBaytests.ListItemForSaleTest.listItemForSaleTest()'><b>listItemForSaleTest</b><br>Test class: eBaytests.ListItemForSaleTest<br/>
+<a href="#Output-1145677323" onClick='toggleBox("Output-1145677323", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1145677323" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1145677323">
+ListItemForSaleTest: list Item For Sale Test<br/>
+ListItemForSaleTest: list Item For Sale<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>eBaytests.ListItemForSaleTest@1dde4cb2</td></tr>
+<tr>
+<td title='eBaytests.HomeUtilitiesTests.motorsUtilTest()'><b>motorsUtilTest</b><br>Test class: eBaytests.HomeUtilitiesTests<br/>
+<a href="#Output-817941759" onClick='toggleBox("Output-817941759", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-817941759" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-817941759">
+HomeUtilitiesTests: motors Util Test<br/>
+HomeUtilitiesTests: motors Utility<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>eBaytests.HomeUtilitiesTests@2f7298b</td></tr>
+<tr>
+<td title='eBaytests.AllCategoriesDropDownTest3.musicTest()'><b>musicTest</b><br>Test class: eBaytests.AllCategoriesDropDownTest3<br/>
+<a href="#Output-1608524967" onClick='toggleBox("Output-1608524967", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1608524967" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1608524967">
+AllCategoriesDropDownTest3: music Test<br/>
+AllCategoriesDropDownTest3: select Music From Drop Down<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>eBaytests.AllCategoriesDropDownTest3@6eda5c9</td></tr>
+<tr>
+<td title='eBaytests.AllCategoriesDropDownTest3.musicalInstrumentsAndGearTest()'><b>musicalInstrumentsAndGearTest</b><br>Test class: eBaytests.AllCategoriesDropDownTest3<br/>
+<a href="#Output-760646911" onClick='toggleBox("Output-760646911", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-760646911" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-760646911">
+AllCategoriesDropDownTest3: musical Instruments And Gear Test<br/>
+AllCategoriesDropDownTest3: selec Musical Instruments And Gear From Drop Down<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>eBaytests.AllCategoriesDropDownTest3@6eda5c9</td></tr>
+<tr>
+<td title='eBaytests.AllCategoriesDropDownTest4.potteryAndGlassTest()'><b>potteryAndGlassTest</b><br>Test class: eBaytests.AllCategoriesDropDownTest4<br/>
+<a href="#Output-1477312973" onClick='toggleBox("Output-1477312973", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1477312973" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1477312973">
+AllCategoriesDropDownTest4: pottery And Glass Test<br/>
+AllCategoriesDropDownTest4: select Pottery And Glass From Drop Down<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>eBaytests.AllCategoriesDropDownTest4@55b7a4e0</td></tr>
+<tr>
+<td title='eBaytests.PurchseTest.purchaseAnItemTest()'><b>purchaseAnItemTest</b><br>Test class: eBaytests.PurchseTest<br/>
+<a href="#Output-1809456409" onClick='toggleBox("Output-1809456409", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1809456409" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1809456409">
+PurchseTest: purchase An Item Test<br/>
+PurchseTest: purchase An Item<br/>
+</div>
+</td>
+<td></td>
+<td>20</td>
+<td>eBaytests.PurchseTest@1ea9f6af</td></tr>
+<tr>
+<td title='eBaytests.signInTest.registerNewUserTest()'><b>registerNewUserTest</b><br>Test class: eBaytests.signInTest<br/>
+<a href="#Output-2031467683" onClick='toggleBox("Output-2031467683", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2031467683" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2031467683">
+signInTest: register New User Test<br/>
+signInTest: register New User<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>eBaytests.signInTest@6a192cfe</td></tr>
+<tr>
+<td title='eBaytests.SearchTests.saveTheSearchOfSpecificItemTest()'><b>saveTheSearchOfSpecificItemTest</b><br>Test class: eBaytests.SearchTests<br/>
+<a href="#Output-1869652507" onClick='toggleBox("Output-1869652507", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1869652507" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1869652507">
+SearchTests: save The Search Of Specific Item Test<br/>
+SearchTests: save The Search Of Specific Item<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>eBaytests.SearchTests@5119fb47</td></tr>
+<tr>
+<td title='eBaytests.HomeUtilitiesTests.savedUtilityTest()'><b>savedUtilityTest</b><br>Test class: eBaytests.HomeUtilitiesTests<br/>
+<a href="#Output-28145535" onClick='toggleBox("Output-28145535", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-28145535" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-28145535">
+HomeUtilitiesTests: saved Utility Test<br/>
+HomeUtilitiesTests: saved Utility<br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>eBaytests.HomeUtilitiesTests@2f7298b</td></tr>
+<tr>
+<td title='eBaytests.SearchTests.searchByUsingKeywordTest()'><b>searchByUsingKeywordTest</b><br>Test class: eBaytests.SearchTests<br/>
+<a href="#Output-680466239" onClick='toggleBox("Output-680466239", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-680466239" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-680466239">
+SearchTests: search By Using Keyword Test<br/>
+SearchTests: search By Using Keyword<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>eBaytests.SearchTests@5119fb47</td></tr>
+<tr>
+<td title='datadriven.ExcelFileReaderTest.searchDataFoundTest()'><b>searchDataFoundTest</b><br>Test class: datadriven.ExcelFileReaderTest<br/>
+<a href="#Output-1015503057" onClick='toggleBox("Output-1015503057", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1015503057" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1015503057">
+ExcelFileReaderTest: search Data Found Test<br/>
+ExcelFileReaderTest: search Data Found<br/>
+</div>
+</td>
+<td></td>
+<td>15</td>
+<td>datadriven.ExcelFileReaderTest@20ce78ec</td></tr>
+<tr>
+<td title='datadriven.DataBaseTest.searchFromDbTest()'><b>searchFromDbTest</b><br>Test class: datadriven.DataBaseTest<br/>
+<a href="#Output-201168891" onClick='toggleBox("Output-201168891", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-201168891" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-201168891">
+DataBaseTest: search From Db Test<br/>
+DataBaseTest: search From Db<br/>
+</div>
+</td>
+<td></td>
+<td>14</td>
+<td>datadriven.DataBaseTest@7714e963</td></tr>
+<tr>
+<td title='eBaytests.SearchTests.searchItemWithItemNumberTest()'><b>searchItemWithItemNumberTest</b><br>Test class: eBaytests.SearchTests<br/>
+<a href="#Output-1779615656" onClick='toggleBox("Output-1779615656", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1779615656" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1779615656">
+SearchTests: search Item With Item Number Test<br/>
+SearchTests: search Item With Item Number<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>eBaytests.SearchTests@5119fb47</td></tr>
+<tr>
+<td title='eBaytests.SearchTests.searchbuttonTest()'><b>searchbuttonTest</b><br>Test class: eBaytests.SearchTests<br/>
+<a href="#Output-592248663" onClick='toggleBox("Output-592248663", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-592248663" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-592248663">
+SearchTests: searchbutton Test<br/>
+SearchTests: searchbutton<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>eBaytests.SearchTests@5119fb47</td></tr>
+<tr>
+<td title='eBaytests.HomePageFeaturesTests.seeAllDailyDealsTest()'><b>seeAllDailyDealsTest</b><br>Test class: eBaytests.HomePageFeaturesTests<br/>
+<a href="#Output-1794705481" onClick='toggleBox("Output-1794705481", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1794705481" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1794705481">
+HomePageFeaturesTests: see All Daily Deals Test<br/>
+HomePageFeaturesTests: see All Daily Deals<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>eBaytests.HomePageFeaturesTests@7193666c</td></tr>
+<tr>
+<td title='eBaytests.HomePageFeaturesTests.seeAllFeaturedSalesAndEventsTest()'><b>seeAllFeaturedSalesAndEventsTest</b><br>Test class: eBaytests.HomePageFeaturesTests<br/>
+<a href="#Output-584698467" onClick='toggleBox("Output-584698467", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-584698467" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-584698467">
+HomePageFeaturesTests: see All Featured Sales And Events Test<br/>
+HomePageFeaturesTests: see All Featured Sales And Events<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>eBaytests.HomePageFeaturesTests@7193666c</td></tr>
+<tr>
+<td title='eBaytests.HomePageFeaturesTests.seeAllTrendsFeatureTest()'><b>seeAllTrendsFeatureTest</b><br>Test class: eBaytests.HomePageFeaturesTests<br/>
+<a href="#Output-1454942961" onClick='toggleBox("Output-1454942961", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1454942961" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1454942961">
+HomePageFeaturesTests: see All Trends Feature Test<br/>
+HomePageFeaturesTests: see All Trends<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>eBaytests.HomePageFeaturesTests@7193666c</td></tr>
 <tr>
 <td title='eBaytests.ShopByCategoriesTest.selectCollectiblesAndArtFromDropDownTest()'><b>selectCollectiblesAndArtFromDropDownTest</b><br>Test class: eBaytests.ShopByCategoriesTest<br/>
-<a href="#Output-1492276401" onClick='toggleBox("Output-1492276401", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-597399755" onClick='toggleBox("Output-597399755", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1492276401" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1492276401">
+<a href="#Output-597399755" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-597399755">
+ShopByCategoriesTest: select Collectibles And Art From Drop Down Test<br/>
 ShopByCategoriesTest: select Collectibles And Art From Drop Down<br/>
 </div>
 </td>
 <td></td>
-<td>1</td>
-<td>eBaytests.ShopByCategoriesTest@51efea79</td></tr>
+<td>4</td>
+<td>eBaytests.ShopByCategoriesTest@3835c46</td></tr>
 <tr>
 <td title='eBaytests.ShopByCategoriesTest.selectElectronicsFromDropDownTest()'><b>selectElectronicsFromDropDownTest</b><br>Test class: eBaytests.ShopByCategoriesTest<br/>
-<a href="#Output-1871838170" onClick='toggleBox("Output-1871838170", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1590892341" onClick='toggleBox("Output-1590892341", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1871838170" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1871838170">
+<a href="#Output-1590892341" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1590892341">
+ShopByCategoriesTest: select Electronics From Drop Down Test<br/>
 ShopByCategoriesTest: select Electronics From Drop Drown<br/>
 </div>
 </td>
 <td></td>
-<td>1</td>
-<td>eBaytests.ShopByCategoriesTest@51efea79</td></tr>
+<td>4</td>
+<td>eBaytests.ShopByCategoriesTest@3835c46</td></tr>
 <tr>
 <td title='eBaytests.ShopByCategoriesTest.selectEntertainmentMemorabiliaFromDropDownTest()'><b>selectEntertainmentMemorabiliaFromDropDownTest</b><br>Test class: eBaytests.ShopByCategoriesTest<br/>
-<a href="#Output-123458189" onClick='toggleBox("Output-123458189", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-326611360" onClick='toggleBox("Output-326611360", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-123458189" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-123458189">
+<a href="#Output-326611360" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-326611360">
+ShopByCategoriesTest: select Entertainment Memorabilia From Drop Down Test<br/>
 ShopByCategoriesTest: select Entertainment Memorabilia From Drop Down<br/>
 </div>
 </td>
 <td></td>
-<td>1</td>
-<td>eBaytests.ShopByCategoriesTest@51efea79</td></tr>
+<td>2</td>
+<td>eBaytests.ShopByCategoriesTest@3835c46</td></tr>
 <tr>
 <td title='eBaytests.ShopByCategoriesTest.selectFashionFromDropDownTest()'><b>selectFashionFromDropDownTest</b><br>Test class: eBaytests.ShopByCategoriesTest<br/>
-<a href="#Output-1700794291" onClick='toggleBox("Output-1700794291", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1530206433" onClick='toggleBox("Output-1530206433", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1700794291" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1700794291">
+<a href="#Output-1530206433" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1530206433">
+ShopByCategoriesTest: select Fashion From Drop Down Test<br/>
 ShopByCategoriesTest: select Fashion From Drop Down<br/>
 </div>
 </td>
 <td></td>
-<td>1</td>
-<td>eBaytests.ShopByCategoriesTest@51efea79</td></tr>
+<td>6</td>
+<td>eBaytests.ShopByCategoriesTest@3835c46</td></tr>
 <tr>
 <td title='eBaytests.ShopByCategoriesTest.selectHomeAndGardenFromDropDownTest()'><b>selectHomeAndGardenFromDropDownTest</b><br>Test class: eBaytests.ShopByCategoriesTest<br/>
-<a href="#Output-1522549999" onClick='toggleBox("Output-1522549999", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1736821242" onClick='toggleBox("Output-1736821242", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1522549999" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1522549999">
+<a href="#Output-1736821242" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1736821242">
+ShopByCategoriesTest: select Home And Garden From Drop Down Test<br/>
 ShopByCategoriesTest: select Home And Garden From Drop Down<br/>
 </div>
 </td>
 <td></td>
-<td>2</td>
-<td>eBaytests.ShopByCategoriesTest@51efea79</td></tr>
+<td>5</td>
+<td>eBaytests.ShopByCategoriesTest@3835c46</td></tr>
 <tr>
 <td title='eBaytests.ShopByCategoriesTest.selectMotorsFromDropDownTest()'><b>selectMotorsFromDropDownTest</b><br>Test class: eBaytests.ShopByCategoriesTest<br/>
-<a href="#Output-1750956965" onClick='toggleBox("Output-1750956965", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-701747451" onClick='toggleBox("Output-701747451", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1750956965" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1750956965">
+<a href="#Output-701747451" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-701747451">
+ShopByCategoriesTest: select Motors From Drop Down Test<br/>
 ShopByCategoriesTest: select Motors From Drop Down<br/>
 </div>
 </td>
 <td></td>
-<td>1</td>
-<td>eBaytests.ShopByCategoriesTest@51efea79</td></tr>
+<td>4</td>
+<td>eBaytests.ShopByCategoriesTest@3835c46</td></tr>
 <tr>
 <td title='eBaytests.ShopByCategoriesTest.selectOtherCategoriesFromDropDownTest()'><b>selectOtherCategoriesFromDropDownTest</b><br>Test class: eBaytests.ShopByCategoriesTest<br/>
-<a href="#Output-195730660" onClick='toggleBox("Output-195730660", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-571585615" onClick='toggleBox("Output-571585615", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-195730660" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-195730660">
+<a href="#Output-571585615" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-571585615">
+ShopByCategoriesTest: select Other Categories From Drop Down Test<br/>
 ShopByCategoriesTest: select Other Categories From Drop Down<br/>
 </div>
 </td>
 <td></td>
-<td>1</td>
-<td>eBaytests.ShopByCategoriesTest@51efea79</td></tr>
+<td>3</td>
+<td>eBaytests.ShopByCategoriesTest@3835c46</td></tr>
 <tr>
 <td title='eBaytests.ShopByCategoriesTest.selectSportingGoodsFromDropDownTest()'><b>selectSportingGoodsFromDropDownTest</b><br>Test class: eBaytests.ShopByCategoriesTest<br/>
-<a href="#Output-732559750" onClick='toggleBox("Output-732559750", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-622897669" onClick='toggleBox("Output-622897669", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-732559750" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-732559750">
+<a href="#Output-622897669" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-622897669">
+ShopByCategoriesTest: select Sporting Goods From Drop Down Test<br/>
 ShopByCategoriesTest: select Sporting Goods From Drop Down<br/>
 </div>
 </td>
 <td></td>
-<td>2</td>
-<td>eBaytests.ShopByCategoriesTest@51efea79</td></tr>
+<td>5</td>
+<td>eBaytests.ShopByCategoriesTest@3835c46</td></tr>
 <tr>
 <td title='eBaytests.ShopByCategoriesTest.selectToysAndHobbiesFromDropDownTest()'><b>selectToysAndHobbiesFromDropDownTest</b><br>Test class: eBaytests.ShopByCategoriesTest<br/>
-<a href="#Output-716825662" onClick='toggleBox("Output-716825662", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-209011713" onClick='toggleBox("Output-209011713", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-716825662" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-716825662">
+<a href="#Output-209011713" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-209011713">
+ShopByCategoriesTest: select Toys And Hobbies From Drop Down Test<br/>
 ShopByCategoriesTest: select Toys And Hobbies From Drop Down<br/>
 </div>
 </td>
 <td></td>
-<td>2</td>
-<td>eBaytests.ShopByCategoriesTest@51efea79</td></tr>
+<td>4</td>
+<td>eBaytests.ShopByCategoriesTest@3835c46</td></tr>
 <tr>
 <td title='eBaytests.signInTest.signInTest()'><b>signInTest</b><br>Test class: eBaytests.signInTest<br/>
-<a href="#Output-293667566" onClick='toggleBox("Output-293667566", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-87784678" onClick='toggleBox("Output-87784678", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-293667566" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-293667566">
+<a href="#Output-87784678" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-87784678">
 signInTest: sign In Test<br/>
 signInTest: sign In<br/>
 </div>
 </td>
 <td></td>
+<td>7</td>
+<td>eBaytests.signInTest@6a192cfe</td></tr>
+<tr>
+<td title='eBaytests.AllCategoriesDropDownTest4.specialtyServicesTest()'><b>specialtyServicesTest</b><br>Test class: eBaytests.AllCategoriesDropDownTest4<br/>
+<a href="#Output-781103026" onClick='toggleBox("Output-781103026", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-781103026" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-781103026">
+AllCategoriesDropDownTest4: specialty Services Test<br/>
+AllCategoriesDropDownTest4: select Specialty Services From Drop Down<br/>
+</div>
+</td>
+<td></td>
 <td>4</td>
-<td>eBaytests.signInTest@643b1d11</td></tr>
+<td>eBaytests.AllCategoriesDropDownTest4@55b7a4e0</td></tr>
 <tr>
 <td title='eBaytests.HomePageUtilitiesTests2.sportingGoodsTest()'><b>sportingGoodsTest</b><br>Test class: eBaytests.HomePageUtilitiesTests2<br/>
-<a href="#Output-8996952" onClick='toggleBox("Output-8996952", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1859153769" onClick='toggleBox("Output-1859153769", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-8996952" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-8996952">
+<a href="#Output-1859153769" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1859153769">
+HomePageUtilitiesTests2: sporting Goods Test<br/>
 HomePageUtilitiesTests2: sporting Goods Utility<br/>
 </div>
 </td>
 <td></td>
-<td>1</td>
-<td>eBaytests.HomePageUtilitiesTests2@3a82f6ef</td></tr>
+<td>4</td>
+<td>eBaytests.HomePageUtilitiesTests2@188715b5</td></tr>
 <tr>
-<td title='eBaytests.HomePageUtilitiesTests2.toysUtilityTest()'><b>toysUtilityTest</b><br>Test class: eBaytests.HomePageUtilitiesTests2<br/>
-<a href="#Output-1821010113" onClick='toggleBox("Output-1821010113", this, "Show output", "Hide output");'>Show output</a>
+<td title='eBaytests.AllCategoriesDropDownTest4.sportingGoodsTest()'><b>sportingGoodsTest</b><br>Test class: eBaytests.AllCategoriesDropDownTest4<br/>
+<a href="#Output-219541553" onClick='toggleBox("Output-219541553", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1821010113" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1821010113">
-HomePageUtilitiesTests2: toys Utility<br/>
-</div>
-</td>
-<td></td>
-<td>1</td>
-<td>eBaytests.HomePageUtilitiesTests2@3a82f6ef</td></tr>
-<tr>
-<td title='eBaytests.HomePageFeaturesTests.trendingDealsArrowButtonsTest()'><b>trendingDealsArrowButtonsTest</b><br>Test class: eBaytests.HomePageFeaturesTests<br/>
-<a href="#Output-636953520" onClick='toggleBox("Output-636953520", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-636953520" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-636953520">
-HomePageFeaturesTests: trending Deals Arrow Buttons<br/>
+<a href="#Output-219541553" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-219541553">
+AllCategoriesDropDownTest4: sporting Goods Test<br/>
+AllCategoriesDropDownTest4: select Sporting Goods From Drop Down<br/>
 </div>
 </td>
 <td></td>
 <td>3</td>
-<td>eBaytests.HomePageFeaturesTests@36d4b5c</td></tr>
+<td>eBaytests.AllCategoriesDropDownTest4@55b7a4e0</td></tr>
 <tr>
-<td title='eBaytests.HomePageUtilitiesTests2.under10utilityTest()'><b>under10utilityTest</b><br>Test class: eBaytests.HomePageUtilitiesTests2<br/>
-<a href="#Output-1774589469" onClick='toggleBox("Output-1774589469", this, "Show output", "Hide output");'>Show output</a>
+<td title='eBaytests.AllCategoriesDropDownTest4.sportsMemCardsAndFanShop()'><b>sportsMemCardsAndFanShop</b><br>Test class: eBaytests.AllCategoriesDropDownTest4<br/>
+<a href="#Output-113468028" onClick='toggleBox("Output-113468028", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1774589469" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1774589469">
-HomePageUtilitiesTests2: under 10 Utility<br/>
+<a href="#Output-113468028" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-113468028">
+AllCategoriesDropDownTest4: sports Mem Cards And Fan Shop<br/>
+AllCategoriesDropDownTest4: select Sports Mem Cards And Fan Shop From Drop Down<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>eBaytests.AllCategoriesDropDownTest4@55b7a4e0</td></tr>
+<tr>
+<td title='eBaytests.AllCategoriesDropDownTest4.stampsTest()'><b>stampsTest</b><br>Test class: eBaytests.AllCategoriesDropDownTest4<br/>
+<a href="#Output-773302758" onClick='toggleBox("Output-773302758", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-773302758" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-773302758">
+AllCategoriesDropDownTest4: stamps Test<br/>
+AllCategoriesDropDownTest4: select Stamps From Drop Down<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>eBaytests.AllCategoriesDropDownTest4@55b7a4e0</td></tr>
+<tr>
+<td title='eBaytests.AllCategoriesDropDownTest4.toysAndHobbiesTest()'><b>toysAndHobbiesTest</b><br>Test class: eBaytests.AllCategoriesDropDownTest4<br/>
+<a href="#Output-295633759" onClick='toggleBox("Output-295633759", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-295633759" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-295633759">
+AllCategoriesDropDownTest4: toys And Hobbies Test<br/>
+AllCategoriesDropDownTest4: select Toys And Hobbiesfrom Drop Down<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>eBaytests.AllCategoriesDropDownTest4@55b7a4e0</td></tr>
+<tr>
+<td title='eBaytests.HomePageUtilitiesTests2.toysUtilityTest()'><b>toysUtilityTest</b><br>Test class: eBaytests.HomePageUtilitiesTests2<br/>
+<a href="#Output-214055354" onClick='toggleBox("Output-214055354", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-214055354" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-214055354">
+HomePageUtilitiesTests2: toys Utility Test<br/>
+HomePageUtilitiesTests2: toys Utility<br/>
 </div>
 </td>
 <td></td>
 <td>2</td>
-<td>eBaytests.HomePageUtilitiesTests2@3a82f6ef</td></tr>
+<td>eBaytests.HomePageUtilitiesTests2@188715b5</td></tr>
+<tr>
+<td title='eBaytests.AllCategoriesDropDownTest4.travelTest()'><b>travelTest</b><br>Test class: eBaytests.AllCategoriesDropDownTest4<br/>
+<a href="#Output-920386152" onClick='toggleBox("Output-920386152", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-920386152" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-920386152">
+AllCategoriesDropDownTest4: travel Test<br/>
+AllCategoriesDropDownTest4: select Travel From Drop Down<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>eBaytests.AllCategoriesDropDownTest4@55b7a4e0</td></tr>
+<tr>
+<td title='eBaytests.HomePageFeaturesTests.trendingDealsArrowButtonsTest()'><b>trendingDealsArrowButtonsTest</b><br>Test class: eBaytests.HomePageFeaturesTests<br/>
+<a href="#Output-70528019" onClick='toggleBox("Output-70528019", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-70528019" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-70528019">
+HomePageFeaturesTests: trending Deals Arrow Buttons Test<br/>
+HomePageFeaturesTests: trending Deals Arrow Buttons<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>eBaytests.HomePageFeaturesTests@7193666c</td></tr>
 <tr>
 <td title='eBaytests.SearchTests.usingSearchBarTest()'><b>usingSearchBarTest</b><br>Test class: eBaytests.SearchTests<br/>
-<a href="#Output-1219797059" onClick='toggleBox("Output-1219797059", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1845746463" onClick='toggleBox("Output-1845746463", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1219797059" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1219797059">
+<a href="#Output-1845746463" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1845746463">
+SearchTests: using Search Bar Test<br/>
 SearchTests: using Searchbar<br/>
 </div>
 </td>
 <td></td>
-<td>2</td>
-<td>eBaytests.SearchTests@2ef5e5e3</td></tr>
+<td>3</td>
+<td>eBaytests.SearchTests@5119fb47</td></tr>
+<tr>
+<td title='eBaytests.AllCategoriesDropDownTest2.videoGamesAndConsolesTest()'><b>videoGamesAndConsolesTest</b><br>Test class: eBaytests.AllCategoriesDropDownTest2<br/>
+<a href="#Output-1461595925" onClick='toggleBox("Output-1461595925", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1461595925" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1461595925">
+AllCategoriesDropDownTest2: video Games And Consoles Test<br/>
+AllCategoriesDropDownTest2: select Video Games And Consoles From Drop Down<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>eBaytests.AllCategoriesDropDownTest2@56620197</td></tr>
 </table><p>
 </body>
 </html>

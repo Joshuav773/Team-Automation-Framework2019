@@ -19,7 +19,7 @@ public class ExcelFileReader extends CommonAPI {
 
     @FindBy(css = "#gh-ac")public static WebElement searchBar;
 
-    File file = new File("/Users/joshuasmba/Documents/amazon/Web-Automation-Framkework/Ebay/ExcelFile/Items.xlsx");
+    File file = new File("/Users/joshuasmba/Documents/MyGroupProject/Web-Automation-Framkework/Ebay/ExcelFile/Items.xlsx");
     FileInputStream fileInputStream;
     {
         try {

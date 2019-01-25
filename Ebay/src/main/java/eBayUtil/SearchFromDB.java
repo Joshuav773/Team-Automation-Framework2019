@@ -24,7 +24,7 @@ public class SearchFromDB extends CommonAPI {
         list.add("iphone xsMax");
         connectToSqlDb.insertDataFromArrayListToSqlTable(list, "Items", "keywords");
         List<String> list1 = connectToSqlDb.readDataBase("Items", "keywords");
-        for(String items : list1){
+        for(String items : list1) {
             searchBar.sendKeys(items, Keys.ENTER);
             searchBar.clear();
         }

@@ -1,6 +1,5 @@
 package eBaytests;
 
-import base.CommonAPI;
 import eBayUtil.AllCategoriesDropDown;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
@@ -37,7 +36,7 @@ public class AllCategoriesDropDownTest extends AllCategoriesDropDown {
     }
     @Test
     public void businessAndIndusrialTest(){
-        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         selectBusinessAndIndusrialFromDropDrown();
     }
     @Test

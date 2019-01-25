@@ -58,11 +58,11 @@ public class HomepageUtilities extends CommonAPI {
         String expected = "Electronics";
         Assert.assertEquals(actual, expected);
     }
-    public void collectiblesandart(){
+    public void collectiblesAndArt(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         collectiblesAndArt.click();
         String actual = header.getText();
-        String expected = "Collectibles & Arts";
+        String expected = "Collectibles & Art";
         Assert.assertEquals(actual, expected);
 
     }

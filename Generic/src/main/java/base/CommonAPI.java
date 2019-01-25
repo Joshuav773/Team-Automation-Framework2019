@@ -36,8 +36,8 @@ import java.util.concurrent.TimeUnit;
 public class CommonAPI {
 
     public static WebDriver driver = null;
-    public String browserstack_username= "";
-    public String browserstack_accesskey = "";
+    public String browserstack_username= "joshuavargas1";
+    public String browserstack_accesskey = "a52YtxL2JKG6vcx1NyUw";
     public String saucelabs_username = "";
     public String saucelabs_accesskey = "";
 
@@ -92,13 +92,12 @@ public class CommonAPI {
         calendar.setTimeInMillis(millis);
         return calendar.getTime();
     }
-
     @Parameters({"useCloudEnv","cloudEnvName","os","os_version","browserName","browserVersion","url"})
     @BeforeMethod
     public void setUp(@Optional("false") boolean useCloudEnv, @Optional("false")String cloudEnvName,
                       @Optional("OS X") String os, @Optional("10") String os_version, @Optional("chrome-options") String browserName, @Optional("34")
                               String browserVersion, @Optional("http://www.ebay.com") String url)throws IOException {
-        System.setProperty("webdriver.chrome.driver", "/Users/peoplentech/eclipse-workspace-March2018/SeleniumProject1/driver/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "/Users/joshuasmba/Documents/MyGroupProject/Web-Automation-Framkework/drivers/chromedriver");
         if(useCloudEnv==true){
             if(cloudEnvName.equalsIgnoreCase("browserstack")){
                 getCloudDriver(cloudEnvName,browserstack_username,browserstack_accesskey,os,os_version, browserName, browserVersion);
@@ -107,7 +106,7 @@ public class CommonAPI {
             }
         }else{
             //getLocalDriver(os, browserName);
-            System.setProperty("webdriver.chrome.driver", "/Users/joshuasmba/Documents/amazon/Web-Automation-Framkework/drivers/chromedriver");
+            System.setProperty("webdriver.chrome.driver", "/Users/joshuasmba/Documents/MyGroupProject/Web-Automation-Framkework/drivers/chromedriver");
             driver = new ChromeDriver();
         }
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
@@ -117,7 +116,7 @@ public class CommonAPI {
     public WebDriver getLocalDriver(@Optional("mac") String OS, String browserName){
         if(browserName.equalsIgnoreCase("chrome")){
             if(OS.equalsIgnoreCase("OS X")){
-                System.setProperty("webdriver.chrome.driver", "/Users/joshuasmba/Documents/amazon/Web-Automation-Framkework/drivers/chromedriver");
+                System.setProperty("webdriver.chrome.driver", "/Users/joshuasmba/Documents/MyGroupProject/Web-Automation-Framkework/drivers/chromedriver");
             }else if(OS.equalsIgnoreCase("Windows")){
                 System.setProperty("webdriver.chrome.driver", "../Generic/drivers/chromedriver.exe");
             }
@@ -126,7 +125,7 @@ public class CommonAPI {
             ChromeOptions options = new ChromeOptions();
             options.addArguments("--disable-notifications");
             if(OS.equalsIgnoreCase("OS X")){
-                System.setProperty("webdriver.chrome.driver", "/Users/joshuasmba/Documents/amazon/Web-Automation-Framkework/drivers/geckodriver");
+                System.setProperty("webdriver.chrome.driver", "/Users/joshuasmba/Documents/MyGroupProject/Web-Automation-Framkework/drivers/chromedriver");
             }else if(OS.equalsIgnoreCase("Windows")){
                 System.setProperty("webdriver.chrome.driver", "../Generic/drivers/chromedriver.exe");
             }

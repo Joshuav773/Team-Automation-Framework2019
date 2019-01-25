@@ -33,5 +33,4 @@ public class SignIn extends CommonAPI {
         passwordForRegister.sendKeys("Bball1772");
         registerButton.click();
     }
-
 }

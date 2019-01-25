@@ -59,5 +59,4 @@ public class AllCategoriesDropDownTest2 extends AllCategoriesDropDown{
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         selectVideoGamesAndConsolesFromDropDown();
     }
-
 }
