@@ -387,7 +387,7 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548477127214" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548477286501" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -426,7 +426,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.AllEmployeeAPI.getAllEmployeeResources">
+  <component name="RunManager" selected="TestNG.AllEmployeeAPI.badCallAllEmployeeResources">
+    <configuration name="AllEmployeeAPI.badCallAllEmployeeResources" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="restAPI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="restAPI" />
+      <option name="MAIN_CLASS_NAME" value="restAPI.AllEmployeeAPI" />
+      <option name="METHOD_NAME" value="badCallAllEmployeeResources" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AllEmployeeAPI.callAllEmployeeResources" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestAssured" />
       <extension name="coverage">
@@ -481,24 +499,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataBaseTest.searchFromDbTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Ebay" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="datadriven.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="datadriven" />
-      <option name="MAIN_CLASS_NAME" value="datadriven.DataBaseTest" />
-      <option name="METHOD_NAME" value="searchFromDbTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SingleEmployeeAPI.callSingleEmployeeResources" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestAssured" />
       <extension name="coverage">
@@ -518,19 +518,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.DataBaseTest.searchFromDbTest" />
       <item itemvalue="TestNG.SingleEmployeeAPI.callSingleEmployeeResources" />
       <item itemvalue="TestNG.AllEmployeeAPI.serverErrorCallAllEmployeeResources" />
       <item itemvalue="TestNG.AllEmployeeAPI.callAllEmployeeResources" />
       <item itemvalue="TestNG.AllEmployeeAPI.getAllEmployeeResources" />
+      <item itemvalue="TestNG.AllEmployeeAPI.badCallAllEmployeeResources" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.AllEmployeeAPI.badCallAllEmployeeResources" />
         <item itemvalue="TestNG.AllEmployeeAPI.getAllEmployeeResources" />
         <item itemvalue="TestNG.AllEmployeeAPI.callAllEmployeeResources" />
         <item itemvalue="TestNG.SingleEmployeeAPI.callSingleEmployeeResources" />
         <item itemvalue="TestNG.AllEmployeeAPI.serverErrorCallAllEmployeeResources" />
-        <item itemvalue="TestNG.DataBaseTest.searchFromDbTest" />
       </list>
     </recent_temporary>
   </component>
