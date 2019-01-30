@@ -44,6 +44,7 @@ public class GoogleSheetPage extends CommonAPI {
         for (List row : col2Value) {
             inputValueInTextBoxByWebElement(userIdInputBar,row.get(0).toString());
             inputValueInTextBoxByWebElement(passwordInputBar,row.get(1).toString());
+            signInButton.click();
             break;
         }
         return actual;
