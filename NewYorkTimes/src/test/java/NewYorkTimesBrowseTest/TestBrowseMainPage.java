@@ -15,7 +15,6 @@ public class TestBrowseMainPage extends BrowseMainPage {
     public void initElements(){
         objBrowseMainPage = PageFactory.initElements(driver, BrowseMainPage.class);
     }
-
     @Test
     public void worldClickTest(){
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
@@ -91,7 +90,6 @@ public class TestBrowseMainPage extends BrowseMainPage {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         backHome();
     }
-
 }
 
 

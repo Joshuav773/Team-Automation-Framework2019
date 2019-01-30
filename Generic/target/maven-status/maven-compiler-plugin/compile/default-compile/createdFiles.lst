@@ -1,0 +1,9 @@
+database/ConnectToMySqlDb.class
+base/CommonAPI.class
+reporting/ExtentManager.class
+reporting/ApplicationLog.class
+reporting/ExtentTestManager.class
+Excel/ExcelReader.class
+reporting/TestLogger.class
+Excel/CreateWorkBookFile.class
+GoogleApis/GoogleSheetReader.class
