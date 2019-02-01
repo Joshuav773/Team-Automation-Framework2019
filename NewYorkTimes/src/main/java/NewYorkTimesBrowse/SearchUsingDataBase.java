@@ -20,10 +20,10 @@ public class SearchUsingDataBase extends CommonAPI {
         BasicConfigurator.configure();
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         List<String> list = new ArrayList<>();
-        list.add("car parts");
-        list.add("tool box");
-        list.add("selemiun book");
-        list.add("iphone xsMax");
+        list.add("java");
+        list.add("programming");
+        list.add("macbook pro");
+        list.add("samsung s9");
         connectToSqlDb.insertDataFromArrayListToSqlTable(list, "Items", "keywords");
         List<String> list1 = connectToSqlDb.readDataBase("Items", "keywords");
         for(String items : list1){
