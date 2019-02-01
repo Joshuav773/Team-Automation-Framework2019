@@ -64,4 +64,79 @@ public class TestSelectArticles extends SelectArticles {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         popCulture();
     }
+    @Test
+    public void appleNewsTest(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        appleNews();
+    }
+    @Test
+    public void openCommentsTest(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        openComments();
+    }
+    @Test
+    public void closeCommentsTest(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        closeComments();
+    }
+    @Test
+    public void readerCenterTest(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        readerCenter();
+    }
+    @Test
+    public void projectLensTest(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        projectLens();
+    }
+    @Test
+    public void oneLawyerTest(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        oneLawyer();
+    }
+    @Test
+    public void senateRebukesTest(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        senateRebukes();
+    }
+    @Test
+    public void theNflTest(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        theNfl();
+    }
+    @Test
+    public void superbowlWeekTest(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        superbowlWeek();
+    }
+    @Test
+    public void lbobStoryTest(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        lbobStory();
+    }
+    @Test
+    public void bestMoviesTest(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        bestMovies();
+    }
+    @Test
+    public void artsWeekTest(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        artsWeek();
+    }
+    @Test
+    public void civilHistoryTest(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        civilHistory();
+    }
+    @Test
+    public void churchHistoryTest(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        churchHistory();
+    }
+    @Test
+    public void taxiCostsTest(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        taxiCosts();
+    }
 }
