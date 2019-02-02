@@ -27,14 +27,14 @@ public class MembersPage extends CommonAPI {
     @FindBy(xpath = "//*[@id=\"container\"]/div/div/div[5]/div[3]/div/div/a")
     public static WebElement FrequentlyAskedQuestions;
 
-    public void HealthInsurance() { HealthyResources.click(); }
-    public void InfoMembers() { CommunityOffices.click(); }
-    public void InfoBroker() { Events.click(); }
-    public void Employers() { Glossary.click(); }
-    public void Providers() { Pressroom.click(); }
-    public void BecomeMember() { NYStateOfHealth.click(); }
-    public void FindHospital() { CMSWebsite.click(); }
-    public void PayBill() { LookUpTool.click(); }
-    public void FindPlans() { AccountHelp.click(); }
-    public void Press() { FrequentlyAskedQuestions.click(); }
+    public void HealthResources() { HealthyResources.click(); }
+    public void CommunityOffices() { CommunityOffices.click(); }
+    public void Events() { Events.click(); }
+    public void Glossary() { Glossary.click(); }
+    public void Pressroom() { Pressroom.click(); }
+    public void NYStateOfHealth() { NYStateOfHealth.click(); }
+    public void CMSWebsite() { CMSWebsite.click(); }
+    public void LookUpTool() { LookUpTool.click(); }
+    public void AccountHelp() { AccountHelp.click(); }
+    public void FrequentlyAskedQuestions() { FrequentlyAskedQuestions.click(); }
 }

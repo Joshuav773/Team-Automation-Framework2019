@@ -35,7 +35,7 @@ public class HomePage extends CommonAPI {
     @FindBy(xpath = "//*[@id=\"menu-item-431\"]/a")
     public static WebElement FindHealthfirstProvider;
     @FindBy(xpath = "//*[@id=\"menu-item-3314\"]/a")
-    public static WebElement ReportFruds;
+    public static WebElement ReportFrauds;
     @FindBy(xpath = "//*[@id=\"menu-item-437\"]/a")
     public static WebElement FAQS;
     @FindBy(xpath = "//*[@id=\"menu-item-3312\"]/a")
@@ -62,7 +62,7 @@ public class HomePage extends CommonAPI {
     public void ContactUs() { ContactUs.click(); }
     public void PlanRenewals() { PlanRenewals.click(); }
     public void FindHealthfirstProvidor() { FindHealthfirstProvider.click(); }
-    public void ReportFruds() { ReportFruds.click(); }
+    public void ReportFrauds() { ReportFrauds.click(); }
     public void FAQS() { FAQS.click(); }
     public void Claims() { Claims.click(); }
     public void ProvidorResource() { ProvidorResource.click(); }

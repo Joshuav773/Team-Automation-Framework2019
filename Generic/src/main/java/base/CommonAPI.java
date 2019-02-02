@@ -107,7 +107,7 @@ public class CommonAPI {
             }
         }else{
             //getLocalDriver(os, browserName);
-            System.setProperty("webdriver.chrome.driver", "/Users/joshuasmba/Documents/amazon/Web-Automation-Framkework/drivers/chromedriver");
+            System.setProperty("webdriver.chrome.driver", "/Users/ahnafbhuiyan/ideaprojects2/Team-Automation-Framework2019/drivers/chromedriver");
             driver = new ChromeDriver();
         }
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
@@ -117,7 +117,7 @@ public class CommonAPI {
     public WebDriver getLocalDriver(@Optional("mac") String OS, String browserName){
         if(browserName.equalsIgnoreCase("chrome")){
             if(OS.equalsIgnoreCase("OS X")){
-                System.setProperty("webdriver.chrome.driver", "/Users/joshuasmba/Documents/amazon/Web-Automation-Framkework/drivers/chromedriver");
+                System.setProperty("webdriver.chrome.driver", "/Users/ahnafbhuiyan/ideaprojects2/Team-Automation-Framework2019/drivers/chromedriver");
             }else if(OS.equalsIgnoreCase("Windows")){
                 System.setProperty("webdriver.chrome.driver", "../Generic/drivers/chromedriver.exe");
             }
@@ -126,7 +126,7 @@ public class CommonAPI {
             ChromeOptions options = new ChromeOptions();
             options.addArguments("--disable-notifications");
             if(OS.equalsIgnoreCase("OS X")){
-                System.setProperty("webdriver.chrome.driver", "/Users/joshuasmba/Documents/amazon/Web-Automation-Framkework/drivers/geckodriver");
+                System.setProperty("webdriver.chrome.driver", "/Users/ahnafbhuiyan/ideaprojects2/Team-Automation-Framework2019/drivers/geckodriver");
             }else if(OS.equalsIgnoreCase("Windows")){
                 System.setProperty("webdriver.chrome.driver", "../Generic/drivers/chromedriver.exe");
             }

@@ -10,6 +10,7 @@
         <module name="Generic" />
         <module name="HealthFirst" />
         <module name="NewYorkTimes" />
+        <module name="RestAPI" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

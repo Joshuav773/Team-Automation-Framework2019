@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name="Ebay Automation Script " parallel="false">
+<suite name="HealthFirst Automation Script " parallel="false">
 
     <parameter name="useCloudEnv" value="false"/>
     <parameter name="cloudEnvName" value="browserstack"/>
@@ -9,9 +9,23 @@
     <parameter name="os_version" value="Sierra"/>
     <parameter name="browserName" value="chrome"/>
     <parameter name="browserVersion" value="60.0"/>
-    <parameter name="url" value="https://www.ebay.com/"/>
+    <parameter name="url" value="https://healthfirst.org"/>
+    <parameter name="url" value="https://healthfirst.org/members/"/>
+    <parameter name="url" value="https://healthfirst.org/providers/"/>
+    <parameter name="url" value="http://hfbrokers.org/"/>
+    <parameter name="url" value="https://hfemployers.org/"/>
+    <parameter name="url" value="https://healthfirst.org/health-insurance/"/>
 
     <test name = "HealthFirst Test">
+        <classes>
+            <class name="FrontPageTest.HomePageTest"></class>
+            <class name="FrontPageTest.MembersPageTest"></class>
+            <class name="FrontPageTest.ProvidorsPageTest"></class>
+            <class name="FrontPageTest.BrokersPageTest"></class>
+            <class name="FrontPageTest.EmployersPageTest"></class>
+            <class name="FrontPageTest.HealthPlansPageTest"></class>
+        </classes>
+
 
     </test>
 
