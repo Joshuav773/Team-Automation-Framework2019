@@ -13,7 +13,8 @@ import java.util.List;
 
 import static GoogleApis.GoogleSheetReader.getSheetsService;
 
-public class GoogleSheetReader extends CommonAPI {
+public class GoogleSheet extends CommonAPI{
+
     @FindBy(xpath = "//a[contains (text(), 'Sign in')]")public static WebElement signInlink;
     @FindBy(css = "#sgnBt")public static WebElement signInButton;
     @FindBy(css ="#userid")public static WebElement userIdInputBar;
@@ -53,8 +54,8 @@ public class GoogleSheetReader extends CommonAPI {
         signInlink.click();
         Thread.sleep(2000);
         int i = 0;
-        String spreadsheetId = "1jFF39G1nFAqTZNFDZw-QU4s9slSeQ1FYviIFK-deRv0";
-        String range = "Items!A1:Z1000";
+        String spreadsheetId = "1im31XVbjJQf-LbevD-FX_LEbc4jX8TTwbrleyDrWMsE";
+        String range = "Sheet1";
         signInByReadingFromGoogleSheet(spreadsheetId, range);
         List<List<Object>> expectedErrorMessage = getSpreadSheetRecords(spreadsheetId, range);
         for (List row : expectedErrorMessage) {
@@ -64,4 +65,5 @@ public class GoogleSheetReader extends CommonAPI {
         System.out.println("testLogInByInvalidIdPassUsingGoogleSheet Passed");
     }
 }
+
 

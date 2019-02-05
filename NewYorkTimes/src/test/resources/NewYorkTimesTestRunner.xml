@@ -15,6 +15,9 @@
         <classes>
             <class name="NewYorkTimesBrowseTest.TestBrowseMainPage"></class>
             <class name="NewYorkTimesBrowseTest.TestSelectArticles"></class>
+            <class name="NewYorkTimesBrowseTest.TestBrowseMainPage2"></class>
+            <class name="dataDriven.MySqlSearchTest"></class>
+            <class name="dataDriven.GoogleSheetTest"></class>
         </classes>
 
     </test>

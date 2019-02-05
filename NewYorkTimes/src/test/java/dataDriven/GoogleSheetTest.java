@@ -1,6 +1,6 @@
 package dataDriven;
 
-import NewYorkTimesBrowse.GoogleSheetReader;
+import NewYorkTimesBrowse.GoogleSheet;
 import base.CommonAPI;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
@@ -9,11 +9,12 @@ import reporting.TestLogger;
 
 import java.io.IOException;
 
-public class SignInWithGoogleSheetReader extends GoogleSheetReader {
-    GoogleSheetReader googleSheetReader;
+public class GoogleSheetTest extends GoogleSheet {
+
+    GoogleSheet googleSheet;
     @BeforeMethod
     public void initiElements(){
-        googleSheetReader = PageFactory.initElements(driver, GoogleSheetReader.class);
+        googleSheet = PageFactory.initElements(driver, GoogleSheet.class);
     }
     @Test
     public void LogInByUsingGoogleSheetTest()throws IOException, InterruptedException{
